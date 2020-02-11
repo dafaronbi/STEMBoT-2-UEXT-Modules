@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-02-11T05:35:45Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "RF Breakout Boards"
+        },
+        "Owner": "Dprdctions Dprdctions <dprdctions@gmail.com>",
+        "Size": {
+            "X": 76.18,
+            "Y": 75.87
+        }
+    }
+}
