@@ -146,24 +146,24 @@ Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_M9960.pdf<
 </devicesets>
 </library>
 <library name="con-amp" urn="urn:adsk.eagle:library:127">
-<description>&lt;b&gt;AMP Connectors&lt;/b&gt;&lt;p&gt;
-RJ45 Jack connectors&lt;br&gt;
- Based on the previous libraris:
- &lt;ul&gt;
- &lt;li&gt;amp.lbr
- &lt;li&gt;amp-j.lbr
- &lt;li&gt;amp-mta.lbr
- &lt;li&gt;amp-nlok.lbr
- &lt;li&gt;amp-sim.lbr
- &lt;li&gt;amp-micro-match.lbr
- &lt;/ul&gt;
- Sources :
- &lt;ul&gt;
- &lt;li&gt;Catalog 82066 Revised 11-95 
- &lt;li&gt;Product Guide 296785 Rev. 8-99
- &lt;li&gt;Product Guide CD-ROM 1999
- &lt;li&gt;www.amp.com
- &lt;/ul&gt;
+<description>&lt;b&gt;AMP Connectors&lt;/b&gt;&lt;p&gt;
+RJ45 Jack connectors&lt;br&gt;
+ Based on the previous libraris:
+ &lt;ul&gt;
+ &lt;li&gt;amp.lbr
+ &lt;li&gt;amp-j.lbr
+ &lt;li&gt;amp-mta.lbr
+ &lt;li&gt;amp-nlok.lbr
+ &lt;li&gt;amp-sim.lbr
+ &lt;li&gt;amp-micro-match.lbr
+ &lt;/ul&gt;
+ Sources :
+ &lt;ul&gt;
+ &lt;li&gt;Catalog 82066 Revised 11-95 
+ &lt;li&gt;Product Guide 296785 Rev. 8-99
+ &lt;li&gt;Product Guide CD-ROM 1999
+ &lt;li&gt;www.amp.com
+ &lt;/ul&gt;
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="FSIDE-10" urn="urn:adsk.eagle:footprint:8080216/1" library_version="4">
@@ -302,6 +302,119 @@ RJ45 Jack connectors&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="led" urn="urn:adsk.eagle:library:259">
+<description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
+Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
+<packages>
+<package name="W57B" urn="urn:adsk.eagle:footprint:15733/1" library_version="5">
+<description>&lt;b&gt;Golden Dragon® 1 Watt LED&lt;/b&gt;&lt;p&gt;
+Source: OSRAM la_ly_w57b.pdf</description>
+<wire x1="-3.475" y1="1.8" x2="-2.275" y2="3" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-2.275" y1="3" x2="2.3" y2="3" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="3" x2="3.5" y2="1.8" width="0.2032" layer="21" curve="-90"/>
+<wire x1="3.5" y1="1.8" x2="3.5" y2="-1.8" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="-1.8" x2="2.3" y2="-3" width="0.2032" layer="21" curve="-90"/>
+<wire x1="2.3" y1="-3" x2="-2.275" y2="-3" width="0.2032" layer="21"/>
+<wire x1="-2.275" y1="-3" x2="-3.475" y2="-1.8" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-3.475" y1="-1.8" x2="-3.475" y2="1.8" width="0.2032" layer="21"/>
+<wire x1="-1.1808" y1="0.6799" x2="-1.6638" y2="0.6799" width="0.1016" layer="51"/>
+<wire x1="-1.6638" y1="0.6799" x2="-2.3437" y2="0" width="0.1016" layer="51" curve="90"/>
+<wire x1="-2.3437" y1="0" x2="-1.646" y2="-0.6977" width="0.1016" layer="51" curve="90"/>
+<wire x1="-1.646" y1="-0.6977" x2="-1.1808" y2="-0.6977" width="0.1016" layer="51"/>
+<wire x1="-1.1808" y1="-0.6977" x2="-1.0019" y2="-0.3936" width="0.1016" layer="51"/>
+<wire x1="-1.0019" y1="-0.3936" x2="-1.0019" y2="0.4115" width="0.1016" layer="51" curve="-50.166839"/>
+<wire x1="-1.0019" y1="0.4115" x2="-1.1808" y2="0.6799" width="0.1016" layer="51"/>
+<wire x1="-1.0377" y1="0.4473" x2="-1.6281" y2="0.4473" width="0.1016" layer="51"/>
+<wire x1="-1.6281" y1="0.4473" x2="-2.0754" y2="0" width="0.1016" layer="51" curve="90"/>
+<wire x1="-2.0754" y1="0" x2="-1.6281" y2="-0.4473" width="0.1016" layer="51" curve="90"/>
+<wire x1="-1.6281" y1="-0.4473" x2="-1.0556" y2="-0.4473" width="0.1016" layer="51"/>
+<wire x1="-1.1271" y1="0.7156" x2="-1.1271" y2="-0.7156" width="0.1016" layer="51" curve="-295.788054"/>
+<circle x="0" y="0" radius="0.8947" width="0.1016" layer="51"/>
+<circle x="1.3239" y="1.3597" radius="0.3225" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="2" width="0" layer="29"/>
+<circle x="0" y="0" radius="1.7751" width="0" layer="31"/>
+<smd name="A" x="-5.7" y="0" dx="3" dy="3" layer="1" stop="no"/>
+<smd name="C" x="5.7" y="0" dx="3" dy="3" layer="1" stop="no"/>
+<smd name="C@1" x="3.75" y="3.375" dx="7.5" dy="3.2" layer="1" stop="no" cream="no"/>
+<smd name="C@2" x="-3.75" y="3.375" dx="7.5" dy="3.2" layer="1" stop="no" cream="no"/>
+<smd name="C@3" x="-3.75" y="-3.4" dx="7.5" dy="3.2" layer="1" stop="no" cream="no"/>
+<smd name="C@4" x="3.75" y="-3.4" dx="7.5" dy="3.2" layer="1" stop="no" cream="no"/>
+<smd name="C@5" x="0" y="0" dx="7.8" dy="4" layer="1" stop="no" cream="no"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="51"/>
+<rectangle x1="-5.575" y1="-1" x2="-3.55" y2="1" layer="51"/>
+<rectangle x1="3.55" y1="-1" x2="5.575" y2="1" layer="51" rot="R180"/>
+<rectangle x1="-7.375" y1="-1.675" x2="-4.025" y2="1.675" layer="29"/>
+<rectangle x1="4.025" y1="-1.675" x2="7.375" y2="1.675" layer="29"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="W57B" urn="urn:adsk.eagle:package:15859/1" type="box" library_version="5">
+<description>Golden Dragon® 1 Watt LED
+Source: OSRAM la_ly_w57b.pdf</description>
+<packageinstances>
+<packageinstance name="W57B"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="LED" urn="urn:adsk.eagle:symbol:15639/2" library_version="5">
+<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
+<text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="-2.159"/>
+<vertex x="-3.048" y="-1.27"/>
+<vertex x="-2.54" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-3.302"/>
+<vertex x="-2.921" y="-2.413"/>
+<vertex x="-2.413" y="-2.921"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="*W57B" urn="urn:adsk.eagle:component:15943/3" prefix="LED" library_version="5">
+<description>&lt;b&gt;Golden Dragon® 1 Watt LED&lt;/b&gt;&lt;p&gt;
+Place heat sink pads of cathode with INVOKE&lt;br&gt;
+Source: www.osram-os.com la_ly_w57b.pdf</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="W57B">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C C@1 C@2 C@3 C@4 C@5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15859/1"/>
+</package3dinstances>
+<technologies>
+<technology name="LA">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+<technology name="LY">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -315,6 +428,8 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="PHOTORESISTOR" library="photo-elements" library_urn="urn:adsk.eagle:library:323" deviceset="M9960_11" device="" package3d_urn="urn:adsk.eagle:package:22204/1" technology="A"/>
 <part name="X1" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="FSIDE-10" device="" package3d_urn="urn:adsk.eagle:package:8081495/1"/>
 <part name="R1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="R" device="" value="5.1k"/>
+<part name="R2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="R" device="" value="447 ohm"/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="*W57B" device="" package3d_urn="urn:adsk.eagle:package:15859/1" technology="LY"/>
 </parts>
 <sheets>
 <sheet>
@@ -361,6 +476,14 @@ RJ45 Jack connectors&lt;br&gt;
 <attribute name="NAME" x="93.98" y="68.58" size="1.778" layer="95"/>
 <attribute name="VALUE" x="93.98" y="62.23" size="1.778" layer="96"/>
 </instance>
+<instance part="R2" gate="G$1" x="104.14" y="81.28" smashed="yes">
+<attribute name="NAME" x="101.6" y="83.82" size="1.778" layer="95"/>
+<attribute name="VALUE" x="101.6" y="77.47" size="1.778" layer="96"/>
+</instance>
+<instance part="LED1" gate="G$1" x="91.44" y="81.28" smashed="yes" rot="R270">
+<attribute name="NAME" x="86.868" y="77.724" size="1.778" layer="95"/>
+<attribute name="VALUE" x="86.868" y="75.565" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -392,10 +515,10 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="X1" gate="-1" pin="1"/>
-<wire x1="124.46" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="PHOTORESISTOR" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="76.2" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -414,6 +537,20 @@ RJ45 Jack connectors&lt;br&gt;
 <junction x="124.46" y="60.96"/>
 <wire x1="124.46" y1="68.58" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
 <junction x="124.46" y="63.5"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="X1" gate="-1" pin="1"/>
+<wire x1="124.46" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="81.28" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
