@@ -448,7 +448,7 @@ int main(void)
 	i2c_iox_init(I2C_IOX_BUS);
 
 	while (!xflag) {
-		switch (i2c_menu()) {
+		switch (5) {
 		case 0:
 			xflag = 1;
 			DEBUGOUT("End of I2C Demo! Bye!\r\n");
