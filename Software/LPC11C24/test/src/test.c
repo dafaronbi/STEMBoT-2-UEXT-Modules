@@ -1,7 +1,7 @@
 /*
 ===============================================================================
- Name        : testproject2.c
- Author      : $ Dylan Schufeldt
+ Name        : test.c
+ Author      : $(author)
  Version     :
  Copyright   : $(copyright)
  Description : main definition
@@ -36,13 +36,7 @@ int main(void) {
 #endif
 #endif
 
-    /* Initialize GPIO */
-    Chip_GPIO_Init(LPC_GPIO);
-
-    /* Set the PIO_7 as output */
-    Chip_GPIO_SetPinDIROutput(LPC_GPIO, 0, 7);
-
-    Chip_GPIO_SetPinState(LPC_GPIO, 0, 7, 0);
+    // TODO: insert code here
 
     // Force the counter to be placed into memory
     volatile static int i = 0 ;
