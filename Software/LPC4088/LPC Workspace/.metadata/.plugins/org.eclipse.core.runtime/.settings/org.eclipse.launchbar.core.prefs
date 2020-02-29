@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:WIFI-Synth Debug (1)
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:WIFI-Synth Debug (1),org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:I2C-test LinkServer Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:SPI-Lab Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:SPI-Lab Release,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Test Release,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:WIFI-Synth Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:WIFI-Synth JLink Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:WIFI-Synth LinkServer Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:WIFI-Synth Release,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:freertos_blinky Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:freertos_blinky Release,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:lpc_chip_40xx JLink Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:periph_adc JLink Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:periph_timer Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:periph_timer Release
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:I2C-test\ LinkServer\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:SPI-Lab\ Debug/activeLaunchTarget=null\:---

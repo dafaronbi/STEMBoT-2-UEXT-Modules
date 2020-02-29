@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;WIFI-Synth/src/I2C&apos; to &apos;I2C.c&apos;" description="Rename resource &apos;I2C&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/I2C" name="I2C.c" stamp="1575497394584" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;WIFI-Synth/src/I2C.c&apos; to &apos;i2c.c&apos;" description="Rename resource &apos;I2C.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/I2C.c" name="i2c.c" stamp="1575497404486" updateReferences="true"/>
-</session>

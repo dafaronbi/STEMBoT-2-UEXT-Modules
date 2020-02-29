@@ -1,5 +1,0 @@
-gpio_17xx_40xx.h:88:20:Chip_GPIO_SetPinState	16	static
-gpio_17xx_40xx.h:119:20:Chip_GPIO_GetPinState	16	static
-gpio_17xx_40xx.h:464:20:Chip_GPIO_SetPinToggle	24	static
-I2C-test.c:24:6:mcu_init	8	static
-I2C-test.c:41:5:main	8	static

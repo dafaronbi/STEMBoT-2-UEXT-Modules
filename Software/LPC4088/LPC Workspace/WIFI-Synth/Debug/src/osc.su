@@ -1,0 +1,4 @@
+osc.c:23:6:osc_sine	32	static
+osc.c:39:6:osc_square	32	static
+osc.c:63:6:osc_sawtooth	32	static
+osc.c:79:6:osc_triangle	32	static

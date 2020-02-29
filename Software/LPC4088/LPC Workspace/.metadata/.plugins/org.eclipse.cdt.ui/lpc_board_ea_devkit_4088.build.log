@@ -1,6 +1,0 @@
-00:11:27 **** Incremental Build of configuration Debug for project lpc_board_ea_devkit_4088 ****
-make -r all 
-make: Nothing to be done for `all'.
-
-00:11:27 Build Finished. 0 errors, 0 warnings. (took 112ms)
-

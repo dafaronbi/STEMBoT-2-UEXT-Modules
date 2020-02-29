@@ -1,0 +1,7 @@
+ExitOnError 1
+r
+h
+loadfile "/Users/danielfaronbi/Google Drive/UNO/Fall 2019 Semmester/Embedded Microcontrollers/LPC Workspace/lpc_chip_40xx/Debug/liblpc_chip_40xx.a" 0x0 
+qc
+
+qc
