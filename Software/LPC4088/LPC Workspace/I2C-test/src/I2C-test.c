@@ -18,6 +18,8 @@
 #include <cr_section_macros.h>
 #include "I2C-test.h"
 
+
+
 /**
  * @brief initialize all the peripherals needed for the mcu
  */
@@ -42,11 +44,14 @@ int main(void) {
 
 	mcu_init();
 
+	uint8_t val = 0xff;
+
 	while(1){
 		toggle(LED1);
 		toggle(LED2);
 		toggle(LED3);
 		toggle(LED4);
-		delay_ms(1000);
+		i2c_write(0xaa, &val, 1);
+		delay_ms(250);
 	}
 }

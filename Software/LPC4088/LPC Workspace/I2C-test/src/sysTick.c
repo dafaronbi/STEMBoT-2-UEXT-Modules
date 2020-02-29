@@ -37,6 +37,7 @@ void sysTick_init(){
 	sysTick_P = STRELOAD;
 	*sysTick_P = SystemCoreClock/1000000;
 }
+
 /*
  * @brief system tick interrupt handler; update value every milisecond
  */
