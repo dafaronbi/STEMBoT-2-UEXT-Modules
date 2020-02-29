@@ -1,0 +1,13 @@
+core_cm4.h:1467:22:NVIC_EnableIRQ	16	static
+core_cm4.h:1550:22:NVIC_SetPriority	16	static
+iocon_17xx_40xx.h:151:20:Chip_IOCON_Init	16	static
+gpio_17xx_40xx.h:64:20:Chip_GPIO_Init	16	static
+gpio_17xx_40xx.h:88:20:Chip_GPIO_SetPinState	16	static
+gpio_17xx_40xx.h:119:20:Chip_GPIO_GetPinState	16	static
+gpio_17xx_40xx.h:144:20:Chip_GPIO_SetPinDIROutput	16	static
+gpio_17xx_40xx.h:156:20:Chip_GPIO_SetPinDIRInput	16	static
+gpio_17xx_40xx.h:464:20:Chip_GPIO_SetPinToggle	24	static
+gpioint_17xx_40xx.h:80:20:Chip_GPIOINT_Init	16	static
+gpioint_17xx_40xx.h:199:20:Chip_GPIOINT_ClearIntStatus	24	static
+gpio.c:15:6:gpio_init	8	static
+gpio.c:57:6:GPIO_IRQHandler	8	static
