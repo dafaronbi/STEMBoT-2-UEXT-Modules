@@ -5,7 +5,6 @@
 <stringAttribute key="bootrom.stall" value=""/>
 <stringAttribute key="com.crt.ctrlcenter.OFSemuDetails" value="LinkServer"/>
 <booleanAttribute key="com.crt.ctrlcenter.crtInit" value="true"/>
-<stringAttribute key="com.crt.ctrlcenter.currentWireType" value="SWD"/>
 <booleanAttribute key="com.crt.ctrlcenter.mainBreakIsHardware" value="true"/>
 <stringAttribute key="com.crt.ctrlcenter.serialNumber" value="LinkServerNXP SemiconductorsLPC11U3x CMSIS-DAP v1.0.410027026"/>
 <mapAttribute key="com.crt.ctrlcenter.symbolsGroupSettings"/>
@@ -67,13 +66,13 @@
 <intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="gdb"/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="remote"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug\testproject2.axf"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="testproject2"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug\nxp_lpcxpresso_11c24_periph_blinky.axf"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="nxp_lpcxpresso_11c24_periph_blinky"/>
 <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="false"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="com.crt.advproject.config.exe.debug.1131487970"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="com.crt.advproject.config.exe.debug.2110908120"/>
 <booleanAttribute key="org.eclipse.cdt.launch.use_terminal" value="false"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/testproject2"/>
+<listEntry value="/nxp_lpcxpresso_11c24_periph_blinky"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="4"/>
@@ -81,7 +80,6 @@
 <mapAttribute key="org.eclipse.debug.core.preferred_launchers">
 <mapEntry key="[debug]" value="com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LinkServerGdbLaunch"/>
 </mapAttribute>
-<stringAttribute key="org.eclipse.dsf.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;memoryBlockExpressionList context=&quot;reserved-for-future-use&quot;/&gt;&#13;&#10;"/>
 <stringAttribute key="process_factory_id" value="com.nxp.mcuxpresso.core.debug.override.MCXProcessFactory"/>
 <booleanAttribute key="redlink.disable.preconnect.script" value="false"/>
 <booleanAttribute key="redlink.enable.flashhashing" value="true"/>

@@ -36,8 +36,9 @@
  * Private types/enumerations/variables
  ****************************************************************************/
 
-#define TICKRATE_HZ1 (10) /* 10 ticks per second */
-#define TICKRATE_HZ2 (11) /* 11 ticks per second */
+int ticks = 8;	//stop ticking after this many ticks
+#define TICKRATE_HZ1 (3) //changed to 5 /* 10 ticks per second */
+#define TICKRATE_HZ2 (4) //changed to 6 /* 11 ticks per second */
 
 /*****************************************************************************
  * Public types/enumerations/variables
@@ -70,6 +71,7 @@ void TIMER32_0_IRQHandler(void)
 		Chip_TIMER_ClearMatch(LPC_TIMER32_0, 1);
 		Board_LED_Set(0, true);
 	}
+	ticks--;
 }
 
 /**
@@ -108,5 +110,8 @@ int main(void)
 		__WFI();
 	}
 
+	while (1) {
+			__WFI();
+		}
 	return 0;
 }

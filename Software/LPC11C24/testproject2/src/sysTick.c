@@ -7,7 +7,7 @@
  */
 
 
-#include "I2C-test.h"
+#include "main.h"
 
 //us counter variable
 uint32_t usTick;
@@ -29,13 +29,15 @@ uint32_t readReg;
  */
 void sysTick_init(){
 
+	//reload every milisecond
+	sysTick_P = STRELOAD;
+	*sysTick_P = SystemCoreClock/100000;
+
 	//system clock on, interrupt on, cpu clock source
 	sysTick_P = STCTRL;
 	*sysTick_P = 0x00000007;
 
-	//reload every milisecond
-	sysTick_P = STRELOAD;
-	*sysTick_P = SystemCoreClock/1000000;
+
 }
 
 /*
@@ -49,7 +51,7 @@ void SysTick_Handler(void){
 /*
  * @brief 1 us delay
  */
-void delay_us(uint32_t amount){
+void delay_10us(uint32_t amount){
 	uint32_t initialVal = usTick;
 	uint32_t difference = 0;
 
@@ -66,7 +68,7 @@ void delay_ms(uint32_t amount){
 
 
 	for (uint32_t i = 0; i < amount; i++) {
-		delay_us(1000);
+		delay_10us(100);
 	}
 
 }
