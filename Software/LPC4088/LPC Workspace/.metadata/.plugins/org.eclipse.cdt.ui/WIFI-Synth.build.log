@@ -1,0 +1,36 @@
+12:28:06 **** Incremental Build of configuration Debug for project WIFI-Synth ****
+make -r -j7 all 
+Building file: ../src/WIFI-Synth.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -DNO_BOARD_LIB -D__LPC407X_8X__ -D__REDLIB__ -I"/Users/danielfaronbi/Google Drive/UNO/Fall 2019 Semmester/Embedded Microcontrollers/LPC Workspace/WIFI-Synth/inc" -I"/Users/danielfaronbi/Google Drive/UNO/Fall 2019 Semmester/Embedded Microcontrollers/LPC Workspace/lpc_chip_40xx/inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/WIFI-Synth.d" -MT"src/WIFI-Synth.o" -MT"src/WIFI-Synth.d" -o "src/WIFI-Synth.o" "../src/WIFI-Synth.c"
+../src/WIFI-Synth.c: In function 'hex4toString':
+../src/WIFI-Synth.c:60:22: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  char *str = (char*) malloc(2);
+                      ^~~~~~
+../src/WIFI-Synth.c:60:22: note: 'malloc' is defined in header '<stdlib.h>'; did you forget to '#include <stdlib.h>'?
+../src/WIFI-Synth.c:11:1:
++#include <stdlib.h>
+ 
+../src/WIFI-Synth.c:60:22:
+  char *str = (char*) malloc(2);
+                      ^~~~~~
+Finished building: ../src/WIFI-Synth.c
+ 
+Building target: WIFI-Synth.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/Users/danielfaronbi/Google Drive/UNO/Fall 2019 Semmester/Embedded Microcontrollers/LPC Workspace/lpc_chip_40xx/Debug" -Xlinker -Map="WIFI-Synth.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "WIFI-Synth_Debug.ld" -o "WIFI-Synth.axf"  ./src/ESP8266.o ./src/WIFI-Synth.o ./src/adc.o ./src/cr_startup_lpc407x_8x.o ./src/crp.o ./src/dac.o ./src/dma.o ./src/gpio.o ./src/i2c.o ./src/lcd.o ./src/osc.o ./src/ssp.o ./src/sysTick.o ./src/sysinit.o ./src/timer.o ./src/uart.o   -llpc_chip_40xx
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:       20580 B       512 KB      3.93%
+        RamLoc64:         804 B        64 KB      1.23%
+     RamPeriph32:          0 GB        32 KB      0.00%
+Finished building target: WIFI-Synth.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "WIFI-Synth.axf"; # arm-none-eabi-objcopy -v -O binary "WIFI-Synth.axf" "WIFI-Synth.bin" ; # checksum -p LPC4088 -d "WIFI-Synth.bin";
+   text	   data	    bss	    dec	    hex	filename
+  20360	    220	    584	  21164	   52ac	WIFI-Synth.axf
+ 
+
+12:28:06 Build Finished. 0 errors, 1 warnings. (took 589ms)
+

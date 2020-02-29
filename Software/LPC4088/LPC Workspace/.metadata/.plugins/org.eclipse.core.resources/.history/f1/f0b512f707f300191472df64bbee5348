@@ -1,0 +1,29 @@
+/*
+===============================================================================
+ Name        : SPI-Lab.c
+ Author      : Daniel Faronbi
+ Version     :
+ Copyright   :Daniel Faronbi
+ Description : Test SPI on LCD
+===============================================================================
+*/
+#include "wifisynth.h"
+
+int main(void) {
+
+	//initialize GPIO
+	gpio_init();
+
+	//initialize SPI
+	ssp_init();
+
+	//initialize LCD
+	TFT_LCD_INIT();
+
+    // Read clock settings and update SystemCoreClock variable
+    SystemCoreClockUpdate();
+
+
+    while(1);
+    return 0;
+}

@@ -1,0 +1,4 @@
+sysTick.c:30:6:sysTick_init	4	static
+sysTick.c:43:6:SysTick_Handler	4	static
+sysTick.c:51:6:delay_us	24	static
+sysTick.c:64:6:delay_ms	24	static
