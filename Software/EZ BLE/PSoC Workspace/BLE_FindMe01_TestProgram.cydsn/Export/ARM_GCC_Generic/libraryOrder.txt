@@ -1,1 +1,0 @@
-.\Export\ARM_GCC_Generic\BLE_v3_30\gccCyBLEStack_BLE_SOC_PERIPHERAL.a

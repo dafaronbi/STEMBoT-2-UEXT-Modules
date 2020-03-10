@@ -1,77 +1,0 @@
-Dependencies for Project 'BLE_FindMe01_TestProgram', Target 'BLE_FindMe01_TestProgram': (DO NOT MODIFY !)
-CompilerVersion: <unknown>
-F (BLE_FindMe.pdf)(0x5E61E77A)()
-F (Generated_Source/PSoC4/Advertising_LED.h)(0x5E61EF0F)()
-F (Generated_Source/PSoC4/Advertising_LED_aliases.h)(0x5E61EF0F)()
-F (Generated_Source/PSoC4/Alert_LED.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/Alert_LED_aliases.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/BLE.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/BLE_HAL_PVT.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/BLE_STACK_PVT.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/BLE_Stack.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/BLE_StackGap.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/BLE_StackGatt.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/BLE_StackGattClient.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/BLE_StackGattDb.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/BLE_StackGattServer.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/BLE_StackHostMain.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/BLE_StackL2cap.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/BLE_bless_isr.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/BLE_eventHandler.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/BLE_gatt.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/BLE_ias.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/CyFlash.h)(0x5E61EF11)()
-F (Generated_Source/PSoC4/CyLFClk.h)(0x5E61EF11)()
-F (Generated_Source/PSoC4/CyLib.h)(0x5E61EF11)()
-F (Generated_Source/PSoC4/Disconnect_LED.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/Disconnect_LED_aliases.h)(0x5E61EF10)()
-F (Generated_Source/PSoC4/cmsis_armcc.h)(0x5E61EF11)()
-F (Generated_Source/PSoC4/cmsis_compiler.h)(0x5E61EF11)()
-F (Generated_Source/PSoC4/cmsis_gcc.h)(0x5E61EF11)()
-F (Generated_Source/PSoC4/core_cm0.h)(0x5E61EF11)()
-F (Generated_Source/PSoC4/core_cm0_psoc4.h)(0x5E61EF11)()
-F (Generated_Source/PSoC4/core_cmFunc.h)(0x5E61EF11)()
-F (Generated_Source/PSoC4/core_cmInstr.h)(0x5E61EF11)()
-F (Generated_Source/PSoC4/cyPm.h)(0x5E61EF11)()
-F (Generated_Source/PSoC4/cy_em_eeprom.h)(0x5E61EF11)()
-F (Generated_Source/PSoC4/cydevice_trm.h)(0x5E61EF0E)()
-F (Generated_Source/PSoC4/cydevicegnu_trm.inc)(0x5E61EF0E)()
-F (Generated_Source/PSoC4/cydeviceiar_trm.inc)(0x5E61EF0E)()
-F (Generated_Source/PSoC4/cydevicerv_trm.inc)(0x5E61EF0E)()
-F (Generated_Source/PSoC4/cydisabledsheets.h)(0x5E61EF0F)()
-F (Generated_Source/PSoC4/cyfitter.h)(0x5E61EF0F)()
-F (Generated_Source/PSoC4/cyfitter_cfg.h)(0x5E61EF0E)()
-F (Generated_Source/PSoC4/cyfittergnu.inc)(0x5E61EF0F)()
-F (Generated_Source/PSoC4/cyfitteriar.inc)(0x5E61EF0F)()
-F (Generated_Source/PSoC4/cyfitterrv.inc)(0x5E61EF0F)()
-F (Generated_Source/PSoC4/cypins.h)(0x5E61EF11)()
-F (Generated_Source/PSoC4/cytypes.h)(0x5E61EF11)()
-F (Generated_Source/PSoC4/project.h)(0x5E61EF11)()
-F (Generated_Source/PSoC4/Advertising_LED.c)(0x5E61EF0F)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/advertising_led.o)
-F (Generated_Source/PSoC4/Advertising_LED_PM.c)(0x5E61EF0F)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/advertising_led_pm.o)
-F (Generated_Source/PSoC4/Alert_LED.c)(0x5E61EF10)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/alert_led.o)
-F (Generated_Source/PSoC4/Alert_LED_PM.c)(0x5E61EF10)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/alert_led_pm.o)
-F (Generated_Source/PSoC4/BLE.c)(0x5E61EF10)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/ble.o)
-F (Generated_Source/PSoC4/BLE_HAL_INT.c)(0x5E61EF10)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/ble_hal_int.o)
-F (Generated_Source/PSoC4/BLE_HAL_PVT.c)(0x5E61EF10)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/ble_hal_pvt.o)
-F (Generated_Source/PSoC4/BLE_bless_isr.c)(0x5E61EF10)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/ble_bless_isr.o)
-F (Generated_Source/PSoC4/BLE_eventHandler.c)(0x5E61EF10)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/ble_eventhandler.o)
-F (Generated_Source/PSoC4/BLE_gatt.c)(0x5E61EF10)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/ble_gatt.o)
-F (Generated_Source/PSoC4/BLE_ias.c)(0x5E61EF10)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/ble_ias.o)
-F (Generated_Source/PSoC4/Cm0Start.c)(0x5E61EF11)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/cm0start.o)
-F (Generated_Source/PSoC4/CyBootAsmGnu.s)(0x5E61EF11)(-mcpu=cortex-m1 -mthumb --gdwarf-2 -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" --defsym __UVISION_VERSION=529 --defsym NDEBUG=1--MD ./uvbuild/cybootasmgnu.d -o ./uvbuild/cybootasmgnu.o)
-F (Generated_Source/PSoC4/CyFlash.c)(0x5E61EF11)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/cyflash.o)
-F (Generated_Source/PSoC4/CyLFClk.c)(0x5E61EF11)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/cylfclk.o)
-F (Generated_Source/PSoC4/CyLib.c)(0x5E61EF11)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/cylib.o)
-F (Generated_Source/PSoC4/Disconnect_LED.c)(0x5E61EF10)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/disconnect_led.o)
-F (Generated_Source/PSoC4/Disconnect_LED_PM.c)(0x5E61EF10)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/disconnect_led_pm.o)
-F (Generated_Source/PSoC4/cyPm.c)(0x5E61EF11)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/cypm.o)
-F (Generated_Source/PSoC4/cy_em_eeprom.c)(0x5E61EF11)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/cy_em_eeprom.o)
-F (Generated_Source/PSoC4/cyfitter_cfg.c)(0x5E61EF0E)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/cyfitter_cfg.o)
-F (Generated_Source/PSoC4/cymetadata.c)(0x5E61EF0E)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/cymetadata.o)
-F (Generated_Source/PSoC4/cyutils.c)(0x5E61EF11)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/cyutils.o)
-F (common.h)(0x5E61E77A)()
-F (cyapicallbacks.h)(0x5E61E7B9)()
-F (ias.h)(0x5E61E77A)()
-F (ias.c)(0x5E61E77A)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/ias.o)
-F (main.c)(0x5E61E77A)(-c -mcpu=cortex-m1 -mthumb -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -I . -I Generated_Source/PSoC4 -IC:/Keil_v5/ARM/CMSIS/Include -I"C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/arm-none-eabi/include" -D__UVISION_VERSION="529" -DNDEBUG-o ./uvbuild/main.o)
