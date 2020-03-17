@@ -1,0 +1,186 @@
+/*
+===============================================================================
+ Name        : WIFI-Synth.c
+ Author      : Daniel Faronbi
+ Version     :
+ Copyright   :Daniel Faronbi
+ Description : Wifi synth project main code
+===============================================================================
+*/
+#include "wifisynth.h"
+
+/**
+ * @brief initialize all the peripherals needed for the mcu
+ */
+void mcu_init(void){
+
+	//Read clock settings and update SystemCoreClock variable
+	SystemCoreClockUpdate();
+
+	//initialize system clock
+	sysTick_init();
+
+	//initialize GPIO
+	gpio_init();
+
+	//initialize SPI
+	ssp_init();
+
+	//initialize ADC
+	adc_init();
+
+	//initialize I2C
+	i2c_init();
+
+	//initialize DAC
+//	dac_init();
+
+	//initialize DMA
+//	dma_init();
+
+	//initialize LCD
+	TFT_LCD_INIT();
+
+	//initialize uart
+	uart_init();
+
+}
+
+int main(void) {
+
+	//initialize mcu peripherals
+	mcu_init();
+
+    fillScreen(WHITE);
+    setTextColor(BLACK, WHITE);
+    setCursor(0,0);
+    setTextSize(2);
+//    LCD_string_write("Hello  of the World!");
+//    fillRect(20,100,260,40,BLUE);
+//    drawCircle(20, 220, 20, RED);
+//
+//    uint32_t dacVal = 0x100;
+
+//    uart3_sendString("AT+RST\r\n");
+//    delay_ms(10000);
+//    fillScreen(WHITE);
+//    setCursor(0,0);
+//	uart3_sendString("AT+CWMODE=1\r\n");
+//	delay_ms(10000);
+//	fillScreen(WHITE);
+//	setCursor(0,0);
+//	uart3_sendString("AT+CWJAP=\"Rehoboth-2\",\"f980802960603010417940418a\"\r\n");
+//	delay_ms(10000);
+//	fillScreen(WHITE);
+//	setCursor(0,0);
+//	uart3_sendString("AT+CIPMUX=0\r\n");
+//	delay_ms(10000);
+//	fillScreen(WHITE);
+//	setCursor(0,0);
+//	uart3_sendString("AT+CIPSTART=\"TCP\",\"api.pushingbox.com\",80\r\n");
+//	delay_ms(10);
+//	fillScreen(WHITE);
+//	setCursor(0,0);
+//	uart3_sendString("AT+CIPSEND=105\r\n");
+//	delay_ms(10);
+//	fillScreen(WHITE);
+//	setCursor(0,0);
+//	uart3_sendString("GET /pushingbox?devid=v1A8E3909B06B76D&mType=\"note\"&mValue=\"0x9\" HTTP/1.1\r\nHost: api.pushingbox.com\r\n\r\n");
+//	delay_ms(10);
+
+    uint8_t numTouch;
+
+    uint8_t datBuff[4];
+
+    uint16_t touchxPos1;
+    uint16_t touchyPos1;
+    uint16_t touchxPos2;
+    uint16_t touchyPos2;
+
+    uint8_t gestureID;
+
+    while(1)
+    {
+    	toggle(LED1);
+    	toggle(LED2);
+//    	delay_ms(1000);
+
+    	//read number of touches
+    	i2c_readCmd(0x38, 0x02, &numTouch, 1);
+
+    	//read touch position y1
+    	i2c_readCmd(0x38, 0x04, &datBuff[0], 1);
+    	i2c_readCmd(0x38, 0x03, &datBuff[1], 1);
+
+    	//read touch position x1
+		i2c_readCmd(0x38, 0x06, &datBuff[2], 1);
+		i2c_readCmd(0x38, 0x05, &datBuff[3], 1);
+
+		touchyPos1 = datBuff[0] + ((datBuff[1]&0xf)<<8);
+		touchxPos1 = datBuff[2] + ((datBuff[3]&0xf)<<8);
+
+		//read touch position y2
+		i2c_readCmd(0x38, 0x0a, &datBuff[0], 1);
+		i2c_readCmd(0x38, 0x09, &datBuff[1], 1);
+
+		//read touch position x2
+		i2c_readCmd(0x38, 0x0c, &datBuff[2], 1);
+		i2c_readCmd(0x38, 0x0b, &datBuff[3], 1);
+
+		//read gesture type
+		i2c_readCmd(0x38, 0x01, &gestureID, 1);
+
+		touchyPos2 = datBuff[0] + ((datBuff[1]&0xf)<<8);
+		touchxPos2 = datBuff[2] + ((datBuff[3]&0xf)<<8);
+
+		//print number of touches
+    	setCursor(10,10);
+    	LCD_string_write("Num touch points  :");
+    	hex8print(numTouch);
+
+    	//print number of touches
+		setCursor(10,50);
+		LCD_string_write("1st touch x pos  :");
+		hex16print(touchxPos1);
+
+		//print number of touches
+		setCursor(10,90);
+		LCD_string_write("1st touch y pos  :");
+		hex16print(touchyPos1);
+
+		//print number of touches
+		setCursor(10,130);
+		LCD_string_write("2nd touch x pos  :");
+		hex16print(touchxPos2);
+
+		//print number of touches
+		setCursor(10,170);
+		LCD_string_write("2nd touch y pos  :");
+		hex16print(touchyPos2);
+
+		//print number of touches
+		setCursor(10,210);
+		LCD_string_write("Gesture Type  :");
+		hex8print(gestureID);
+
+    	//sawtooth
+//    	dac_updateValue(dacVal);
+//    	dacVal++;
+//    	if(dacVal == 0x300)
+//    		dacVal = 0x100;
+//    	delay_us(10);
+
+//    	//square
+//    	dac_updateValue(0x2ff);
+//    	delay_ms(1);
+//    	dac_updateValue(0x0);
+//    	delay_ms(1);
+
+    	//read value from potentiometer
+//    	setCursor(20,160);
+//    	hex8print(adc_read());
+//    	toggle(LED1);
+//    	delay_ms(1000);
+    }
+    return 0;
+}

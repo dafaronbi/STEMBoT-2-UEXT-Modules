@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;SPI-Lab/inc/io.c&apos; to &apos;gpio.c&apos;" description="Rename resource &apos;io.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="inc/io.c" name="gpio.c" stamp="1571540519163" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;SPI-Lab/inc/spi.c&apos; to &apos;ssp.c&apos;" description="Rename resource &apos;spi.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="inc/spi.c" name="ssp.c" stamp="1571545325635" updateReferences="true"/>
+</session>
