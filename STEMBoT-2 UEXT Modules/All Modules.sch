@@ -9,28 +9,28 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="9" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
@@ -54,10 +54,10 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="5" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="9" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
@@ -6499,141 +6499,6 @@ Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_vt200serie
 </deviceset>
 </devicesets>
 </library>
-<library name="piher" urn="urn:adsk.eagle:library:324">
-<description>&lt;b&gt;Piher Potentiometers&lt;/b&gt;&lt;p&gt;
-PC-16/16 mm carbon types&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="PC16S" urn="urn:adsk.eagle:footprint:22229/1" library_version="2">
-<description>&lt;b&gt;POTENTIOMETER&lt;/b&gt;&lt;p&gt;
-single carbon potentiometer, 16 mm</description>
-<wire x1="-7.9" y1="0.1" x2="-4.9" y2="0.1" width="0.2032" layer="21"/>
-<wire x1="-4.9" y1="0.1" x2="4.9" y2="0.1" width="0.2032" layer="21"/>
-<wire x1="4.9" y1="0.1" x2="7.9" y2="0.1" width="0.2032" layer="21"/>
-<wire x1="-7.9" y1="8" x2="7.9" y2="8" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="-8.8" x2="4.5" y2="-8.8" width="0.2032" layer="21"/>
-<wire x1="-4.9" y1="0.1" x2="-4.9" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-4.9" y1="-3.7" x2="-4.9" y2="-8.4" width="0.2032" layer="21"/>
-<wire x1="4.9" y1="0.1" x2="4.9" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="4.9" y1="-3.7" x2="4.9" y2="-8.4" width="0.2032" layer="21"/>
-<wire x1="-7.9" y1="8" x2="-7.9" y2="0.1" width="0.2032" layer="21"/>
-<wire x1="7.9" y1="0.1" x2="7.9" y2="8" width="0.2032" layer="21"/>
-<wire x1="-2.9" y1="-44.9" x2="2.9" y2="-44.9" width="0.2032" layer="21"/>
-<wire x1="-2.9" y1="-8.9" x2="-2.9" y2="-44.9" width="0.2032" layer="21"/>
-<wire x1="2.9" y1="-8.9" x2="2.9" y2="-44.9" width="0.2032" layer="21"/>
-<wire x1="-4.9" y1="-8.4" x2="-4.5" y2="-8.8" width="0.2032" layer="21"/>
-<wire x1="4.5" y1="-8.8" x2="4.9" y2="-8.4" width="0.2032" layer="21"/>
-<wire x1="-5.7" y1="-1.9" x2="-4.9" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-4.9" y1="-1.9" x2="4.9" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="4.9" y1="-1.9" x2="5.7" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="5.7" y1="-1.9" x2="6.4" y2="-2" width="0.2032" layer="21"/>
-<wire x1="6.4" y1="-2" x2="6.7" y2="-2.1" width="0.2032" layer="21"/>
-<wire x1="6.7" y1="-2.1" x2="6.7" y2="-3.5" width="0.2032" layer="21"/>
-<wire x1="6.7" y1="-3.5" x2="6.4" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="6.4" y1="-3.6" x2="5.7" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="5.7" y1="-3.7" x2="4.9" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="4.9" y1="-3.7" x2="-4.9" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="-4.9" y1="-3.7" x2="-5.7" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="-5.7" y1="-3.7" x2="-6.4" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="-6.4" y1="-3.6" x2="-6.7" y2="-3.5" width="0.2032" layer="21"/>
-<wire x1="-6.7" y1="-3.5" x2="-6.7" y2="-2.1" width="0.2032" layer="21"/>
-<wire x1="-6.7" y1="-2.1" x2="-6.4" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-6.4" y1="-2" x2="-5.7" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="-2.4" x2="3" y2="-2.2" width="0.2032" layer="21"/>
-<wire x1="3" y1="-2.2" x2="2.2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="-2" x2="1.4" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="-2.4" x2="-3" y2="-2.2" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-2.2" x2="-2.2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="-2" x2="-1.4" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-3.4" x2="-2.2" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="-3.6" x2="-1.4" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="-3.2" x2="3" y2="-3.4" width="0.2032" layer="21"/>
-<wire x1="3" y1="-3.4" x2="2.2" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="-3.6" x2="1.4" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="-3.2" x2="-3.8" y2="-3.4" width="0.2032" layer="21"/>
-<wire x1="-3.8" y1="-3.4" x2="-4.6" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="-4.6" y1="-3.6" x2="-5.4" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="-2.4" x2="-3.8" y2="-2.2" width="0.2032" layer="21"/>
-<wire x1="-3.8" y1="-2.2" x2="-4.6" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-4.6" y1="-2" x2="-5.4" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="-2.4" x2="3.8" y2="-2.2" width="0.2032" layer="21"/>
-<wire x1="3.8" y1="-2.2" x2="4.6" y2="-2" width="0.2032" layer="21"/>
-<wire x1="4.6" y1="-2" x2="5.4" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="-3.2" x2="3.8" y2="-3.4" width="0.2032" layer="21"/>
-<wire x1="3.8" y1="-3.4" x2="4.6" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="4.6" y1="-3.6" x2="5.4" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="-2.4" x2="-3.4" y2="-3.2" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="-2.4" x2="3.4" y2="-3.2" width="0.2032" layer="21"/>
-<wire x1="-3.4072" y1="-3.2" x2="-3.0072" y2="-3.4" width="0.2032" layer="21"/>
-<pad name="1A" x="-5" y="6.5" drill="1.2" shape="long" rot="R90"/>
-<pad name="1S" x="0" y="6.5" drill="1.2" shape="long" rot="R90"/>
-<pad name="1E" x="5" y="6.5" drill="1.2" shape="long" rot="R90"/>
-<text x="-8.32" y="0.52" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="9.9" y="0.52" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="PC16S" urn="urn:adsk.eagle:package:22243/1" type="box" library_version="2">
-<description>POTENTIOMETER
-single carbon potentiometer, 16 mm</description>
-<packageinstances>
-<packageinstance name="PC16S"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="POT" urn="urn:adsk.eagle:symbol:22228/1" library_version="2">
-<wire x1="-4.318" y1="-1.524" x2="-4.318" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="-4.318" y1="-0.508" x2="-4.318" y2="0.508" width="0.254" layer="94"/>
-<wire x1="-4.318" y1="0.508" x2="4.318" y2="0.508" width="0.254" layer="94"/>
-<wire x1="4.318" y1="0.508" x2="4.318" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="4.318" y1="-0.508" x2="4.318" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="4.318" y1="-1.524" x2="-4.318" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-0.508" x2="-4.318" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-0.508" x2="4.318" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-3.81" y2="1.778" width="0.1524" layer="94"/>
-<wire x1="-4.318" y1="1.27" x2="-3.81" y2="1.778" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="1.778" x2="-3.302" y2="2.286" width="0.1524" layer="94"/>
-<text x="-4.064" y="3.556" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.286" y="1.27" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1A" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="1S" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="1E" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PC16S" urn="urn:adsk.eagle:component:22250/2" prefix="R" library_version="2">
-<description>&lt;b&gt;POTENTIOMETER&lt;/b&gt;&lt;p&gt;
-single carbon potentiometer, 16 mm, S3ROH</description>
-<gates>
-<gate name="G$1" symbol="POT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PC16S">
-<connects>
-<connect gate="G$1" pin="1A" pad="1A"/>
-<connect gate="G$1" pin="1E" pad="1E"/>
-<connect gate="G$1" pin="1S" pad="1S"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22243/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="4452940" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="4" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="FTSH-105-01-XXX-DV-K">
 <packages>
 <package name="FTSH-105-01-XXX-DV-K">
@@ -6712,91 +6577,6 @@ MANUFACTURER:SAMTEC.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="2-1437565-7 (tactile switch)">
-<packages>
-<package name="SW_2-1437565-7">
-<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.127" layer="21"/>
-<wire x1="-3" y1="3" x2="3" y2="3" width="0.127" layer="21"/>
-<wire x1="3" y1="3" x2="3" y2="-3" width="0.127" layer="21"/>
-<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1.75" width="0.127" layer="51"/>
-<wire x1="-5.85" y1="-3.25" x2="-5.85" y2="3.25" width="0.05" layer="39"/>
-<wire x1="-5.85" y1="3.25" x2="5.85" y2="3.25" width="0.05" layer="39"/>
-<wire x1="5.85" y1="3.25" x2="5.85" y2="-3.25" width="0.05" layer="39"/>
-<wire x1="5.85" y1="-3.25" x2="-5.85" y2="-3.25" width="0.05" layer="39"/>
-<text x="-3.00396875" y="3.50463125" size="1.27168125" layer="25">&gt;NAME</text>
-<text x="-3.25293125" y="-4.75428125" size="1.27115" layer="27">&gt;VALUE</text>
-<circle x="-4.5" y="3.5" radius="0.13" width="0.2" layer="21"/>
-<smd name="1" x="-4.55" y="2.25" dx="1.4" dy="2.1" layer="1" rot="R90"/>
-<smd name="2" x="4.55" y="2.25" dx="1.4" dy="2.1" layer="1" rot="R90"/>
-<smd name="3" x="-4.55" y="-2.25" dx="1.4" dy="2.1" layer="1" rot="R90"/>
-<smd name="4" x="4.55" y="-2.25" dx="1.4" dy="2.1" layer="1" rot="R90"/>
-</package>
-</packages>
-<symbols>
-<symbol name="2-1437565-7">
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.778" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.778" y2="0" width="0.1524" layer="94"/>
-<circle x="-1.524" y="0" radius="0.254" width="0.1524" layer="94"/>
-<circle x="1.524" y="0" radius="0.254" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0" x2="1.016" y2="1.016" width="0.1524" layer="94"/>
-<text x="-4.57541875" y="5.59218125" size="1.27095" layer="95">&gt;NAME</text>
-<text x="-5.089390625" y="-6.87066875" size="1.27235" layer="96">&gt;VALUE</text>
-<pin name="1" x="-10.16" y="2.54" visible="pad" length="middle" direction="pas"/>
-<pin name="2" x="-10.16" y="-2.54" visible="pad" length="middle" direction="pas"/>
-<pin name="4" x="10.16" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="3" x="10.16" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="2-1437565-7" prefix="S">
-<description>FSM2JSMA=SMT,TACTILE,PB SWITCH</description>
-<gates>
-<gate name="G$1" symbol="2-1437565-7" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SW_2-1437565-7">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="COMMENT" value="2-1437565-7"/>
-<attribute name="CONFIGURATION_POLE-THROW" value="Single Pole - Single Throw"/>
-<attribute name="CONTACT_CURRENT_RATING" value="50 mA"/>
-<attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Top Actuated Surface Mount "/>
-<attribute name="MF" value="TE Connectivity"/>
-<attribute name="MP" value="2-1437565-7"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="TE_PURCHASE_URL" value="https://www.te.com/usa-en/product-2-1437565-7.html?te_bu=Cor&amp;te_type=disp&amp;te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&amp;elqCampaignId=32493"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TSL260R-LF">
 <packages>
 <package name="XDCR_TSL260R-LF">
@@ -6864,31 +6644,9 @@ MANUFACTURER:SAMTEC.</description>
 </library>
 <library name="HC-SR04">
 <packages>
-<package name="XCVR_HC-SR04">
-<wire x1="-21.5" y1="-19.27" x2="-5.5" y2="-19.27" width="0.127" layer="21"/>
-<wire x1="5.5" y1="-19.27" x2="21.5" y2="-19.27" width="0.127" layer="21"/>
-<wire x1="22.5" y1="-5.47" x2="21.5" y2="-5.47" width="0.127" layer="21"/>
-<wire x1="21.5" y1="-5.47" x2="5.5" y2="-5.47" width="0.127" layer="21"/>
-<wire x1="5.5" y1="-5.47" x2="-5.5" y2="-5.47" width="0.127" layer="21"/>
-<wire x1="-5.5" y1="-5.47" x2="-21.5" y2="-5.47" width="0.127" layer="21"/>
-<wire x1="-21.5" y1="-5.47" x2="-22.5" y2="-5.47" width="0.127" layer="21"/>
-<wire x1="-22.5" y1="-5.47" x2="-22.5" y2="-4.27" width="0.127" layer="21"/>
-<wire x1="-22.5" y1="-4.27" x2="22.5" y2="-4.27" width="0.127" layer="21"/>
-<wire x1="22.5" y1="-4.27" x2="22.5" y2="-5.47" width="0.127" layer="21"/>
-<wire x1="-21.5" y1="-5.47" x2="-21.5" y2="-19.27" width="0.127" layer="21"/>
-<wire x1="21.5" y1="-5.47" x2="21.5" y2="-19.27" width="0.127" layer="21"/>
-<wire x1="-5.5" y1="-5.47" x2="-5.5" y2="-19.27" width="0.127" layer="21"/>
-<wire x1="5.5" y1="-5.47" x2="5.5" y2="-19.27" width="0.127" layer="21"/>
-<wire x1="-22.75" y1="-4" x2="-22.75" y2="-19.5" width="0.05" layer="39"/>
-<wire x1="-22.75" y1="-19.5" x2="22.75" y2="-19.5" width="0.05" layer="39"/>
-<wire x1="22.75" y1="-19.5" x2="22.75" y2="-4" width="0.05" layer="39"/>
-<wire x1="22.75" y1="-4" x2="5" y2="-4" width="0.05" layer="39"/>
-<wire x1="5" y1="-4" x2="5" y2="1.25" width="0.05" layer="39"/>
-<wire x1="5" y1="1.25" x2="-5" y2="1.25" width="0.05" layer="39"/>
-<wire x1="-5" y1="1.25" x2="-5" y2="-4" width="0.05" layer="39"/>
-<wire x1="-5" y1="-4" x2="-22.75" y2="-4" width="0.05" layer="39"/>
-<text x="-22.6617" y="-3.952040625" size="1.270659375" layer="25">&gt;NAME</text>
-<text x="16.1773" y="-4.00676875" size="1.27215" layer="27">&gt;VALUE</text>
+<package name="XCVR_HC-SR04(NOSILK)">
+<text x="-2.3417" y="1.127959375" size="1.270659375" layer="25">&gt;NAME</text>
+<text x="-2.8727" y="-4.00676875" size="1.27215" layer="27">&gt;VALUE</text>
 <pad name="2" x="-1.27" y="0" drill="1.02"/>
 <pad name="3" x="1.27" y="0" drill="1.02"/>
 <pad name="4" x="3.81" y="0" drill="1.02"/>
@@ -6910,13 +6668,12 @@ MANUFACTURER:SAMTEC.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="HC-SR04" prefix="U">
-<description>Ultrasonic Sensor Module</description>
+<deviceset name="HC-SR04(NOSILK)">
 <gates>
-<gate name="G$1" symbol="HC-SR04" x="0" y="0"/>
+<gate name="G$1" symbol="HC-SR04" x="-5.08" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="XCVR_HC-SR04">
+<device name="" package="XCVR_HC-SR04(NOSILK)">
 <connects>
 <connect gate="G$1" pin="ECHO" pad="3"/>
 <connect gate="G$1" pin="GND" pad="4"/>
@@ -6924,14 +6681,7 @@ MANUFACTURER:SAMTEC.</description>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" HC-SR04 Ultrasonic Sensor Platform Evaluation Expansion Board "/>
-<attribute name="MF" value="OSEPP Electronics"/>
-<attribute name="MP" value="HC-SR04"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -7246,6 +6996,134 @@ MANUFACTURER:SAMTEC.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="B3U-1000P">
+<packages>
+<package name="SW_B3U-1000P">
+<wire x1="-1.5" y1="-1.25" x2="-1.5" y2="1.25" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.25" x2="1.5" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.25" x2="-1.5" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.25" x2="1.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1.1" x2="-2.35" y2="-1.1" width="0.05" layer="39"/>
+<wire x1="-2.35" y1="-1.1" x2="-2.35" y2="1.1" width="0.05" layer="39"/>
+<wire x1="-2.35" y1="1.1" x2="-1.75" y2="1.1" width="0.05" layer="39"/>
+<wire x1="1.75" y1="1.1" x2="2.35" y2="1.1" width="0.05" layer="39"/>
+<wire x1="2.35" y1="1.1" x2="2.35" y2="-1.1" width="0.05" layer="39"/>
+<wire x1="2.35" y1="-1.1" x2="1.75" y2="-1.1" width="0.05" layer="39"/>
+<wire x1="1.75" y1="-1.1" x2="1.75" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="1.75" y1="-1.5" x2="-1.75" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="-1.75" y1="-1.5" x2="-1.75" y2="-1.1" width="0.05" layer="39"/>
+<wire x1="-1.75" y1="1.1" x2="-1.75" y2="1.5" width="0.05" layer="39"/>
+<wire x1="-1.75" y1="1.5" x2="1.75" y2="1.5" width="0.05" layer="39"/>
+<wire x1="1.75" y1="1.5" x2="1.75" y2="1.1" width="0.05" layer="39"/>
+<text x="-2.7" y="1.7" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.7" y="-2.9" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-2.7" y="0.2" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.7" y="0.2" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.25" x2="-1.5" y2="1.25" width="0.127" layer="51"/>
+<smd name="1" x="-1.7" y="0" dx="1.7" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="1.7" y="0" dx="1.7" dy="0.8" layer="1" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="B3U-1000P">
+<text x="-2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<wire x1="-2.54" y1="0" x2="2.794" y2="2.1336" width="0.1524" layer="94"/>
+<circle x="2.54" y="0" radius="0.3302" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.921" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<pin name="1" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="B3U-1000P" prefix="S">
+<description>Switch Tactile N.O. SPST Round Button Gull Wing 0.05A 12VDC 1.5N SMD Embossed T/R</description>
+<gates>
+<gate name="G$1" symbol="B3U-1000P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SW_B3U-1000P">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Top Actuated Surface Mount "/>
+<attribute name="MF" value="Omron"/>
+<attribute name="MP" value="B3U-1000P"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="piher">
+<description>&lt;b&gt;Piher Potentiometers&lt;/b&gt;&lt;p&gt;
+PC-16/16 mm carbon types&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="PC16S(NOSILK)">
+<description>&lt;b&gt;POTENTIOMETER&lt;/b&gt;&lt;p&gt;
+single carbon potentiometer, 16 mm</description>
+<wire x1="-2.9" y1="-44.9" x2="2.9" y2="-44.9" width="0.2032" layer="21"/>
+<pad name="1A" x="-5" y="6.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="1S" x="0" y="6.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="1E" x="5" y="6.5" drill="1.2" shape="long" rot="R90"/>
+<text x="-8.32" y="0.52" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="9.9" y="0.52" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="POT" urn="urn:adsk.eagle:symbol:22228/1">
+<wire x1="-4.318" y1="-1.524" x2="-4.318" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-4.318" y1="-0.508" x2="-4.318" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-4.318" y1="0.508" x2="4.318" y2="0.508" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="4.318" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="4.318" y1="-0.508" x2="4.318" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="4.318" y1="-1.524" x2="-4.318" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-0.508" x2="-4.318" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-0.508" x2="4.318" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-3.81" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="-4.318" y1="1.27" x2="-3.81" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="1.778" x2="-3.302" y2="2.286" width="0.1524" layer="94"/>
+<text x="-4.064" y="3.556" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.286" y="1.27" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1A" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1S" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1E" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PC16S(NOSILK)" prefix="R">
+<description>&lt;b&gt;POTENTIOMETER&lt;/b&gt;&lt;p&gt;
+single carbon potentiometer, 16 mm, S3ROH</description>
+<gates>
+<gate name="G$1" symbol="POT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PC16S(NOSILK)">
+<connects>
+<connect gate="G$1" pin="1A" pad="1A"/>
+<connect gate="G$1" pin="1E" pad="1E"/>
+<connect gate="G$1" pin="1S" pad="1S"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7309,7 +7187,7 @@ MANUFACTURER:SAMTEC.</description>
 <part name="U8" library="MAX964ESET" deviceset="MAX964ESET" device=""/>
 <part name="U9" library="MAX964ESET" deviceset="MAX964ESET" device=""/>
 <part name="R8" library="Resistor" deviceset="ERJ-1RHD3601C" device=""/>
-<part name="R20" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
+<part name="R20" library="piher" deviceset="PC16S(NOSILK)" device=""/>
 <part name="U1" library="TSL260R-LF" deviceset="TSL260R-LF" device=""/>
 <part name="U$2" library="UEXT-Connecotr" deviceset="UEXT-SMD" device=""/>
 <part name="IC2" library="74HC165PW_118" deviceset="74HC165PW,118" device=""/>
@@ -7334,7 +7212,6 @@ MANUFACTURER:SAMTEC.</description>
 <part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="1k"/>
 <part name="U$8" library="UEXT-Connecotr" deviceset="UEXT-SMD" device=""/>
 <part name="J3" library="FTSH-105-01-XXX-DV-K" deviceset="FTSH-105-01-XXX-DV-K" device=""/>
-<part name="S3" library="2-1437565-7 (tactile switch)" deviceset="2-1437565-7" device=""/>
 <part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="1k"/>
 <part name="C5" library="CAPACITORS" deviceset="CAPACITORS" device="-0603"/>
 <part name="C6" library="CAPACITORS" deviceset="CAPACITORS" device="-0603"/>
@@ -7343,9 +7220,8 @@ MANUFACTURER:SAMTEC.</description>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="1k"/>
 <part name="U$10" library="UEXT-Connecotr" deviceset="UEXT-SMD" device=""/>
 <part name="J1" library="FTSH-105-01-XXX-DV-K" deviceset="FTSH-105-01-XXX-DV-K" device=""/>
-<part name="S1" library="2-1437565-7 (tactile switch)" deviceset="2-1437565-7" device=""/>
 <part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="1k"/>
-<part name="U13" library="HC-SR04" deviceset="HC-SR04" device=""/>
+<part name="U13" library="HC-SR04" deviceset="HC-SR04(NOSILK)" device=""/>
 <part name="C1" library="CAPACITORS" deviceset="CAPACITORS" device="-0603"/>
 <part name="C2" library="CAPACITORS" deviceset="CAPACITORS" device="-0603"/>
 <part name="U$4" library="QFP50P900X900X160-48N" deviceset="LPC11C24FBD48/301" device=""/>
@@ -7353,11 +7229,9 @@ MANUFACTURER:SAMTEC.</description>
 <part name="R46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="1k"/>
 <part name="U$5" library="UEXT-Connecotr" deviceset="UEXT-SMD" device=""/>
 <part name="J2" library="FTSH-105-01-XXX-DV-K" deviceset="FTSH-105-01-XXX-DV-K" device=""/>
-<part name="S2" library="2-1437565-7 (tactile switch)" deviceset="2-1437565-7" device=""/>
 <part name="R47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="1k"/>
 <part name="C3" library="CAPACITORS" deviceset="CAPACITORS" device="-0603"/>
 <part name="C4" library="CAPACITORS" deviceset="CAPACITORS" device="-0603"/>
-<part name="S4" library="2-1437565-7 (tactile switch)" deviceset="2-1437565-7" device=""/>
 <part name="R48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="1k"/>
 <part name="J4" library="FTSH-105-01-XXX-DV-K" deviceset="FTSH-105-01-XXX-DV-K" device=""/>
 <part name="D3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="SFH482" device="" package3d_urn="urn:adsk.eagle:package:15795/1"/>
@@ -7371,7 +7245,6 @@ MANUFACTURER:SAMTEC.</description>
 <part name="R52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="1k"/>
 <part name="U$13" library="UEXT-Connecotr" deviceset="UEXT-SMD" device=""/>
 <part name="J5" library="FTSH-105-01-XXX-DV-K" deviceset="FTSH-105-01-XXX-DV-K" device=""/>
-<part name="S5" library="2-1437565-7 (tactile switch)" deviceset="2-1437565-7" device=""/>
 <part name="R53" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="1k"/>
 <part name="C7" library="CAPACITORS" deviceset="CAPACITORS" device="-0603"/>
 <part name="C8" library="CAPACITORS" deviceset="CAPACITORS" device="-0603"/>
@@ -7380,14 +7253,19 @@ MANUFACTURER:SAMTEC.</description>
 <part name="R57" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="1k"/>
 <part name="U$15" library="UEXT-Connecotr" deviceset="UEXT-SMD" device=""/>
 <part name="J6" library="FTSH-105-01-XXX-DV-K" deviceset="FTSH-105-01-XXX-DV-K" device=""/>
-<part name="S6" library="2-1437565-7 (tactile switch)" deviceset="2-1437565-7" device=""/>
 <part name="R58" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="1k"/>
 <part name="C9" library="CAPACITORS" deviceset="CAPACITORS" device="-0603"/>
 <part name="C10" library="CAPACITORS" deviceset="CAPACITORS" device="-0603"/>
 <part name="R61" library="Resistor" deviceset="ERJ-1RHD3601C" device=""/>
-<part name="R54" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
+<part name="R54" library="piher" deviceset="PC16S(NOSILK)" device=""/>
 <part name="PH2" library="photo-elements" library_urn="urn:adsk.eagle:library:323" deviceset="VT2*" device="" package3d_urn="urn:adsk.eagle:package:22223/1" technology="0N1"/>
 <part name="R55" library="Resistor" deviceset="ERJ-1RHD3601C" device=""/>
+<part name="S7" library="B3U-1000P" deviceset="B3U-1000P" device=""/>
+<part name="S3" library="B3U-1000P" deviceset="B3U-1000P" device=""/>
+<part name="S5" library="B3U-1000P" deviceset="B3U-1000P" device=""/>
+<part name="S6" library="B3U-1000P" deviceset="B3U-1000P" device=""/>
+<part name="S1" library="B3U-1000P" deviceset="B3U-1000P" device=""/>
+<part name="S2" library="B3U-1000P" deviceset="B3U-1000P" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7733,10 +7611,6 @@ MANUFACTURER:SAMTEC.</description>
 <attribute name="NAME" x="-927.1" y="36.322" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-927.1" y="18.288" size="1.27" layer="96"/>
 </instance>
-<instance part="S3" gate="G$1" x="-1028.7" y="-20.32" smashed="yes">
-<attribute name="NAME" x="-1033.27541875" y="-14.72781875" size="1.27095" layer="95"/>
-<attribute name="VALUE" x="-1033.789390625" y="-27.19066875" size="1.27235" layer="96"/>
-</instance>
 <instance part="R44" gate="G$1" x="-998.22" y="-12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="-994.41" y="-14.1986" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-994.41" y="-9.398" size="1.778" layer="96" rot="R180"/>
@@ -7767,10 +7641,6 @@ MANUFACTURER:SAMTEC.</description>
 <instance part="J1" gate="G$1" x="-78.74" y="83.82" smashed="yes">
 <attribute name="NAME" x="-73.66" y="87.122" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-73.66" y="69.088" size="1.27" layer="96"/>
-</instance>
-<instance part="S1" gate="G$1" x="-175.26" y="30.48" smashed="yes">
-<attribute name="NAME" x="-179.83541875" y="36.07218125" size="1.27095" layer="95"/>
-<attribute name="VALUE" x="-180.349390625" y="23.60933125" size="1.27235" layer="96"/>
 </instance>
 <instance part="R45" gate="G$1" x="-144.78" y="38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="-140.97" y="36.6014" size="1.778" layer="95" rot="R180"/>
@@ -7807,10 +7677,6 @@ MANUFACTURER:SAMTEC.</description>
 <attribute name="NAME" x="-27.94" y="-103.378" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-27.94" y="-121.412" size="1.27" layer="96"/>
 </instance>
-<instance part="S2" gate="G$1" x="-129.54" y="-160.02" smashed="yes">
-<attribute name="NAME" x="-134.11541875" y="-154.42781875" size="1.27095" layer="95"/>
-<attribute name="VALUE" x="-134.629390625" y="-166.89066875" size="1.27235" layer="96"/>
-</instance>
 <instance part="R47" gate="G$1" x="-99.06" y="-152.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="-95.25" y="-153.8986" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-95.25" y="-149.098" size="1.778" layer="96" rot="R180"/>
@@ -7822,10 +7688,6 @@ MANUFACTURER:SAMTEC.</description>
 <instance part="C4" gate="C" x="27.94" y="-147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.4" y="-147.32" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="30.48" y="-147.32" size="1.778" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="S4" gate="G$1" x="106.68" y="-223.52" smashed="yes">
-<attribute name="NAME" x="102.10458125" y="-217.92781875" size="1.27095" layer="95"/>
-<attribute name="VALUE" x="101.590609375" y="-230.39066875" size="1.27235" layer="96"/>
 </instance>
 <instance part="R48" gate="G$1" x="86.36" y="-238.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="90.17" y="-240.2586" size="1.778" layer="95" rot="R180"/>
@@ -7878,10 +7740,6 @@ MANUFACTURER:SAMTEC.</description>
 <attribute name="NAME" x="-957.58" y="-169.418" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-957.58" y="-187.452" size="1.27" layer="96"/>
 </instance>
-<instance part="S5" gate="G$1" x="-1059.18" y="-226.06" smashed="yes">
-<attribute name="NAME" x="-1063.75541875" y="-220.46781875" size="1.27095" layer="95"/>
-<attribute name="VALUE" x="-1064.269390625" y="-232.93066875" size="1.27235" layer="96"/>
-</instance>
 <instance part="R53" gate="G$1" x="-1028.7" y="-218.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="-1024.89" y="-219.9386" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-1024.89" y="-215.138" size="1.778" layer="96" rot="R180"/>
@@ -7913,10 +7771,6 @@ MANUFACTURER:SAMTEC.</description>
 <attribute name="NAME" x="-619.76" y="-171.958" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-619.76" y="-189.992" size="1.27" layer="96"/>
 </instance>
-<instance part="S6" gate="G$1" x="-721.36" y="-228.6" smashed="yes">
-<attribute name="NAME" x="-725.93541875" y="-223.00781875" size="1.27095" layer="95"/>
-<attribute name="VALUE" x="-726.449390625" y="-235.47066875" size="1.27235" layer="96"/>
-</instance>
 <instance part="R58" gate="G$1" x="-690.88" y="-220.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="-687.07" y="-222.4786" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-687.07" y="-217.678" size="1.778" layer="96" rot="R180"/>
@@ -7944,6 +7798,30 @@ MANUFACTURER:SAMTEC.</description>
 <instance part="R55" gate="G$1" x="-772.16" y="-292.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="-770.6614" y="-288.29" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-775.462" y="-288.29" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="S7" gate="G$1" x="-1026.16" y="-17.78" smashed="yes">
+<attribute name="NAME" x="-1028.7" y="-15.24" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-1028.7" y="-20.32" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="S3" gate="G$1" x="-1056.64" y="-223.52" smashed="yes">
+<attribute name="NAME" x="-1059.18" y="-220.98" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-1056.64" y="-226.06" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="S5" gate="G$1" x="-718.82" y="-226.06" smashed="yes">
+<attribute name="NAME" x="-721.36" y="-223.52" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-721.36" y="-228.6" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="S6" gate="G$1" x="-172.72" y="33.02" smashed="yes">
+<attribute name="NAME" x="-175.26" y="35.56" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-175.26" y="30.48" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="S1" gate="G$1" x="-127" y="-157.48" smashed="yes">
+<attribute name="NAME" x="-129.54" y="-154.94" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-129.54" y="-160.02" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="S2" gate="G$1" x="109.22" y="-220.98" smashed="yes">
+<attribute name="NAME" x="106.68" y="-218.44" size="1.27" layer="95"/>
+<attribute name="VALUE" x="106.68" y="-223.52" size="1.27" layer="96" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -8095,12 +7973,12 @@ MANUFACTURER:SAMTEC.</description>
 <junction x="116.84" y="-129.54"/>
 <pinref part="U3" gate="G$1" pin="GND"/>
 <wire x1="119.38" y1="-193.04" x2="124.46" y2="-193.04" width="0.1524" layer="91"/>
-<pinref part="S4" gate="G$1" pin="3"/>
 <wire x1="116.84" y1="-220.98" x2="124.46" y2="-220.98" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="-220.98" x2="124.46" y2="-193.04" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-193.04" x2="124.46" y2="-193.04" width="0.1524" layer="91"/>
 <junction x="149.86" y="-193.04"/>
 <junction x="124.46" y="-193.04"/>
+<pinref part="S2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -8957,7 +8835,7 @@ MANUFACTURER:SAMTEC.</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="-139.7" y1="-213.36" x2="-119.38" y2="-213.36" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="-213.36" x2="-114.3" y2="-213.36" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-132.08" x2="-68.58" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="-177.8" x2="-10.16" y2="-127" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="-127" x2="-38.1" y2="-127" width="0.1524" layer="91"/>
@@ -8976,9 +8854,7 @@ MANUFACTURER:SAMTEC.</description>
 <pinref part="J2" gate="G$1" pin="9"/>
 <wire x1="-33.02" y1="-116.84" x2="-38.1" y2="-116.84" width="0.1524" layer="91"/>
 <junction x="-38.1" y="-116.84"/>
-<pinref part="S2" gate="G$1" pin="2"/>
-<wire x1="-139.7" y1="-162.56" x2="-142.24" y2="-162.56" width="0.1524" layer="91"/>
-<wire x1="-142.24" y1="-162.56" x2="-142.24" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="-157.48" x2="-142.24" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="-137.16" x2="-68.58" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="-137.16" x2="-68.58" y2="-132.08" width="0.1524" layer="91"/>
 <junction x="-68.58" y="-132.08"/>
@@ -9008,10 +8884,11 @@ MANUFACTURER:SAMTEC.</description>
 <pinref part="U$4" gate="G$1" pin="GND"/>
 <wire x1="-43.18" y1="-236.22" x2="-43.18" y2="-251.46" width="0.1524" layer="91"/>
 <junction x="-43.18" y="-251.46"/>
-<wire x1="-119.38" y1="-213.36" x2="-114.3" y2="-213.36" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="-213.36" x2="-114.3" y2="-251.46" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="-251.46" x2="-96.52" y2="-251.46" width="0.1524" layer="91"/>
 <junction x="-96.52" y="-251.46"/>
+<pinref part="S1" gate="G$1" pin="1"/>
+<wire x1="-142.24" y1="-157.48" x2="-134.62" y2="-157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$119" class="0">
@@ -9511,20 +9388,19 @@ MANUFACTURER:SAMTEC.</description>
 </net>
 <net name="N$135" class="0">
 <segment>
-<pinref part="S3" gate="G$1" pin="3"/>
 <pinref part="U$6" gate="G$1" pin="RESET/PIO0_0"/>
 <wire x1="-988.06" y1="-45.72" x2="-993.14" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="-904.24" y1="45.72" x2="-993.14" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-904.24" y1="22.86" x2="-904.24" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="10"/>
 <wire x1="-909.32" y1="22.86" x2="-904.24" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-993.14" y1="-45.72" x2="-993.14" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-993.14" y1="-45.72" x2="-993.14" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="R44" gate="G$1" pin="1"/>
 <wire x1="-993.14" y1="-17.78" x2="-993.14" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-993.14" y1="-12.7" x2="-993.14" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-993.14" y="-12.7"/>
 <wire x1="-1018.54" y1="-17.78" x2="-993.14" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-993.14" y1="-17.78" x2="-993.14" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="S7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9547,9 +9423,7 @@ MANUFACTURER:SAMTEC.</description>
 <pinref part="J1" gate="G$1" pin="9"/>
 <wire x1="-78.74" y1="73.66" x2="-83.82" y2="73.66" width="0.1524" layer="91"/>
 <junction x="-83.82" y="73.66"/>
-<pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="-185.42" y1="27.94" x2="-187.96" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-187.96" y1="27.94" x2="-187.96" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-187.96" y1="33.02" x2="-187.96" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-187.96" y1="53.34" x2="-162.56" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="53.34" x2="-114.3" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="53.34" x2="-114.3" y2="58.42" width="0.1524" layer="91"/>
@@ -9584,6 +9458,8 @@ MANUFACTURER:SAMTEC.</description>
 <pinref part="U$7" gate="G$1" pin="GND"/>
 <wire x1="-88.9" y1="-45.72" x2="-88.9" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="-88.9" y="-60.96"/>
+<pinref part="S6" gate="G$1" pin="1"/>
+<wire x1="-187.96" y1="33.02" x2="-180.34" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -9663,20 +9539,19 @@ MANUFACTURER:SAMTEC.</description>
 </net>
 <net name="N$112" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="3"/>
 <pinref part="U$7" gate="G$1" pin="RESET/PIO0_0"/>
 <wire x1="-134.62" y1="5.08" x2="-139.7" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="96.52" x2="-139.7" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="73.66" x2="-50.8" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="10"/>
 <wire x1="-55.88" y1="73.66" x2="-50.8" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="5.08" x2="-139.7" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="5.08" x2="-139.7" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R45" gate="G$1" pin="1"/>
 <wire x1="-139.7" y1="33.02" x2="-139.7" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="38.1" x2="-139.7" y2="96.52" width="0.1524" layer="91"/>
 <junction x="-139.7" y="38.1"/>
 <wire x1="-165.1" y1="33.02" x2="-139.7" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="33.02" x2="-139.7" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="S6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$113" class="0">
@@ -9800,20 +9675,19 @@ MANUFACTURER:SAMTEC.</description>
 </net>
 <net name="N$127" class="0">
 <segment>
-<pinref part="S2" gate="G$1" pin="3"/>
 <pinref part="U$4" gate="G$1" pin="RESET/PIO0_0"/>
 <wire x1="-88.9" y1="-185.42" x2="-93.98" y2="-185.42" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="-93.98" x2="-93.98" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="-116.84" x2="-5.08" y2="-93.98" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="10"/>
 <wire x1="-10.16" y1="-116.84" x2="-5.08" y2="-116.84" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="-185.42" x2="-93.98" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="-185.42" x2="-93.98" y2="-157.48" width="0.1524" layer="91"/>
 <pinref part="R47" gate="G$1" pin="1"/>
 <wire x1="-93.98" y1="-157.48" x2="-93.98" y2="-152.4" width="0.1524" layer="91"/>
 <wire x1="-93.98" y1="-152.4" x2="-93.98" y2="-93.98" width="0.1524" layer="91"/>
 <junction x="-93.98" y="-152.4"/>
 <wire x1="-119.38" y1="-157.48" x2="-93.98" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="-157.48" x2="-93.98" y2="-160.02" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -9824,8 +9698,7 @@ MANUFACTURER:SAMTEC.</description>
 </net>
 <net name="N$114" class="0">
 <segment>
-<pinref part="S4" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="-220.98" x2="78.74" y2="-220.98" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="-220.98" x2="78.74" y2="-220.98" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-220.98" x2="78.74" y2="-154.94" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="XRES"/>
 <wire x1="78.74" y1="-154.94" x2="83.82" y2="-154.94" width="0.1524" layer="91"/>
@@ -9839,6 +9712,7 @@ MANUFACTURER:SAMTEC.</description>
 <wire x1="152.4" y1="-109.22" x2="78.74" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-109.22" x2="78.74" y2="-154.94" width="0.1524" layer="91"/>
 <junction x="78.74" y="-154.94"/>
+<pinref part="S2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$126" class="0">
@@ -9927,9 +9801,7 @@ MANUFACTURER:SAMTEC.</description>
 <pinref part="J3" gate="G$1" pin="9"/>
 <wire x1="-932.18" y1="22.86" x2="-937.26" y2="22.86" width="0.1524" layer="91"/>
 <junction x="-937.26" y="22.86"/>
-<pinref part="S3" gate="G$1" pin="2"/>
-<wire x1="-1038.86" y1="-22.86" x2="-1041.4" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-1041.4" y1="-22.86" x2="-1041.4" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-1041.4" y1="-17.78" x2="-1041.4" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-1041.4" y1="2.54" x2="-967.74" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-967.74" y1="2.54" x2="-967.74" y2="7.62" width="0.1524" layer="91"/>
 <junction x="-967.74" y="7.62"/>
@@ -9961,6 +9833,8 @@ MANUFACTURER:SAMTEC.</description>
 <junction x="-942.34" y="-111.76"/>
 <wire x1="-1013.46" y1="-111.76" x2="-995.68" y2="-111.76" width="0.1524" layer="91"/>
 <junction x="-995.68" y="-111.76"/>
+<pinref part="S7" gate="G$1" pin="1"/>
+<wire x1="-1041.4" y1="-17.78" x2="-1033.78" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$138" class="0">
@@ -10086,7 +9960,6 @@ MANUFACTURER:SAMTEC.</description>
 </net>
 <net name="N$143" class="0">
 <segment>
-<pinref part="S5" gate="G$1" pin="3"/>
 <pinref part="U$11" gate="G$1" pin="RESET/PIO0_0"/>
 <wire x1="-1018.54" y1="-251.46" x2="-1023.62" y2="-251.46" width="0.1524" layer="91"/>
 <wire x1="-934.72" y1="-160.02" x2="-1023.62" y2="-160.02" width="0.1524" layer="91"/>
@@ -10099,6 +9972,7 @@ MANUFACTURER:SAMTEC.</description>
 <wire x1="-1023.62" y1="-218.44" x2="-1023.62" y2="-160.02" width="0.1524" layer="91"/>
 <junction x="-1023.62" y="-218.44"/>
 <wire x1="-1049.02" y1="-223.52" x2="-1023.62" y2="-223.52" width="0.1524" layer="91"/>
+<pinref part="S3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$147" class="0">
@@ -10225,20 +10099,19 @@ MANUFACTURER:SAMTEC.</description>
 </net>
 <net name="N$156" class="0">
 <segment>
-<pinref part="S6" gate="G$1" pin="3"/>
 <pinref part="U$14" gate="G$1" pin="RESET/PIO0_0"/>
 <wire x1="-680.72" y1="-254" x2="-685.8" y2="-254" width="0.1524" layer="91"/>
 <wire x1="-596.9" y1="-162.56" x2="-685.8" y2="-162.56" width="0.1524" layer="91"/>
 <wire x1="-596.9" y1="-185.42" x2="-596.9" y2="-162.56" width="0.1524" layer="91"/>
 <pinref part="J6" gate="G$1" pin="10"/>
 <wire x1="-601.98" y1="-185.42" x2="-596.9" y2="-185.42" width="0.1524" layer="91"/>
-<wire x1="-685.8" y1="-254" x2="-685.8" y2="-228.6" width="0.1524" layer="91"/>
+<wire x1="-685.8" y1="-254" x2="-685.8" y2="-226.06" width="0.1524" layer="91"/>
 <pinref part="R58" gate="G$1" pin="1"/>
 <wire x1="-685.8" y1="-226.06" x2="-685.8" y2="-220.98" width="0.1524" layer="91"/>
 <wire x1="-685.8" y1="-220.98" x2="-685.8" y2="-162.56" width="0.1524" layer="91"/>
 <junction x="-685.8" y="-220.98"/>
 <wire x1="-711.2" y1="-226.06" x2="-685.8" y2="-226.06" width="0.1524" layer="91"/>
-<wire x1="-685.8" y1="-226.06" x2="-685.8" y2="-228.6" width="0.1524" layer="91"/>
+<pinref part="S5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$159" class="0">
@@ -10278,9 +10151,7 @@ MANUFACTURER:SAMTEC.</description>
 <pinref part="J6" gate="G$1" pin="9"/>
 <wire x1="-624.84" y1="-185.42" x2="-629.92" y2="-185.42" width="0.1524" layer="91"/>
 <junction x="-629.92" y="-185.42"/>
-<pinref part="S6" gate="G$1" pin="2"/>
-<wire x1="-731.52" y1="-231.14" x2="-734.06" y2="-231.14" width="0.1524" layer="91"/>
-<wire x1="-734.06" y1="-231.14" x2="-734.06" y2="-205.74" width="0.1524" layer="91"/>
+<wire x1="-734.06" y1="-226.06" x2="-734.06" y2="-205.74" width="0.1524" layer="91"/>
 <wire x1="-734.06" y1="-205.74" x2="-660.4" y2="-205.74" width="0.1524" layer="91"/>
 <wire x1="-660.4" y1="-205.74" x2="-660.4" y2="-200.66" width="0.1524" layer="91"/>
 <junction x="-660.4" y="-200.66"/>
@@ -10310,12 +10181,12 @@ MANUFACTURER:SAMTEC.</description>
 <pinref part="U$14" gate="G$1" pin="GND"/>
 <wire x1="-635" y1="-304.8" x2="-635" y2="-320.04" width="0.1524" layer="91"/>
 <junction x="-635" y="-320.04"/>
-<wire x1="-706.12" y1="-320.04" x2="-703.58" y2="-320.04" width="0.1524" layer="91"/>
 <junction x="-688.34" y="-320.04"/>
 <pinref part="R55" gate="G$1" pin="2"/>
-<wire x1="-703.58" y1="-320.04" x2="-688.34" y2="-320.04" width="0.1524" layer="91"/>
 <wire x1="-772.16" y1="-320.04" x2="-772.16" y2="-299.72" width="0.1524" layer="91"/>
-<wire x1="-706.12" y1="-320.04" x2="-772.16" y2="-320.04" width="0.1524" layer="91"/>
+<wire x1="-688.34" y1="-320.04" x2="-772.16" y2="-320.04" width="0.1524" layer="91"/>
+<pinref part="S5" gate="G$1" pin="1"/>
+<wire x1="-734.06" y1="-226.06" x2="-726.44" y2="-226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$144" class="0">
@@ -10340,9 +10211,7 @@ MANUFACTURER:SAMTEC.</description>
 <pinref part="J5" gate="G$1" pin="9"/>
 <wire x1="-962.66" y1="-182.88" x2="-967.74" y2="-182.88" width="0.1524" layer="91"/>
 <junction x="-967.74" y="-182.88"/>
-<pinref part="S5" gate="G$1" pin="2"/>
-<wire x1="-1069.34" y1="-228.6" x2="-1071.88" y2="-228.6" width="0.1524" layer="91"/>
-<wire x1="-1071.88" y1="-228.6" x2="-1071.88" y2="-203.2" width="0.1524" layer="91"/>
+<wire x1="-1071.88" y1="-223.52" x2="-1071.88" y2="-203.2" width="0.1524" layer="91"/>
 <wire x1="-1071.88" y1="-203.2" x2="-998.22" y2="-203.2" width="0.1524" layer="91"/>
 <wire x1="-998.22" y1="-203.2" x2="-998.22" y2="-198.12" width="0.1524" layer="91"/>
 <junction x="-998.22" y="-198.12"/>
@@ -10375,6 +10244,8 @@ MANUFACTURER:SAMTEC.</description>
 <wire x1="-1043.94" y1="-317.5" x2="-1026.16" y2="-317.5" width="0.1524" layer="91"/>
 <junction x="-1026.16" y="-317.5"/>
 <wire x1="-1043.94" y1="-269.24" x2="-1043.94" y2="-317.5" width="0.1524" layer="91"/>
+<pinref part="S3" gate="G$1" pin="1"/>
+<wire x1="-1071.88" y1="-223.52" x2="-1064.26" y2="-223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$146" class="0">

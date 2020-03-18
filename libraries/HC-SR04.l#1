@@ -144,12 +144,6 @@
 </gates>
 <devices>
 <device name="" package="XCVR_HC-SR04(NOSILK)">
-<connects>
-<connect gate="G$1" pin="ECHO" pad="3"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="TRIG" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
