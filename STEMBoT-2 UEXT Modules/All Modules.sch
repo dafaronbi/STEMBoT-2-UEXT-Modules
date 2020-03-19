@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -218,58 +218,6 @@ Source: http://docs-europe.electrocomponents.com/webdocs/08c3/0900766b808c36ca.p
 <rectangle x1="-0.6" y1="-0.6" x2="-0.2" y2="-0.2" layer="21"/>
 <rectangle x1="0.2" y1="0.2" x2="0.6" y2="0.6" layer="21"/>
 </package>
-<package name="LZR182" urn="urn:adsk.eagle:footprint:15644/1" library_version="5">
-<description>&lt;B&gt;LED BLOCK&lt;/B&gt;&lt;p&gt;
-2 LEDs, Siemens</description>
-<wire x1="1.27" y1="2.54" x2="1.27" y2="2.159" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="2.159" x2="1.27" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="2.159" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.381" x2="-1.27" y2="2.159" width="0.1524" layer="51"/>
-<wire x1="1.27" y1="-2.54" x2="1.27" y2="-2.159" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.381" x2="1.27" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.381" x2="1.27" y2="-2.159" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="0.381" x2="-1.27" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-2.159" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-2.159" x2="-1.27" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="1.27" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90"/>
-<wire x1="-0.508" y1="1.27" x2="0" y2="1.778" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="0.762" x2="0.508" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="0" y1="0.381" x2="0.889" y2="1.27" width="0.1524" layer="51" curve="90"/>
-<wire x1="-0.8678" y1="2.0139" x2="0" y2="2.413" width="0.1524" layer="21" curve="-49.396139"/>
-<wire x1="0" y1="2.413" x2="0.8678" y2="2.0139" width="0.1524" layer="21" curve="-49.396139"/>
-<wire x1="-0.8678" y1="0.5261" x2="0" y2="0.127" width="0.1524" layer="21" curve="49.396139"/>
-<wire x1="0" y1="0.127" x2="0.8678" y2="0.5261" width="0.1524" layer="21" curve="49.396139"/>
-<wire x1="0.8678" y1="2.0139" x2="1.1431" y2="1.27" width="0.1524" layer="51" curve="-40.602281"/>
-<wire x1="0.8678" y1="0.5261" x2="1.1429" y2="1.27" width="0.1524" layer="51" curve="40.60599"/>
-<wire x1="-1.143" y1="1.27" x2="-0.8677" y2="2.0139" width="0.1524" layer="51" curve="-40.60599"/>
-<wire x1="-1.143" y1="1.27" x2="-0.8678" y2="0.5261" width="0.1524" layer="51" curve="40.604135"/>
-<wire x1="-0.889" y1="-1.27" x2="0" y2="-0.381" width="0.1524" layer="51" curve="-90"/>
-<wire x1="-0.508" y1="-1.27" x2="0" y2="-0.762" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="-1.778" x2="0.508" y2="-1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="0" y1="-2.159" x2="0.889" y2="-1.27" width="0.1524" layer="51" curve="90"/>
-<wire x1="-0.8678" y1="-0.5261" x2="0" y2="-0.127" width="0.1524" layer="21" curve="-49.396139"/>
-<wire x1="0" y1="-0.127" x2="0.8678" y2="-0.5261" width="0.1524" layer="21" curve="-49.396139"/>
-<wire x1="-0.8678" y1="-2.0139" x2="0" y2="-2.413" width="0.1524" layer="21" curve="49.396139"/>
-<wire x1="0" y1="-2.413" x2="0.8678" y2="-2.0139" width="0.1524" layer="21" curve="49.396139"/>
-<wire x1="0.8678" y1="-0.5261" x2="1.1429" y2="-1.27" width="0.1524" layer="51" curve="-40.60599"/>
-<wire x1="0.8678" y1="-2.0139" x2="1.1431" y2="-1.27" width="0.1524" layer="51" curve="40.602281"/>
-<wire x1="-1.143" y1="-1.27" x2="-0.8678" y2="-0.5261" width="0.1524" layer="51" curve="-40.604135"/>
-<wire x1="-1.143" y1="-1.27" x2="-0.8677" y2="-2.0139" width="0.1524" layer="51" curve="40.60599"/>
-<pad name="A1" x="-1.27" y="1.27" drill="0.8128" shape="octagon"/>
-<pad name="K1" x="1.27" y="1.27" drill="0.8128" shape="octagon"/>
-<pad name="A2" x="-1.27" y="-1.27" drill="0.8128" shape="octagon"/>
-<pad name="K2" x="1.27" y="-1.27" drill="0.8128" shape="octagon"/>
-<text x="-1.2954" y="2.7432" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.1242" y="-2.794" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<text x="-3.175" y="0.635" size="1.27" layer="21" ratio="10">1</text>
-<text x="-3.302" y="-1.905" size="1.27" layer="21" ratio="10">2</text>
-<rectangle x1="1.27" y1="0.381" x2="1.524" y2="1.524" layer="51"/>
-<rectangle x1="-1.524" y1="1.016" x2="-1.27" y2="1.524" layer="51"/>
-<rectangle x1="1.27" y1="-2.159" x2="1.524" y2="-1.016" layer="51"/>
-<rectangle x1="-1.524" y1="-1.524" x2="-1.27" y2="-1.016" layer="51"/>
-</package>
 </packages>
 <packages3d>
 <package3d name="NFSG036BT" urn="urn:adsk.eagle:package:15848/1" type="box" library_version="5">
@@ -299,13 +247,6 @@ Inifineon</description>
 Source: http://docs-europe.electrocomponents.com/webdocs/08c3/0900766b808c36ca.pdf</description>
 <packageinstances>
 <packageinstance name="P-LCC4-0"/>
-</packageinstances>
-</package3d>
-<package3d name="LZR182" urn="urn:adsk.eagle:package:15802/1" type="box" library_version="5">
-<description>LED BLOCK
-2 LEDs, Siemens</description>
-<packageinstances>
-<packageinstance name="LZR182"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -415,32 +356,6 @@ Source: http://docs-europe.electrocomponents.com/webdocs/08c3/0900766b808c36ca.p
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15893/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LZR182" urn="urn:adsk.eagle:component:15905/3" prefix="DZ" library_version="5">
-<description>&lt;B&gt;LED BLOCK&lt;/B&gt;&lt;p&gt;
-2 LEDs, Siemens</description>
-<gates>
-<gate name="-1" symbol="LED" x="0" y="0" addlevel="always"/>
-<gate name="-2" symbol="LED" x="12.7" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="LZR182">
-<connects>
-<connect gate="-1" pin="A" pad="A1"/>
-<connect gate="-1" pin="C" pad="K1"/>
-<connect gate="-2" pin="A" pad="A2"/>
-<connect gate="-2" pin="C" pad="K2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15802/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -7168,7 +7083,6 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <part name="R39" library="Resistor" deviceset="ERJ-1RHD3601C" device=""/>
 <part name="U$1" library="UEXT-Connecotr" deviceset="UEXT-SMD" device=""/>
 <part name="IC1" library="74HC165PW_118" deviceset="74HC165PW,118" device=""/>
-<part name="DZ1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LZR182" device="" package3d_urn="urn:adsk.eagle:package:15802/1"/>
 <part name="Q2" library="MMBT3904LP-7" deviceset="MMBT3904LP-7" device=""/>
 <part name="R2" library="Resistor" deviceset="ERJ-1RHD3601C" device=""/>
 <part name="R15" library="Resistor" deviceset="ERJ-1RHD3601C" device=""/>
@@ -7190,7 +7104,6 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <part name="U1" library="TSL260R-LF" deviceset="TSL260R-LF" device=""/>
 <part name="U$2" library="UEXT-Connecotr" deviceset="UEXT-SMD" device=""/>
 <part name="IC2" library="74HC165PW_118" deviceset="74HC165PW,118" device=""/>
-<part name="DZ2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LZR182" device="" package3d_urn="urn:adsk.eagle:package:15802/1"/>
 <part name="Q3" library="MMBT3904LP-7" deviceset="MMBT3904LP-7" device=""/>
 <part name="R1" library="Resistor" deviceset="ERJ-1RHD3601C" device=""/>
 <part name="R24" library="Resistor" deviceset="ERJ-1RHD3601C" device=""/>
@@ -7265,6 +7178,8 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <part name="S6" library="B3U-1000P" deviceset="B3U-1000P" device=""/>
 <part name="S1" library="B3U-1000P" deviceset="B3U-1000P" device=""/>
 <part name="S2" library="B3U-1000P" deviceset="B3U-1000P" device=""/>
+<part name="LED9" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LSG-T676" device="" package3d_urn="urn:adsk.eagle:package:15893/1"/>
+<part name="LED10" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LSG-T676" device="" package3d_urn="urn:adsk.eagle:package:15893/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -7431,14 +7346,6 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <attribute name="NAME" x="-288.29" y="-160.02" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-288.29" y="-162.56" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="DZ1" gate="-1" x="-289.56" y="-132.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="-294.132" y="-135.636" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-294.132" y="-137.795" size="1.778" layer="96"/>
-</instance>
-<instance part="DZ1" gate="-2" x="-320.04" y="-137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="-315.468" y="-133.604" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-315.468" y="-131.445" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="Q2" gate="G$1" x="-304.8" y="-139.7" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-304.292" y="-129.54" size="2.54" layer="96" rot="R90"/>
 <attribute name="NAME" x="-315.468" y="-142.24" size="2.54" layer="95" rot="R90"/>
@@ -7522,14 +7429,6 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <instance part="IC2" gate="G$1" x="-297.18" y="10.16" smashed="yes">
 <attribute name="NAME" x="-275.59" y="17.78" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-275.59" y="15.24" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="DZ2" gate="-1" x="-276.86" y="45.72" smashed="yes" rot="R270">
-<attribute name="NAME" x="-281.432" y="42.164" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-281.432" y="40.005" size="1.778" layer="96"/>
-</instance>
-<instance part="DZ2" gate="-2" x="-307.34" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="-302.768" y="44.196" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-302.768" y="46.355" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="Q3" gate="G$1" x="-292.1" y="38.1" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-291.592" y="48.26" size="2.54" layer="96" rot="R90"/>
@@ -7821,6 +7720,22 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <instance part="S2" gate="G$1" x="109.22" y="-220.98" smashed="yes">
 <attribute name="NAME" x="106.68" y="-218.44" size="1.27" layer="95"/>
 <attribute name="VALUE" x="106.68" y="-223.52" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="LED9" gate="A" x="-276.86" y="45.72" smashed="yes" rot="R270">
+<attribute name="NAME" x="-281.432" y="42.164" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-281.432" y="40.005" size="1.778" layer="96"/>
+</instance>
+<instance part="LED9" gate="B" x="-307.34" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="-302.768" y="44.196" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-302.768" y="46.355" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED10" gate="A" x="-289.56" y="-132.08" smashed="yes" rot="R270">
+<attribute name="NAME" x="-294.132" y="-135.636" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-294.132" y="-137.795" size="1.778" layer="96"/>
+</instance>
+<instance part="LED10" gate="B" x="-320.04" y="-137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="-320.548" y="-146.304" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-320.548" y="-141.605" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -8327,17 +8242,11 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <wire x1="-304.8" y1="-142.24" x2="-304.8" y2="-144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="DZ1" gate="-1" pin="A"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="C"/>
-<pinref part="DZ1" gate="-2" pin="C"/>
 <wire x1="-309.88" y1="-137.16" x2="-314.96" y2="-137.16" width="0.1524" layer="91"/>
+<pinref part="LED10" gate="B" pin="C"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -8393,8 +8302,8 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <net name="N$18" class="0">
 <segment>
 <pinref part="R23" gate="G$1" pin="2"/>
-<pinref part="DZ1" gate="-2" pin="A"/>
 <wire x1="-325.12" y1="-137.16" x2="-322.58" y2="-137.16" width="0.1524" layer="91"/>
+<pinref part="LED10" gate="B" pin="A"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -8503,7 +8412,6 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <wire x1="-309.88" y1="-185.42" x2="-312.42" y2="-185.42" width="0.1524" layer="91"/>
 <wire x1="-312.42" y1="-185.42" x2="-312.42" y2="-226.06" width="0.1524" layer="91"/>
 <junction x="-312.42" y="-226.06"/>
-<pinref part="DZ1" gate="-1" pin="C"/>
 <wire x1="-294.64" y1="-132.08" x2="-353.06" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="-353.06" y1="-132.08" x2="-353.06" y2="-157.48" width="0.1524" layer="91"/>
 <wire x1="-353.06" y1="-157.48" x2="-325.12" y2="-157.48" width="0.1524" layer="91"/>
@@ -8519,6 +8427,7 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <wire x1="-365.76" y1="-195.58" x2="-370.84" y2="-195.58" width="0.1524" layer="91"/>
 <wire x1="-370.84" y1="-195.58" x2="-370.84" y2="-226.06" width="0.1524" layer="91"/>
 <junction x="-370.84" y="-226.06"/>
+<pinref part="LED10" gate="A" pin="C"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -8955,17 +8864,11 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <wire x1="-292.1" y1="35.56" x2="-292.1" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="DZ2" gate="-1" pin="A"/>
-<pinref part="R30" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="Q3" gate="G$1" pin="C"/>
-<pinref part="DZ2" gate="-2" pin="C"/>
 <wire x1="-297.18" y1="40.64" x2="-302.26" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="LED9" gate="B" pin="C"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -9021,8 +8924,8 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <net name="N$57" class="0">
 <segment>
 <pinref part="R40" gate="G$1" pin="2"/>
-<pinref part="DZ2" gate="-2" pin="A"/>
 <wire x1="-312.42" y1="40.64" x2="-309.88" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="LED9" gate="B" pin="A"/>
 </segment>
 </net>
 <net name="N$58" class="0">
@@ -9131,7 +9034,6 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <wire x1="-297.18" y1="-7.62" x2="-299.72" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-299.72" y1="-7.62" x2="-299.72" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="-299.72" y="-48.26"/>
-<pinref part="DZ2" gate="-1" pin="C"/>
 <wire x1="-281.94" y1="45.72" x2="-340.36" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-340.36" y1="45.72" x2="-340.36" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-340.36" y1="20.32" x2="-312.42" y2="20.32" width="0.1524" layer="91"/>
@@ -9148,6 +9050,7 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <wire x1="-353.06" y1="-17.78" x2="-360.68" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-360.68" y1="-17.78" x2="-360.68" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="-360.68" y="-48.26"/>
+<pinref part="LED9" gate="A" pin="C"/>
 </segment>
 </net>
 <net name="N$65" class="0">
@@ -10357,6 +10260,18 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <wire x1="-312.42" y1="-154.94" x2="-312.42" y2="-167.64" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="!PL"/>
 <wire x1="-312.42" y1="-167.64" x2="-309.88" y2="-167.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R30" gate="G$1" pin="1"/>
+<pinref part="LED9" gate="A" pin="A"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="LED10" gate="A" pin="A"/>
 </segment>
 </net>
 </nets>
