@@ -2186,7 +2186,6 @@ PC-16/16 mm carbon types&lt;p&gt;
 <package name="PC16S(NOSILK)">
 <description>&lt;b&gt;POTENTIOMETER&lt;/b&gt;&lt;p&gt;
 single carbon potentiometer, 16 mm</description>
-<wire x1="-2.9" y1="-44.9" x2="2.9" y2="-44.9" width="0.2032" layer="21"/>
 <pad name="1A" x="-5" y="6.5" drill="1.2" shape="long" rot="R90"/>
 <pad name="1S" x="0" y="6.5" drill="1.2" shape="long" rot="R90"/>
 <pad name="1E" x="5" y="6.5" drill="1.2" shape="long" rot="R90"/>
@@ -2438,25 +2437,25 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="-64.77" y="-548.64" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="87.63" y="73.66" size="0.8128" layer="28" ratio="10" rot="MR270" align="center" display="off"/>
 </element>
-<element name="C5" library="CAPACITORS" package="C0603" value="CAPACITORS-0603" x="71.12" y="48.26" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Unavailable" x="-87.63" y="-574.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value="  10pF ±5% 50V Ceramic Capacitor C0G, NP0 0201 _0603 Metric_ " x="-87.63" y="-574.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Panasonic" x="-87.63" y="-574.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="CAPACITORS" x="-87.63" y="-574.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="72.39" y="48.26" size="0.8128" layer="26" ratio="10" rot="MR270" align="center" display="off"/>
-<attribute name="PACKAGE" value="0201 Panasonic" x="-87.63" y="-574.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="-87.63" y="-574.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="69.85" y="48.26" size="0.8128" layer="28" ratio="10" rot="MR270" align="center" display="off"/>
+<element name="C5" library="CAPACITORS" package="C0603" value="CAPACITORS-0603" x="75.438" y="31.496" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="Unavailable" x="-83.312" y="-590.804" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value="  10pF ±5% 50V Ceramic Capacitor C0G, NP0 0201 _0603 Metric_ " x="-83.312" y="-590.804" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic" x="-83.312" y="-590.804" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="CAPACITORS" x="-83.312" y="-590.804" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="76.708" y="31.496" size="0.8128" layer="26" ratio="10" rot="MR270" align="center" display="off"/>
+<attribute name="PACKAGE" value="0201 Panasonic" x="-83.312" y="-590.804" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="-83.312" y="-590.804" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="74.168" y="31.496" size="0.8128" layer="28" ratio="10" rot="MR270" align="center" display="off"/>
 </element>
-<element name="C6" library="CAPACITORS" package="C0603" value="CAPACITORS-0603" x="68.58" y="48.26" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Unavailable" x="-95.25" y="-574.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value="  10pF ±5% 50V Ceramic Capacitor C0G, NP0 0201 _0603 Metric_ " x="-95.25" y="-574.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Panasonic" x="-95.25" y="-574.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="CAPACITORS" x="-95.25" y="-574.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="69.85" y="48.26" size="0.8128" layer="26" ratio="10" rot="MR270" align="center" display="off"/>
-<attribute name="PACKAGE" value="0201 Panasonic" x="-95.25" y="-574.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="-95.25" y="-574.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="67.31" y="48.26" size="0.8128" layer="28" ratio="10" rot="MR270" align="center" display="off"/>
+<element name="C6" library="CAPACITORS" package="C0603" value="CAPACITORS-0603" x="72.898" y="31.496" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="Unavailable" x="-90.932" y="-590.804" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value="  10pF ±5% 50V Ceramic Capacitor C0G, NP0 0201 _0603 Metric_ " x="-90.932" y="-590.804" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic" x="-90.932" y="-590.804" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="CAPACITORS" x="-90.932" y="-590.804" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="74.168" y="31.496" size="0.8128" layer="26" ratio="10" rot="MR270" align="center" display="off"/>
+<attribute name="PACKAGE" value="0201 Panasonic" x="-90.932" y="-590.804" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="-90.932" y="-590.804" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="71.628" y="31.496" size="0.8128" layer="28" ratio="10" rot="MR270" align="center" display="off"/>
 </element>
 <element name="C7" library="CAPACITORS" package="C0603" value="CAPACITORS-0603" x="29.21" y="48.26" smashed="yes" rot="MR0">
 <attribute name="AVAILABILITY" value="Unavailable" x="-139.7" y="-574.04" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2488,55 +2487,55 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="-148.59" y="-548.64" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="29.21" y="73.66" size="0.8128" layer="28" ratio="10" rot="MR270" align="center" display="off"/>
 </element>
-<element name="D1" library="led" library_urn="urn:adsk.eagle:library:259" package="SFH482" package3d_urn="urn:adsk.eagle:package:15795/1" value="SFH482" x="110.49" y="48.26" smashed="yes">
-<attribute name="NAME" x="107.95" y="52.578" size="1.27" layer="25" ratio="10" display="off"/>
-<attribute name="POPULARITY" value="0" x="477.52" y="-574.04" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="109.22" y="43.942" size="1.27" layer="27" ratio="10" display="off"/>
+<element name="D1" library="led" library_urn="urn:adsk.eagle:library:259" package="SFH482" package3d_urn="urn:adsk.eagle:package:15795/1" value="SFH482" x="111.252" y="48.006" smashed="yes">
+<attribute name="NAME" x="108.712" y="52.324" size="1.27" layer="25" ratio="10" display="off"/>
+<attribute name="POPULARITY" value="0" x="478.282" y="-574.294" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="109.982" y="43.688" size="1.27" layer="27" ratio="10" display="off"/>
 </element>
-<element name="D2" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BP104" package3d_urn="urn:adsk.eagle:package:21790/1" value="BP104" x="120.65" y="48.26" smashed="yes" rot="R90">
-<attribute name="MF" value="VISHAY/TELEFUNKEN" x="759.46" y="220.98" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="BP104" x="759.46" y="220.98" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="122.555" y="45.974" size="1.27" layer="25" ratio="10" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1779636" x="759.46" y="220.98" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="14M4504" x="759.46" y="220.98" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULARITY" value="0" x="759.46" y="220.98" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="122.555" y="51.816" size="1.27" layer="27" ratio="10" rot="R180" display="off"/>
+<element name="D2" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BP104" package3d_urn="urn:adsk.eagle:package:21790/1" value="BP104" x="121.92" y="48.26" smashed="yes" rot="R90">
+<attribute name="MF" value="VISHAY/TELEFUNKEN" x="760.73" y="220.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="BP104" x="760.73" y="220.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="123.825" y="45.974" size="1.27" layer="25" ratio="10" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="1779636" x="760.73" y="220.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="14M4504" x="760.73" y="220.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="0" x="760.73" y="220.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="123.825" y="51.816" size="1.27" layer="27" ratio="10" rot="R180" display="off"/>
 </element>
-<element name="D3" library="led" library_urn="urn:adsk.eagle:library:259" package="SFH482" package3d_urn="urn:adsk.eagle:package:15795/1" value="SFH482" x="76.2" y="46.99" smashed="yes">
-<attribute name="NAME" x="74.93" y="50.038" size="1.27" layer="25" ratio="10" display="off"/>
-<attribute name="POPULARITY" value="0" x="95.25" y="-593.09" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="74.93" y="42.672" size="1.27" layer="27" ratio="10" display="off"/>
+<element name="D3" library="led" library_urn="urn:adsk.eagle:library:259" package="SFH482" package3d_urn="urn:adsk.eagle:package:15795/1" value="SFH482" x="70.104" y="47.498" smashed="yes">
+<attribute name="NAME" x="68.834" y="50.546" size="1.27" layer="25" ratio="10" display="off"/>
+<attribute name="POPULARITY" value="0" x="89.154" y="-592.582" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="68.834" y="43.18" size="1.27" layer="27" ratio="10" display="off"/>
 </element>
-<element name="D4" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BP104" package3d_urn="urn:adsk.eagle:package:21790/1" value="BP104" x="74.93" y="31.75" smashed="yes" rot="R90">
-<attribute name="MF" value="VISHAY/TELEFUNKEN" x="713.74" y="213.36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="BP104" x="713.74" y="213.36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="76.835" y="29.464" size="1.27" layer="25" ratio="10" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1779636" x="713.74" y="213.36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="14M4504" x="713.74" y="213.36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULARITY" value="0" x="713.74" y="213.36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="76.835" y="35.306" size="1.27" layer="27" ratio="10" rot="R180" display="off"/>
+<element name="D4" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BP104" package3d_urn="urn:adsk.eagle:package:21790/1" value="BP104" x="82.55" y="47.498" smashed="yes" rot="R90">
+<attribute name="MF" value="VISHAY/TELEFUNKEN" x="721.36" y="229.108" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="BP104" x="721.36" y="229.108" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="84.455" y="45.212" size="1.27" layer="25" ratio="10" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="1779636" x="721.36" y="229.108" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="14M4504" x="721.36" y="229.108" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="0" x="721.36" y="229.108" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="84.455" y="51.054" size="1.27" layer="27" ratio="10" rot="R180" display="off"/>
 </element>
-<element name="DZ1" library="led" library_urn="urn:adsk.eagle:library:259" package="LZR182" package3d_urn="urn:adsk.eagle:package:15802/1" value="LZR182" x="104.14" y="30.48" smashed="yes">
-<attribute name="NAME" x="102.8446" y="33.2232" size="1.016" layer="25" ratio="10" display="off"/>
-<attribute name="POPULARITY" value="0" x="260.35" y="-608.33" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="107.2642" y="27.686" size="1.016" layer="27" ratio="10" rot="R90" display="off"/>
+<element name="DZ1" library="led" library_urn="urn:adsk.eagle:library:259" package="LZR182" package3d_urn="urn:adsk.eagle:package:15802/1" value="LZR182" x="89.408" y="31.496" smashed="yes">
+<attribute name="NAME" x="88.1126" y="34.2392" size="1.016" layer="25" ratio="10" display="off"/>
+<attribute name="POPULARITY" value="0" x="245.618" y="-607.314" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="92.5322" y="28.702" size="1.016" layer="27" ratio="10" rot="R90" display="off"/>
 </element>
 <element name="DZ2" library="led" library_urn="urn:adsk.eagle:library:259" package="LZR182" package3d_urn="urn:adsk.eagle:package:15802/1" value="LZR182" x="109.22" y="55.88" smashed="yes">
 <attribute name="NAME" x="107.9246" y="58.6232" size="1.016" layer="25" ratio="10" display="off"/>
 <attribute name="POPULARITY" value="0" x="273.05" y="-582.93" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="112.3442" y="53.086" size="1.016" layer="27" ratio="10" rot="R90" display="off"/>
 </element>
-<element name="IC1" library="74HC165PW_118" package="SOP65P640X110-16N" value="74HC165PW,118" x="96.52" y="34.29" smashed="yes">
-<attribute name="DESCRIPTION" value="74HC(T)165 - 8-bit parallel-in/serial-out shift register@en-us" x="368.3" y="-604.52" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="368.3" y="-604.52" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="368.3" y="-604.52" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="74HC165PW,118" x="368.3" y="-604.52" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-74HC165PW-T" x="368.3" y="-604.52" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=771-74HC165PW-T" x="368.3" y="-604.52" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="96.52" y="34.29" size="1.27" layer="25" align="center" display="off"/>
-<attribute name="RS_PART_NUMBER" value="" x="368.3" y="-604.52" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="368.3" y="-604.52" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="96.52" y="34.29" size="1.27" layer="27" align="center" display="off"/>
+<element name="IC1" library="74HC165PW_118" package="SOP65P640X110-16N" value="74HC165PW,118" x="96.52" y="31.75" smashed="yes">
+<attribute name="DESCRIPTION" value="74HC(T)165 - 8-bit parallel-in/serial-out shift register@en-us" x="368.3" y="-607.06" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="368.3" y="-607.06" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="368.3" y="-607.06" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="74HC165PW,118" x="368.3" y="-607.06" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-74HC165PW-T" x="368.3" y="-607.06" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=771-74HC165PW-T" x="368.3" y="-607.06" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="96.52" y="31.75" size="1.27" layer="25" align="center" display="off"/>
+<attribute name="RS_PART_NUMBER" value="" x="368.3" y="-607.06" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="368.3" y="-607.06" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="96.52" y="31.75" size="1.27" layer="27" align="center" display="off"/>
 </element>
 <element name="IC2" library="74HC165PW_118" package="SOP65P640X110-16N" value="74HC165PW,118" x="116.84" y="59.69" smashed="yes">
 <attribute name="DESCRIPTION" value="74HC(T)165 - 8-bit parallel-in/serial-out shift register@en-us" x="403.86" y="-579.12" size="1.778" layer="27" display="off"/>
@@ -2626,10 +2625,10 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="0" x="152.4" y="-607.06" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="114.3" y="29.21" size="1.27" layer="27" rot="R90" display="off"/>
 </element>
-<element name="PH1" library="photo-elements" library_urn="urn:adsk.eagle:library:323" package="TO46-VT200" package3d_urn="urn:adsk.eagle:package:22223/1" value="VT20N1" x="90.17" y="31.75" smashed="yes">
-<attribute name="NAME" x="87.92" y="27.5" size="1.27" layer="25" display="off"/>
-<attribute name="POPULARITY" value="1" x="116.84" y="-608.33" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="87.42" y="34.75" size="1.27" layer="27" display="off"/>
+<element name="PH1" library="photo-elements" library_urn="urn:adsk.eagle:library:323" package="TO46-VT200" package3d_urn="urn:adsk.eagle:package:22223/1" value="VT20N1" x="97.282" y="47.752" smashed="yes">
+<attribute name="NAME" x="95.032" y="43.502" size="1.27" layer="25" display="off"/>
+<attribute name="POPULARITY" value="1" x="123.952" y="-592.328" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="94.532" y="50.752" size="1.27" layer="27" display="off"/>
 </element>
 <element name="PH2" library="photo-elements" library_urn="urn:adsk.eagle:library:323" package="TO46-VT200" package3d_urn="urn:adsk.eagle:package:22223/1" value="VT20N1" x="35.56" y="72.39" smashed="yes">
 <attribute name="NAME" x="33.31" y="68.14" size="1.27" layer="25" display="off"/>
@@ -2646,25 +2645,25 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="DFN-3 Diodes Inc." x="-107.95" y="-615.95" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="124.045" y="30.905" size="0.254" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="Q2" library="MMBT3904LP-7" package="DFN101X61X53-3N" value="MMBT3904LP-7" x="88.9" y="34.29" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value=" Bipolar _BJT_ Transistor NPN 40V 200mA 300MHz 250mW Surface Mount 3-DFN1006 _1.0x0.6_ " x="-146.05" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="MMBT3904LP-7DICT-ND" x="-146.05" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/diodes-incorporated/MMBT3904LP-7/MMBT3904LP-7DICT-ND/8283872?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-146.05" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="-146.05" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="MMBT3904LP-7" x="-146.05" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="89.755" y="34.865" size="0.254" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="DFN-3 Diodes Inc." x="-146.05" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="89.755" y="33.445" size="0.254" layer="28" rot="MR0" display="off"/>
+<element name="Q2" library="MMBT3904LP-7" package="DFN101X61X53-3N" value="MMBT3904LP-7" x="88.9" y="31.75" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value=" Bipolar _BJT_ Transistor NPN 40V 200mA 300MHz 250mW Surface Mount 3-DFN1006 _1.0x0.6_ " x="-146.05" y="-615.95" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="MMBT3904LP-7DICT-ND" x="-146.05" y="-615.95" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/diodes-incorporated/MMBT3904LP-7/MMBT3904LP-7DICT-ND/8283872?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-146.05" y="-615.95" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="-146.05" y="-615.95" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="MMBT3904LP-7" x="-146.05" y="-615.95" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="89.755" y="32.325" size="0.254" layer="26" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="DFN-3 Diodes Inc." x="-146.05" y="-615.95" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="89.755" y="30.905" size="0.254" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="Q3" library="MMBT3904LP-7" package="DFN101X61X53-3N" value="MMBT3904LP-7" x="116.84" y="59.69" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value=" Bipolar _BJT_ Transistor NPN 40V 200mA 300MHz 250mW Surface Mount 3-DFN1006 _1.0x0.6_ " x="-121.92" y="-588.01" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="MMBT3904LP-7DICT-ND" x="-121.92" y="-588.01" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/diodes-incorporated/MMBT3904LP-7/MMBT3904LP-7DICT-ND/8283872?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-121.92" y="-588.01" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="-121.92" y="-588.01" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="MMBT3904LP-7" x="-121.92" y="-588.01" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="117.695" y="60.265" size="0.254" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="DFN-3 Diodes Inc." x="-121.92" y="-588.01" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="117.695" y="58.845" size="0.254" layer="28" rot="MR0" display="off"/>
+<element name="Q3" library="MMBT3904LP-7" package="DFN101X61X53-3N" value="MMBT3904LP-7" x="109.22" y="52.578" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value=" Bipolar _BJT_ Transistor NPN 40V 200mA 300MHz 250mW Surface Mount 3-DFN1006 _1.0x0.6_ " x="-129.54" y="-595.122" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="MMBT3904LP-7DICT-ND" x="-129.54" y="-595.122" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/diodes-incorporated/MMBT3904LP-7/MMBT3904LP-7DICT-ND/8283872?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-129.54" y="-595.122" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="-129.54" y="-595.122" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="MMBT3904LP-7" x="-129.54" y="-595.122" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="110.075" y="53.153" size="0.254" layer="26" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="DFN-3 Diodes Inc." x="-129.54" y="-595.122" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="110.075" y="51.733" size="0.254" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R1" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="121.92" y="59.69" smashed="yes" rot="MR0">
 <attribute name="AVAILABILITY" value="Unavailable" x="-193.04" y="-577.85" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2726,79 +2725,79 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="87.63" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="118.838253125" y="33.315321875" size="0.4071" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R15" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="104.14" y="36.83" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Unavailable" x="67.31" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="67.31" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Panasonic" x="67.31" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="ERJ-1RHD3601C" x="67.31" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="104.74105" y="37.330875" size="0.4071125" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="0201 Panasonic" x="67.31" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="67.31" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="104.868253125" y="35.855321875" size="0.4071" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="R16" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="101.6" y="36.83" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Unavailable" x="58.42" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="58.42" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Panasonic" x="58.42" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="ERJ-1RHD3601C" x="58.42" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="102.20105" y="37.330875" size="0.4071125" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="0201 Panasonic" x="58.42" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="58.42" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="102.328253125" y="35.855321875" size="0.4071" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="R17" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="99.06" y="36.83" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Unavailable" x="49.53" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="49.53" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Panasonic" x="49.53" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="ERJ-1RHD3601C" x="49.53" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="99.66105" y="37.330875" size="0.4071125" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="0201 Panasonic" x="49.53" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="49.53" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="99.788253125" y="35.855321875" size="0.4071" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="R18" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="91.44" y="36.83" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Unavailable" x="35.56" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="35.56" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Panasonic" x="35.56" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="ERJ-1RHD3601C" x="35.56" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="92.04105" y="37.330875" size="0.4071125" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="0201 Panasonic" x="35.56" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="35.56" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="92.168253125" y="35.855321875" size="0.4071" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="R19" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="96.52" y="36.83" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Unavailable" x="34.29" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="34.29" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Panasonic" x="34.29" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="ERJ-1RHD3601C" x="34.29" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="97.12105" y="37.330875" size="0.4071125" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="0201 Panasonic" x="34.29" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="34.29" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="97.248253125" y="35.855321875" size="0.4071" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="R2" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="104.14" y="34.29" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Unavailable" x="-217.17" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="-217.17" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Panasonic" x="-217.17" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="ERJ-1RHD3601C" x="-217.17" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R15" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="104.14" y="34.29" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="Unavailable" x="67.31" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="67.31" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic" x="67.31" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="ERJ-1RHD3601C" x="67.31" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="104.74105" y="34.790875" size="0.4071125" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="0201 Panasonic" x="-217.17" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="-217.17" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="0201 Panasonic" x="67.31" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="67.31" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="104.868253125" y="33.315321875" size="0.4071" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="R16" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="101.6" y="34.29" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="Unavailable" x="58.42" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="58.42" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic" x="58.42" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="ERJ-1RHD3601C" x="58.42" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="102.20105" y="34.790875" size="0.4071125" layer="26" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="0201 Panasonic" x="58.42" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="58.42" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="102.328253125" y="33.315321875" size="0.4071" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="R17" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="99.06" y="34.29" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="Unavailable" x="49.53" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="49.53" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic" x="49.53" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="ERJ-1RHD3601C" x="49.53" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="99.66105" y="34.790875" size="0.4071125" layer="26" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="0201 Panasonic" x="49.53" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="49.53" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="99.788253125" y="33.315321875" size="0.4071" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="R18" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="91.44" y="34.29" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="Unavailable" x="35.56" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="35.56" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic" x="35.56" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="ERJ-1RHD3601C" x="35.56" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="92.04105" y="34.790875" size="0.4071125" layer="26" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="0201 Panasonic" x="35.56" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="35.56" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="92.168253125" y="33.315321875" size="0.4071" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="R19" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="96.52" y="34.29" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="Unavailable" x="34.29" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="34.29" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic" x="34.29" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="ERJ-1RHD3601C" x="34.29" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="97.12105" y="34.790875" size="0.4071125" layer="26" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="0201 Panasonic" x="34.29" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="34.29" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="97.248253125" y="33.315321875" size="0.4071" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="R2" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="104.14" y="31.75" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="Unavailable" x="-217.17" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="-217.17" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic" x="-217.17" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="ERJ-1RHD3601C" x="-217.17" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="104.74105" y="32.250875" size="0.4071125" layer="26" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="0201 Panasonic" x="-217.17" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="-217.17" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="104.868253125" y="30.775321875" size="0.4071" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R20" library="piher" package="PC16S(NOSILK)" value="PC16S(NOSILK)" x="115.57" y="80.01" smashed="yes" rot="R180">
 <attribute name="NAME" x="123.89" y="79.49" size="1.27" layer="25" rot="R270" display="off"/>
 <attribute name="VALUE" x="105.67" y="79.49" size="1.27" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R21" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="93.98" y="36.83" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Unavailable" x="25.4" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="25.4" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Panasonic" x="25.4" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="ERJ-1RHD3601C" x="25.4" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="94.58105" y="37.330875" size="0.4071125" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="0201 Panasonic" x="25.4" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="25.4" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="94.708253125" y="35.855321875" size="0.4071" layer="28" rot="MR0" display="off"/>
+<element name="R21" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="93.98" y="34.29" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="Unavailable" x="25.4" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="25.4" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic" x="25.4" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="ERJ-1RHD3601C" x="25.4" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="94.58105" y="34.790875" size="0.4071125" layer="26" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="0201 Panasonic" x="25.4" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="25.4" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="94.708253125" y="33.315321875" size="0.4071" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="1k" x="48.26" y="38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.99" y="36.83" size="1.27" layer="25" rot="R90" display="off"/>
@@ -2806,15 +2805,15 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="687.07" y="248.92" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="50.8" y="36.83" size="1.27" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R23" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="88.9" y="36.83" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Unavailable" x="13.97" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="13.97" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Panasonic" x="13.97" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="ERJ-1RHD3601C" x="13.97" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="89.50105" y="37.330875" size="0.4071125" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="0201 Panasonic" x="13.97" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="13.97" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="89.628253125" y="35.855321875" size="0.4071" layer="28" rot="MR0" display="off"/>
+<element name="R23" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="88.9" y="34.29" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="Unavailable" x="13.97" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="13.97" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic" x="13.97" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="ERJ-1RHD3601C" x="13.97" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="89.50105" y="34.790875" size="0.4071125" layer="26" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="0201 Panasonic" x="13.97" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="13.97" y="-613.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="89.628253125" y="33.315321875" size="0.4071" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R24" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="124.46" y="62.23" smashed="yes" rot="MR0">
 <attribute name="AVAILABILITY" value="Unavailable" x="43.18" y="-585.47" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2876,15 +2875,15 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="-1.27" y="-585.47" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="112.488253125" y="61.255321875" size="0.4071" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R3" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="100.33" y="34.29" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Unavailable" x="-227.33" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="-227.33" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Panasonic" x="-227.33" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="ERJ-1RHD3601C" x="-227.33" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="100.93105" y="34.790875" size="0.4071125" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="0201 Panasonic" x="-227.33" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="-227.33" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="101.058253125" y="33.315321875" size="0.4071" layer="28" rot="MR0" display="off"/>
+<element name="R3" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="100.33" y="31.75" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="Unavailable" x="-227.33" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="-227.33" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic" x="-227.33" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="ERJ-1RHD3601C" x="-227.33" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="100.93105" y="32.250875" size="0.4071125" layer="26" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="0201 Panasonic" x="-227.33" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="-227.33" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="101.058253125" y="30.775321875" size="0.4071" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R30" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="109.22" y="62.23" smashed="yes" rot="MR0">
 <attribute name="AVAILABILITY" value="Unavailable" x="-10.16" y="-585.47" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2986,15 +2985,15 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="-55.88" y="-614.68" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="121.378253125" y="32.045321875" size="0.4071" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R4" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="96.52" y="34.29" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Unavailable" x="-237.49" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="-237.49" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Panasonic" x="-237.49" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="ERJ-1RHD3601C" x="-237.49" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="97.12105" y="34.790875" size="0.4071125" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="0201 Panasonic" x="-237.49" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="-237.49" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="97.248253125" y="33.315321875" size="0.4071" layer="28" rot="MR0" display="off"/>
+<element name="R4" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="96.52" y="31.75" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="Unavailable" x="-237.49" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="-237.49" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic" x="-237.49" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="ERJ-1RHD3601C" x="-237.49" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="97.12105" y="32.250875" size="0.4071125" layer="26" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="0201 Panasonic" x="-237.49" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="-237.49" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="97.248253125" y="30.775321875" size="0.4071" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R40" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="109.22" y="59.69" smashed="yes" rot="MR0">
 <attribute name="AVAILABILITY" value="Unavailable" x="-73.66" y="-588.01" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3072,15 +3071,15 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="-133.35" y="-610.87" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="69.308253125" y="35.855321875" size="0.4071" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R5" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="93.98" y="34.29" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Unavailable" x="-246.38" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="-246.38" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Panasonic" x="-246.38" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="ERJ-1RHD3601C" x="-246.38" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="94.58105" y="34.790875" size="0.4071125" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="0201 Panasonic" x="-246.38" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="-246.38" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="94.708253125" y="33.315321875" size="0.4071" layer="28" rot="MR0" display="off"/>
+<element name="R5" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="93.98" y="31.75" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="Unavailable" x="-246.38" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="-246.38" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic" x="-246.38" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="ERJ-1RHD3601C" x="-246.38" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="94.58105" y="32.250875" size="0.4071125" layer="26" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="0201 Panasonic" x="-246.38" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="-246.38" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="94.708253125" y="30.775321875" size="0.4071" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R50" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="68.58" y="39.37" smashed="yes" rot="MR0">
 <attribute name="AVAILABILITY" value="Unavailable" x="-139.7" y="-608.33" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3162,15 +3161,15 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-576.58" y="273.05" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="59.69" y="66.04" size="1.27" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R8" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="91.44" y="34.29" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Unavailable" x="-255.27" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="-255.27" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Panasonic" x="-255.27" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="ERJ-1RHD3601C" x="-255.27" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="92.04105" y="34.790875" size="0.4071125" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="0201 Panasonic" x="-255.27" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="-255.27" y="-603.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="92.168253125" y="33.315321875" size="0.4071" layer="28" rot="MR0" display="off"/>
+<element name="R8" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="91.44" y="31.75" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="Unavailable" x="-255.27" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" 0201 chip resistor 0201 SMD resistor 3600ohm 0.5% " x="-255.27" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic" x="-255.27" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="ERJ-1RHD3601C" x="-255.27" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="92.04105" y="32.250875" size="0.4071125" layer="26" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="0201 Panasonic" x="-255.27" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="-255.27" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="92.168253125" y="30.775321875" size="0.4071" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R9" library="Resistor" package="RESC0603X26N" value="ERJ-1RHD3601C" x="110.49" y="31.75" smashed="yes" rot="MR0">
 <attribute name="AVAILABILITY" value="Unavailable" x="-242.57" y="-605.79" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3276,15 +3275,15 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="312.42" y="-440.69" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="48.88" y="55.04" size="1.27" layer="27" align="top-left" display="off"/>
 </element>
-<element name="U4" library="SN74HC148D" package="SOIC127P600X175-16N" value="SN74HC148D" x="119.38" y="38.1" smashed="yes">
-<attribute name="AVAILABILITY" value="Unavailable" x="448.31" y="-459.74" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" IC 8-TO-3 PRIORITY ENCOD 16-SOIC " x="448.31" y="-459.74" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Texas Instruments" x="448.31" y="-459.74" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="SN74HC148D" x="448.31" y="-459.74" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="112.205" y="48.5572" size="2.08635" layer="25" ratio="10" rot="SR0" display="off"/>
-<attribute name="PACKAGE" value="SOIC-16 Texas Instruments" x="448.31" y="-459.74" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="448.31" y="-459.74" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="111.45436875" y="34.44201875" size="2.08301875" layer="27" ratio="10" rot="SR0" display="off"/>
+<element name="U4" library="SN74HC148D" package="SOIC127P600X175-16N" value="SN74HC148D" x="118.618" y="36.322" smashed="yes">
+<attribute name="AVAILABILITY" value="Unavailable" x="447.548" y="-461.518" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" IC 8-TO-3 PRIORITY ENCOD 16-SOIC " x="447.548" y="-461.518" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="447.548" y="-461.518" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="SN74HC148D" x="447.548" y="-461.518" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="111.443" y="46.7792" size="2.08635" layer="25" ratio="10" rot="SR0" display="off"/>
+<attribute name="PACKAGE" value="SOIC-16 Texas Instruments" x="447.548" y="-461.518" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="447.548" y="-461.518" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="110.69236875" y="32.66401875" size="2.08301875" layer="27" ratio="10" rot="SR0" display="off"/>
 </element>
 <element name="U5" library="MAX964ESET" package="SOIC127P600X175-16N" value="MAX964ESET" x="120.65" y="40.64" smashed="yes" rot="MR0">
 <attribute name="AVAILABILITY" value="Unavailable" x="59.69" y="-584.2" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3306,55 +3305,55 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="36.83" y="-584.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="115.73" y="35.403" size="1.27" layer="28" rot="MR0" align="top-left" display="off"/>
 </element>
-<element name="U7" library="SN74HC148D" package="SOIC127P600X175-16N" value="SN74HC148D" x="99.06" y="38.1" smashed="yes">
-<attribute name="AVAILABILITY" value="Unavailable" x="448.31" y="-459.74" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" IC 8-TO-3 PRIORITY ENCOD 16-SOIC " x="448.31" y="-459.74" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Texas Instruments" x="448.31" y="-459.74" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="SN74HC148D" x="448.31" y="-459.74" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="91.885" y="48.5572" size="2.08635" layer="25" ratio="10" rot="SR0" display="off"/>
-<attribute name="PACKAGE" value="SOIC-16 Texas Instruments" x="448.31" y="-459.74" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="448.31" y="-459.74" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="91.13436875" y="34.44201875" size="2.08301875" layer="27" ratio="10" rot="SR0" display="off"/>
+<element name="U7" library="SN74HC148D" package="SOIC127P600X175-16N" value="SN74HC148D" x="99.06" y="35.56" smashed="yes">
+<attribute name="AVAILABILITY" value="Unavailable" x="448.31" y="-462.28" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" IC 8-TO-3 PRIORITY ENCOD 16-SOIC " x="448.31" y="-462.28" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="448.31" y="-462.28" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="SN74HC148D" x="448.31" y="-462.28" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="91.885" y="46.0172" size="2.08635" layer="25" ratio="10" rot="SR0" display="off"/>
+<attribute name="PACKAGE" value="SOIC-16 Texas Instruments" x="448.31" y="-462.28" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="448.31" y="-462.28" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="91.13436875" y="31.90201875" size="2.08301875" layer="27" ratio="10" rot="SR0" display="off"/>
 </element>
-<element name="U8" library="MAX964ESET" package="SOIC127P600X175-16N" value="MAX964ESET" x="101.6" y="43.18" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Unavailable" x="12.7" y="-581.66" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" Linear IC - Comparator Maxim Integrated MAX964ESE+ Multi-purpose CMOS, TTL SOIC 16 " x="12.7" y="-581.66" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Maxim Integrated" x="12.7" y="-581.66" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="MAX964ESE+" x="12.7" y="-581.66" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="105.57" y="48.417" size="1.27" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="SOIC-16 Maxim" x="12.7" y="-581.66" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="12.7" y="-581.66" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="105.57" y="37.943" size="1.27" layer="28" rot="MR0" align="top-left" display="off"/>
+<element name="U8" library="MAX964ESET" package="SOIC127P600X175-16N" value="MAX964ESET" x="101.6" y="40.64" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="Unavailable" x="12.7" y="-584.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" Linear IC - Comparator Maxim Integrated MAX964ESE+ Multi-purpose CMOS, TTL SOIC 16 " x="12.7" y="-584.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Maxim Integrated" x="12.7" y="-584.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="MAX964ESE+" x="12.7" y="-584.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="105.57" y="45.877" size="1.27" layer="26" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="SOIC-16 Maxim" x="12.7" y="-584.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="12.7" y="-584.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="105.57" y="35.403" size="1.27" layer="28" rot="MR0" align="top-left" display="off"/>
 </element>
-<element name="U9" library="MAX964ESET" package="SOIC127P600X175-16N" value="MAX964ESET" x="92.71" y="43.18" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="Unavailable" x="-10.16" y="-581.66" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" Linear IC - Comparator Maxim Integrated MAX964ESE+ Multi-purpose CMOS, TTL SOIC 16 " x="-10.16" y="-581.66" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Maxim Integrated" x="-10.16" y="-581.66" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="MAX964ESE+" x="-10.16" y="-581.66" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="96.68" y="48.417" size="1.27" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="SOIC-16 Maxim" x="-10.16" y="-581.66" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="-10.16" y="-581.66" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="96.68" y="37.943" size="1.27" layer="28" rot="MR0" align="top-left" display="off"/>
+<element name="U9" library="MAX964ESET" package="SOIC127P600X175-16N" value="MAX964ESET" x="92.71" y="40.64" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="Unavailable" x="-10.16" y="-584.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" Linear IC - Comparator Maxim Integrated MAX964ESE+ Multi-purpose CMOS, TTL SOIC 16 " x="-10.16" y="-584.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Maxim Integrated" x="-10.16" y="-584.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="MAX964ESE+" x="-10.16" y="-584.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="96.68" y="45.877" size="1.27" layer="26" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="SOIC-16 Maxim" x="-10.16" y="-584.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="-10.16" y="-584.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="96.68" y="35.403" size="1.27" layer="28" rot="MR0" align="top-left" display="off"/>
 </element>
-<element name="VR1" library="TrimmerPot" package="TRIM_PVG3A200C01R00" value="PVG3A200C01R00" x="123.19" y="31.75" smashed="yes">
-<attribute name="AVAILABILITY" value="Unavailable" x="261.62" y="-607.06" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" 20 Ohms 0.25W, 1/4W J Lead Surface Mount Trimmer Potentiometer Cermet 1 Turn Top Adjustment " x="261.62" y="-607.06" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Bourns" x="261.62" y="-607.06" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="PVG3A200C01R00" x="261.62" y="-607.06" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="121.15778125" y="34.29026875" size="0.8128875" layer="25" display="off"/>
-<attribute name="PACKAGE" value="TO-221 Bourns" x="261.62" y="-607.06" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="261.62" y="-607.06" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="121.1555" y="28.44393125" size="0.8138" layer="27" display="off"/>
+<element name="VR1" library="TrimmerPot" package="TRIM_PVG3A200C01R00" value="PVG3A200C01R00" x="116.332" y="48.006" smashed="yes">
+<attribute name="AVAILABILITY" value="Unavailable" x="254.762" y="-590.804" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 20 Ohms 0.25W, 1/4W J Lead Surface Mount Trimmer Potentiometer Cermet 1 Turn Top Adjustment " x="254.762" y="-590.804" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Bourns" x="254.762" y="-590.804" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="PVG3A200C01R00" x="254.762" y="-590.804" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="114.29978125" y="50.54626875" size="0.8128875" layer="25" display="off"/>
+<attribute name="PACKAGE" value="TO-221 Bourns" x="254.762" y="-590.804" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="254.762" y="-590.804" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="114.2975" y="44.69993125" size="0.8138" layer="27" display="off"/>
 </element>
-<element name="VR2" library="TrimmerPot" package="TRIM_PVG3A200C01R00" value="PVG3A200C01R00" x="82.55" y="46.99" smashed="yes">
-<attribute name="AVAILABILITY" value="Unavailable" x="232.41" y="-591.82" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" 20 Ohms 0.25W, 1/4W J Lead Surface Mount Trimmer Potentiometer Cermet 1 Turn Top Adjustment " x="232.41" y="-591.82" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Bourns" x="232.41" y="-591.82" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="PVG3A200C01R00" x="232.41" y="-591.82" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="80.51778125" y="49.53026875" size="0.8128875" layer="25" display="off"/>
-<attribute name="PACKAGE" value="TO-221 Bourns" x="232.41" y="-591.82" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="232.41" y="-591.82" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="80.5155" y="43.68393125" size="0.8138" layer="27" display="off"/>
+<element name="VR2" library="TrimmerPot" package="TRIM_PVG3A200C01R00" value="PVG3A200C01R00" x="75.946" y="47.498" smashed="yes">
+<attribute name="AVAILABILITY" value="Unavailable" x="225.806" y="-591.312" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 20 Ohms 0.25W, 1/4W J Lead Surface Mount Trimmer Potentiometer Cermet 1 Turn Top Adjustment " x="225.806" y="-591.312" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Bourns" x="225.806" y="-591.312" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="PVG3A200C01R00" x="225.806" y="-591.312" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="73.91378125" y="50.03826875" size="0.8128875" layer="25" display="off"/>
+<attribute name="PACKAGE" value="TO-221 Bourns" x="225.806" y="-591.312" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="225.806" y="-591.312" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="73.9115" y="44.19193125" size="0.8138" layer="27" display="off"/>
 </element>
 <element name="S7" library="B3U-1000P" package="SW_B3U-1000P" value="B3U-1000P" x="68.58" y="31.75" smashed="yes" rot="MR270">
 <attribute name="AVAILABILITY" value="Unavailable" x="68.58" y="31.75" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3420,11 +3419,6 @@ design rules under a new name.</description>
 <signals>
 <signal name="VBATT">
 <contactref element="U2" pad="6"/>
-</signal>
-<signal name="VCC">
-<contactref element="U9" pad="13"/>
-<contactref element="U12" pad="13"/>
-<wire x1="110.555" y1="69.215" x2="90.235" y2="43.815" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$21">
 <contactref element="U2" pad="1"/>
@@ -3517,7 +3511,7 @@ design rules under a new name.</description>
 <signal name="N$31">
 <contactref element="R9" pad="2"/>
 <contactref element="D1" pad="K"/>
-<wire x1="110.21" y1="31.75" x2="111.76" y2="48.26" width="0" layer="19" extent="16-16"/>
+<wire x1="110.21" y1="31.75" x2="112.522" y2="48.006" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$32">
 <contactref element="R11" pad="2"/>
@@ -3537,12 +3531,12 @@ design rules under a new name.</description>
 <signal name="N$70">
 <contactref element="D2" pad="A"/>
 <contactref element="R10" pad="2"/>
-<wire x1="112.75" y1="31.75" x2="118.11" y2="48.26" width="0" layer="19" extent="16-16"/>
+<wire x1="112.75" y1="31.75" x2="119.38" y2="48.26" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$71">
 <contactref element="R14" pad="1"/>
 <contactref element="VR1" pad="2"/>
-<wire x1="118.39" y1="34.29" x2="123.19" y2="33.4" width="0" layer="19" extent="1-16"/>
+<wire x1="118.39" y1="34.29" x2="116.332" y2="49.656" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$72">
 <contactref element="R13" pad="1"/>
@@ -3552,17 +3546,17 @@ design rules under a new name.</description>
 <signal name="N$74">
 <contactref element="U4" pad="9"/>
 <contactref element="IC3" pad="11"/>
-<wire x1="119.778" y1="30.775" x2="119.38" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="119.778" y1="30.775" x2="118.618" y2="36.322" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$75">
 <contactref element="U4" pad="7"/>
 <contactref element="IC3" pad="12"/>
-<wire x1="119.778" y1="31.425" x2="114.5794" y2="39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="113.8174" y1="37.592" x2="119.778" y2="31.425" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$76">
 <contactref element="U4" pad="6"/>
 <contactref element="IC3" pad="13"/>
-<wire x1="119.778" y1="32.075" x2="114.5794" y2="40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="119.778" y1="32.075" x2="113.8174" y2="38.862" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$77">
 <contactref element="IC3" pad="9"/>
@@ -3649,42 +3643,42 @@ design rules under a new name.</description>
 <signal name="N$96">
 <contactref element="U5" pad="15"/>
 <contactref element="U4" pad="4"/>
-<wire x1="114.5794" y1="43.18" x2="118.175" y2="43.815" width="0" layer="19" extent="1-16"/>
+<wire x1="113.8174" y1="41.402" x2="118.175" y2="43.815" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$97">
 <contactref element="U5" pad="14"/>
 <contactref element="U4" pad="3"/>
-<wire x1="114.5794" y1="44.45" x2="118.175" y2="42.545" width="0" layer="19" extent="1-16"/>
+<wire x1="113.8174" y1="42.672" x2="118.175" y2="42.545" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$98">
 <contactref element="U5" pad="11"/>
 <contactref element="U4" pad="2"/>
-<wire x1="118.175" y1="38.735" x2="114.5794" y2="45.72" width="0" layer="19" extent="1-16"/>
+<wire x1="113.8174" y1="43.942" x2="118.175" y2="38.735" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$99">
 <contactref element="U5" pad="10"/>
 <contactref element="U4" pad="13"/>
-<wire x1="118.175" y1="37.465" x2="119.38" y2="43.18" width="0" layer="19" extent="1-16"/>
+<wire x1="118.175" y1="37.465" x2="118.618" y2="41.402" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$100">
 <contactref element="U6" pad="15"/>
 <contactref element="U4" pad="1"/>
-<wire x1="109.285" y1="43.815" x2="114.5794" y2="46.99" width="0" layer="19" extent="1-16"/>
+<wire x1="109.285" y1="43.815" x2="113.8174" y2="45.212" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$101">
 <contactref element="U6" pad="14"/>
 <contactref element="U4" pad="12"/>
-<wire x1="109.285" y1="42.545" x2="119.38" y2="41.91" width="0" layer="19" extent="1-16"/>
+<wire x1="109.285" y1="42.545" x2="118.618" y2="40.132" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$102">
 <contactref element="U6" pad="11"/>
 <contactref element="U4" pad="11"/>
-<wire x1="109.285" y1="38.735" x2="119.38" y2="40.64" width="0" layer="19" extent="1-16"/>
+<wire x1="109.285" y1="38.735" x2="118.618" y2="38.862" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$103">
 <contactref element="U6" pad="10"/>
 <contactref element="U4" pad="10"/>
-<wire x1="109.285" y1="37.465" x2="119.38" y2="39.37" width="0" layer="19" extent="1-16"/>
+<wire x1="109.285" y1="37.465" x2="118.618" y2="37.592" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$7">
 <contactref element="U$1" pad="10"/>
@@ -3699,88 +3693,88 @@ design rules under a new name.</description>
 <signal name="N$8">
 <contactref element="Q2" pad="1"/>
 <contactref element="R4" pad="2"/>
-<wire x1="89.225" y1="34.465" x2="96.24" y2="34.29" width="0" layer="19" extent="16-16"/>
+<wire x1="89.225" y1="31.925" x2="96.24" y2="31.75" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$9">
 <contactref element="DZ1" pad="A1"/>
 <contactref element="R3" pad="1"/>
-<wire x1="100.61" y1="34.29" x2="102.87" y2="31.75" width="0" layer="19" extent="16-16"/>
+<wire x1="88.138" y1="32.766" x2="100.61" y2="31.75" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$10">
 <contactref element="Q2" pad="3"/>
 <contactref element="DZ1" pad="K2"/>
-<wire x1="88.575" y1="34.29" x2="105.41" y2="29.21" width="0" layer="19" extent="16-16"/>
+<wire x1="90.678" y1="30.226" x2="88.575" y2="31.75" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$19">
 <contactref element="IC1" pad="11"/>
 <contactref element="U7" pad="9"/>
-<wire x1="99.458" y1="33.315" x2="99.06" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="99.458" y1="30.775" x2="99.06" y2="35.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="IC1" pad="12"/>
 <contactref element="U7" pad="7"/>
 <contactref element="IC1" pad="10"/>
-<wire x1="99.458" y1="32.665" x2="99.458" y2="33.965" width="0" layer="19" extent="1-1"/>
-<wire x1="94.2594" y1="39.37" x2="99.458" y2="33.965" width="0" layer="19" extent="1-1"/>
+<wire x1="99.458" y1="30.125" x2="99.458" y2="31.425" width="0" layer="19" extent="1-1"/>
+<wire x1="94.2594" y1="36.83" x2="99.458" y2="31.425" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="U7" pad="6"/>
 <contactref element="IC1" pad="13"/>
-<wire x1="99.458" y1="34.615" x2="94.2594" y2="40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="99.458" y1="32.075" x2="94.2594" y2="38.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="IC1" pad="9"/>
 <contactref element="R4" pad="1"/>
 <contactref element="U$3" pad="7"/>
-<wire x1="96.8" y1="34.29" x2="99.458" y2="32.015" width="0" layer="19" extent="1-16"/>
-<wire x1="99.06" y1="27.94" x2="99.458" y2="32.015" width="0" layer="19" extent="1-16"/>
+<wire x1="99.06" y1="27.94" x2="99.458" y2="29.475" width="0" layer="19" extent="1-16"/>
+<wire x1="96.8" y1="31.75" x2="99.458" y2="29.475" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$18">
 <contactref element="R23" pad="2"/>
 <contactref element="DZ1" pad="A2"/>
-<wire x1="88.62" y1="36.83" x2="102.87" y2="29.21" width="0" layer="19" extent="16-16"/>
+<wire x1="88.138" y1="30.226" x2="88.62" y2="34.29" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$33">
 <contactref element="R2" pad="1"/>
 <contactref element="U8" pad="3"/>
 <contactref element="R15" pad="1"/>
-<wire x1="104.42" y1="36.83" x2="104.075" y2="45.085" width="0" layer="19" extent="16-16"/>
-<wire x1="104.42" y1="34.29" x2="104.42" y2="36.83" width="0" layer="19" extent="16-16"/>
+<wire x1="104.42" y1="34.29" x2="104.075" y2="42.545" width="0" layer="19" extent="16-16"/>
+<wire x1="104.42" y1="31.75" x2="104.42" y2="34.29" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$34">
 <contactref element="R15" pad="2"/>
 <contactref element="U8" pad="5"/>
 <contactref element="R16" pad="2"/>
-<wire x1="101.32" y1="36.83" x2="103.86" y2="36.83" width="0" layer="19" extent="16-16"/>
-<wire x1="104.075" y1="42.545" x2="101.32" y2="36.83" width="0" layer="19" extent="16-16"/>
+<wire x1="103.86" y1="34.29" x2="104.075" y2="40.005" width="0" layer="19" extent="16-16"/>
+<wire x1="101.32" y1="34.29" x2="103.86" y2="34.29" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$35">
 <contactref element="R16" pad="1"/>
 <contactref element="U8" pad="7"/>
 <contactref element="R17" pad="2"/>
-<wire x1="98.78" y1="36.83" x2="101.88" y2="36.83" width="0" layer="19" extent="16-16"/>
-<wire x1="104.075" y1="40.005" x2="98.78" y2="36.83" width="0" layer="19" extent="16-16"/>
+<wire x1="101.88" y1="34.29" x2="104.075" y2="37.465" width="0" layer="19" extent="16-16"/>
+<wire x1="98.78" y1="34.29" x2="101.88" y2="34.29" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$36">
 <contactref element="R17" pad="1"/>
 <contactref element="U9" pad="1"/>
 <contactref element="R21" pad="2"/>
-<wire x1="93.7" y1="36.83" x2="99.34" y2="36.83" width="0" layer="19" extent="16-16"/>
-<wire x1="95.185" y1="47.625" x2="93.7" y2="36.83" width="0" layer="19" extent="16-16"/>
+<wire x1="93.7" y1="34.29" x2="95.185" y2="45.085" width="0" layer="19" extent="16-16"/>
+<wire x1="99.34" y1="34.29" x2="93.7" y2="34.29" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$37">
 <contactref element="R21" pad="1"/>
 <contactref element="U9" pad="3"/>
 <contactref element="R18" pad="1"/>
-<wire x1="94.26" y1="36.83" x2="91.72" y2="36.83" width="0" layer="19" extent="16-16"/>
-<wire x1="95.185" y1="45.085" x2="94.26" y2="36.83" width="0" layer="19" extent="16-16"/>
+<wire x1="94.26" y1="34.29" x2="95.185" y2="42.545" width="0" layer="19" extent="16-16"/>
+<wire x1="91.72" y1="34.29" x2="94.26" y2="34.29" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$38">
 <contactref element="R18" pad="2"/>
 <contactref element="U9" pad="5"/>
 <contactref element="R19" pad="2"/>
-<wire x1="96.24" y1="36.83" x2="91.16" y2="36.83" width="0" layer="19" extent="16-16"/>
-<wire x1="95.185" y1="42.545" x2="96.24" y2="36.83" width="0" layer="19" extent="16-16"/>
+<wire x1="96.24" y1="34.29" x2="95.185" y2="40.005" width="0" layer="19" extent="16-16"/>
+<wire x1="91.16" y1="34.29" x2="96.24" y2="34.29" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$39">
 <contactref element="R19" pad="1"/>
@@ -3793,72 +3787,72 @@ design rules under a new name.</description>
 <contactref element="DZ1" pad="K1"/>
 <contactref element="R5" pad="2"/>
 <contactref element="U7" pad="5"/>
-<wire x1="96.8" y1="36.83" x2="105.41" y2="31.75" width="0" layer="19" extent="16-16"/>
-<wire x1="94.2594" y1="38.1" x2="96.8" y2="36.83" width="0" layer="19" extent="1-16"/>
-<wire x1="95.185" y1="40.005" x2="94.2594" y2="38.1" width="0" layer="19" extent="1-16"/>
-<wire x1="94.2594" y1="41.91" x2="95.185" y2="40.005" width="0" layer="19" extent="1-16"/>
-<wire x1="93.7" y1="34.29" x2="94.2594" y2="38.1" width="0" layer="19" extent="1-16"/>
-<wire x1="93.582" y1="32.015" x2="93.7" y2="34.29" width="0" layer="19" extent="1-16"/>
-<wire x1="90.235" y1="42.545" x2="94.2594" y2="41.91" width="0" layer="19" extent="1-16"/>
-<wire x1="89.225" y1="34.115" x2="93.7" y2="34.29" width="0" layer="19" extent="16-16"/>
-<wire x1="91.44" y1="27.94" x2="93.582" y2="32.015" width="0" layer="19" extent="1-1"/>
+<wire x1="95.185" y1="37.465" x2="94.2594" y2="39.37" width="0" layer="19" extent="1-16"/>
+<wire x1="94.2594" y1="35.56" x2="95.185" y2="37.465" width="0" layer="19" extent="1-16"/>
+<wire x1="96.8" y1="34.29" x2="94.2594" y2="35.56" width="0" layer="19" extent="1-16"/>
+<wire x1="93.7" y1="31.75" x2="94.2594" y2="35.56" width="0" layer="19" extent="1-16"/>
+<wire x1="93.582" y1="29.475" x2="93.7" y2="31.75" width="0" layer="19" extent="1-16"/>
+<wire x1="91.44" y1="27.94" x2="93.582" y2="29.475" width="0" layer="19" extent="1-1"/>
+<wire x1="90.678" y1="32.766" x2="93.7" y2="31.75" width="0" layer="19" extent="16-16"/>
+<wire x1="89.225" y1="31.575" x2="90.678" y2="32.766" width="0" layer="19" extent="16-16"/>
+<wire x1="90.235" y1="40.005" x2="94.2594" y2="39.37" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$40">
 <contactref element="U7" pad="4"/>
 <contactref element="U8" pad="15"/>
-<wire x1="94.2594" y1="43.18" x2="99.125" y2="46.355" width="0" layer="19" extent="1-16"/>
+<wire x1="94.2594" y1="40.64" x2="99.125" y2="43.815" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$41">
 <contactref element="U7" pad="3"/>
 <contactref element="U8" pad="14"/>
-<wire x1="94.2594" y1="44.45" x2="99.125" y2="45.085" width="0" layer="19" extent="1-16"/>
+<wire x1="94.2594" y1="41.91" x2="99.125" y2="42.545" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$42">
 <contactref element="U7" pad="2"/>
 <contactref element="U8" pad="11"/>
-<wire x1="94.2594" y1="45.72" x2="99.125" y2="41.275" width="0" layer="19" extent="1-16"/>
+<wire x1="99.125" y1="38.735" x2="94.2594" y2="43.18" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$43">
 <contactref element="U7" pad="13"/>
 <contactref element="U8" pad="10"/>
-<wire x1="99.06" y1="43.18" x2="99.125" y2="40.005" width="0" layer="19" extent="1-16"/>
+<wire x1="99.125" y1="37.465" x2="99.06" y2="40.64" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$44">
 <contactref element="U9" pad="15"/>
 <contactref element="U7" pad="1"/>
-<wire x1="94.2594" y1="46.99" x2="90.235" y2="46.355" width="0" layer="19" extent="1-16"/>
+<wire x1="90.235" y1="43.815" x2="94.2594" y2="44.45" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$45">
 <contactref element="U9" pad="14"/>
 <contactref element="U7" pad="12"/>
-<wire x1="99.06" y1="41.91" x2="90.235" y2="45.085" width="0" layer="19" extent="1-16"/>
+<wire x1="90.235" y1="42.545" x2="99.06" y2="39.37" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$48">
 <contactref element="U9" pad="11"/>
 <contactref element="U7" pad="11"/>
-<wire x1="99.06" y1="40.64" x2="90.235" y2="41.275" width="0" layer="19" extent="1-16"/>
+<wire x1="90.235" y1="38.735" x2="99.06" y2="38.1" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$49">
 <contactref element="U9" pad="10"/>
 <contactref element="U7" pad="10"/>
-<wire x1="99.06" y1="39.37" x2="90.235" y2="40.005" width="0" layer="19" extent="1-16"/>
+<wire x1="90.235" y1="37.465" x2="99.06" y2="36.83" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$50">
 <contactref element="R2" pad="2"/>
 <contactref element="U8" pad="1"/>
 <contactref element="R8" pad="1"/>
-<wire x1="103.86" y1="34.29" x2="104.075" y2="47.625" width="0" layer="19" extent="16-16"/>
-<wire x1="91.72" y1="34.29" x2="103.86" y2="34.29" width="0" layer="19" extent="16-16"/>
+<wire x1="103.86" y1="31.75" x2="104.075" y2="45.085" width="0" layer="19" extent="16-16"/>
+<wire x1="91.72" y1="31.75" x2="103.86" y2="31.75" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$13">
 <contactref element="U$3" pad="10"/>
 <contactref element="IC1" pad="15"/>
-<wire x1="101.6" y1="27.94" x2="99.458" y2="35.915" width="0" layer="19" extent="1-1"/>
+<wire x1="101.6" y1="27.94" x2="99.458" y2="33.375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$52">
 <contactref element="U$3" pad="9"/>
 <contactref element="IC1" pad="2"/>
-<wire x1="93.582" y1="35.915" x2="101.6" y2="27.94" width="0" layer="19" extent="1-16"/>
+<wire x1="93.582" y1="33.375" x2="101.6" y2="27.94" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$55">
 <contactref element="R12" pad="2"/>
@@ -3889,14 +3883,14 @@ design rules under a new name.</description>
 <contactref element="LED8" pad="1"/>
 <contactref element="U4" pad="16"/>
 <contactref element="U4" pad="5"/>
-<wire x1="119.38" y1="46.99" x2="123.19" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="118.175" y1="41.275" x2="119.38" y2="46.99" width="0" layer="19" extent="1-16"/>
+<wire x1="118.618" y1="45.212" x2="124.46" y2="48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="117.482" y1="46.356" x2="118.618" y2="45.212" width="0" layer="19" extent="1-1"/>
+<wire x1="115.182" y1="46.356" x2="117.482" y2="46.356" width="0" layer="19" extent="1-1"/>
+<wire x1="118.175" y1="41.275" x2="118.618" y2="45.212" width="0" layer="19" extent="1-16"/>
 <wire x1="118.175" y1="40.005" x2="118.175" y2="41.275" width="0" layer="19" extent="16-16"/>
-<wire x1="114.5794" y1="41.91" x2="118.175" y2="41.275" width="0" layer="19" extent="1-16"/>
-<wire x1="114.5794" y1="38.1" x2="114.5794" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="109.285" y1="41.275" x2="114.5794" y2="41.91" width="0" layer="19" extent="1-16"/>
-<wire x1="109.285" y1="40.005" x2="109.285" y2="41.275" width="0" layer="19" extent="16-16"/>
-<wire x1="113.902" y1="32.725" x2="114.5794" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="113.8174" y1="40.132" x2="118.175" y2="40.005" width="0" layer="19" extent="1-16"/>
+<wire x1="113.8174" y1="36.322" x2="113.8174" y2="40.132" width="0" layer="19" extent="1-1"/>
+<wire x1="113.902" y1="32.725" x2="113.8174" y2="36.322" width="0" layer="19" extent="1-1"/>
 <wire x1="113.902" y1="32.075" x2="113.902" y2="32.725" width="0" layer="19" extent="1-1"/>
 <wire x1="113.902" y1="31.425" x2="113.902" y2="32.075" width="0" layer="19" extent="1-1"/>
 <wire x1="113.902" y1="30.775" x2="113.902" y2="31.425" width="0" layer="19" extent="1-1"/>
@@ -3913,9 +3907,9 @@ design rules under a new name.</description>
 <wire x1="111.76" y1="27.94" x2="111.76" y2="27.94" width="0" layer="19" extent="1-16"/>
 <wire x1="108.4325" y1="30.25" x2="110.77" y2="31.75" width="0" layer="19" extent="1-16"/>
 <wire x1="123.515" y1="31.575" x2="120.93" y2="33.02" width="0" layer="19" extent="16-16"/>
-<wire x1="124.34" y1="30.1" x2="123.515" y2="31.575" width="0" layer="19" extent="1-16"/>
-<wire x1="122.04" y1="30.1" x2="123.515" y2="31.575" width="0" layer="19" extent="1-16"/>
-<wire x1="109.22" y1="48.26" x2="109.285" y2="41.275" width="0" layer="19" extent="16-16"/>
+<wire x1="109.285" y1="40.005" x2="113.8174" y2="40.132" width="0" layer="19" extent="1-16"/>
+<wire x1="109.285" y1="41.275" x2="109.285" y2="40.005" width="0" layer="19" extent="16-16"/>
+<wire x1="109.982" y1="48.006" x2="115.182" y2="46.356" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$51">
 <contactref element="U8" pad="12"/>
@@ -3927,14 +3921,16 @@ design rules under a new name.</description>
 <contactref element="U7" pad="16"/>
 <contactref element="PH1" pad="1"/>
 <contactref element="R8" pad="2"/>
-<wire x1="99.125" y1="43.815" x2="99.06" y2="46.99" width="0" layer="19" extent="1-16"/>
-<wire x1="99.125" y1="42.545" x2="99.125" y2="43.815" width="0" layer="19" extent="16-16"/>
-<wire x1="99.458" y1="36.565" x2="99.125" y2="42.545" width="0" layer="19" extent="1-16"/>
-<wire x1="100.05" y1="34.29" x2="99.458" y2="36.565" width="0" layer="19" extent="1-16"/>
-<wire x1="91.16" y1="34.29" x2="99.458" y2="36.565" width="0" layer="19" extent="1-16"/>
-<wire x1="89.18" y1="36.83" x2="91.16" y2="34.29" width="0" layer="19" extent="16-16"/>
-<wire x1="88.9" y1="31.75" x2="91.16" y2="34.29" width="0" layer="19" extent="16-16"/>
-<wire x1="91.44" y1="27.94" x2="88.9" y2="31.75" width="0" layer="19" extent="16-16"/>
+<contactref element="U9" pad="13"/>
+<wire x1="99.125" y1="41.275" x2="99.06" y2="44.45" width="0" layer="19" extent="1-16"/>
+<wire x1="99.125" y1="40.005" x2="99.125" y2="41.275" width="0" layer="19" extent="16-16"/>
+<wire x1="96.012" y1="47.752" x2="99.06" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="99.458" y1="34.025" x2="99.125" y2="40.005" width="0" layer="19" extent="1-16"/>
+<wire x1="100.05" y1="31.75" x2="99.458" y2="34.025" width="0" layer="19" extent="1-16"/>
+<wire x1="91.16" y1="31.75" x2="99.458" y2="34.025" width="0" layer="19" extent="1-16"/>
+<wire x1="89.18" y1="34.29" x2="91.16" y2="31.75" width="0" layer="19" extent="16-16"/>
+<wire x1="91.44" y1="27.94" x2="91.16" y2="31.75" width="0" layer="19" extent="16-16"/>
+<wire x1="90.235" y1="41.275" x2="89.18" y2="34.29" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$12">
 <contactref element="U9" pad="8"/>
@@ -3947,15 +3943,15 @@ design rules under a new name.</description>
 <contactref element="PH1" pad="2"/>
 <contactref element="U8" pad="2"/>
 <contactref element="R5" pad="1"/>
-<wire x1="104.075" y1="43.815" x2="104.075" y2="46.355" width="0" layer="19" extent="16-16"/>
 <wire x1="104.075" y1="41.275" x2="104.075" y2="43.815" width="0" layer="19" extent="16-16"/>
 <wire x1="104.075" y1="38.735" x2="104.075" y2="41.275" width="0" layer="19" extent="16-16"/>
-<wire x1="95.185" y1="46.355" x2="104.075" y2="46.355" width="0" layer="19" extent="16-16"/>
-<wire x1="95.185" y1="43.815" x2="95.185" y2="46.355" width="0" layer="19" extent="16-16"/>
+<wire x1="104.075" y1="36.195" x2="104.075" y2="38.735" width="0" layer="19" extent="16-16"/>
+<wire x1="98.552" y1="47.752" x2="104.075" y2="43.815" width="0" layer="19" extent="16-16"/>
+<wire x1="95.185" y1="43.815" x2="98.552" y2="47.752" width="0" layer="19" extent="16-16"/>
 <wire x1="95.185" y1="41.275" x2="95.185" y2="43.815" width="0" layer="19" extent="16-16"/>
 <wire x1="95.185" y1="38.735" x2="95.185" y2="41.275" width="0" layer="19" extent="16-16"/>
-<wire x1="94.26" y1="34.29" x2="95.185" y2="38.735" width="0" layer="19" extent="16-16"/>
-<wire x1="91.44" y1="31.75" x2="94.26" y2="34.29" width="0" layer="19" extent="16-16"/>
+<wire x1="95.185" y1="36.195" x2="95.185" y2="38.735" width="0" layer="19" extent="16-16"/>
+<wire x1="94.26" y1="31.75" x2="95.185" y2="36.195" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$6">
 <contactref element="U1" pad="1"/>
@@ -4008,7 +4004,7 @@ design rules under a new name.</description>
 <signal name="N$4">
 <contactref element="Q3" pad="1"/>
 <contactref element="R41" pad="2"/>
-<wire x1="117.165" y1="59.865" x2="111.48" y2="59.69" width="0" layer="19" extent="16-16"/>
+<wire x1="109.545" y1="52.753" x2="111.48" y2="59.69" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$5">
 <contactref element="DZ2" pad="A1"/>
@@ -4018,7 +4014,7 @@ design rules under a new name.</description>
 <signal name="N$15">
 <contactref element="Q3" pad="3"/>
 <contactref element="DZ2" pad="K2"/>
-<wire x1="110.49" y1="54.61" x2="116.515" y2="59.69" width="0" layer="19" extent="16-16"/>
+<wire x1="108.895" y1="52.578" x2="110.49" y2="54.61" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$17">
 <contactref element="IC2" pad="11"/>
@@ -4106,11 +4102,11 @@ design rules under a new name.</description>
 <wire x1="115.505" y1="65.405" x2="114.5794" y2="67.31" width="0" layer="19" extent="1-16"/>
 <wire x1="114.5794" y1="63.5" x2="115.505" y2="65.405" width="0" layer="19" extent="1-16"/>
 <wire x1="114.58" y1="62.23" x2="114.5794" y2="63.5" width="0" layer="19" extent="1-16"/>
-<wire x1="117.165" y1="59.515" x2="114.58" y2="62.23" width="0" layer="19" extent="16-16"/>
-<wire x1="113.902" y1="57.415" x2="117.165" y2="59.515" width="0" layer="19" extent="1-16"/>
+<wire x1="110.555" y1="67.945" x2="114.5794" y2="67.31" width="0" layer="19" extent="1-16"/>
+<wire x1="113.902" y1="57.415" x2="114.58" y2="62.23" width="0" layer="19" extent="1-16"/>
 <wire x1="110.49" y1="57.15" x2="113.902" y2="57.415" width="0" layer="19" extent="1-1"/>
 <wire x1="111.76" y1="53.34" x2="110.49" y2="57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="110.555" y1="67.945" x2="114.5794" y2="67.31" width="0" layer="19" extent="1-16"/>
+<wire x1="109.545" y1="52.403" x2="111.76" y2="53.34" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$65">
 <contactref element="U10" pad="4"/>
@@ -4179,6 +4175,7 @@ design rules under a new name.</description>
 <contactref element="U10" pad="16"/>
 <contactref element="R42" pad="2"/>
 <contactref element="R20" pad="1E"/>
+<contactref element="U12" pad="13"/>
 <wire x1="119.445" y1="69.215" x2="119.38" y2="72.39" width="0" layer="19" extent="1-16"/>
 <wire x1="119.445" y1="67.945" x2="119.445" y2="69.215" width="0" layer="19" extent="16-16"/>
 <wire x1="119.778" y1="61.965" x2="119.445" y2="67.945" width="0" layer="19" extent="1-16"/>
@@ -4186,7 +4183,8 @@ design rules under a new name.</description>
 <wire x1="109.5" y1="59.69" x2="114.02" y2="59.69" width="0" layer="19" extent="16-16"/>
 <wire x1="108.94" y1="62.23" x2="109.5" y2="59.69" width="0" layer="19" extent="16-16"/>
 <wire x1="111.76" y1="53.34" x2="114.02" y2="59.69" width="0" layer="19" extent="16-16"/>
-<wire x1="110.57" y1="73.51" x2="119.38" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="110.555" y1="69.215" x2="108.94" y2="62.23" width="0" layer="19" extent="16-16"/>
+<wire x1="110.57" y1="73.51" x2="110.555" y2="69.215" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$109">
 <contactref element="U12" pad="8"/>
@@ -4410,17 +4408,17 @@ design rules under a new name.</description>
 <signal name="N$132">
 <contactref element="R49" pad="2"/>
 <contactref element="D3" pad="K"/>
-<wire x1="68.3" y1="36.83" x2="77.47" y2="46.99" width="0" layer="19" extent="16-16"/>
+<wire x1="68.3" y1="36.83" x2="71.374" y2="47.498" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$133">
 <contactref element="D4" pad="A"/>
 <contactref element="R50" pad="2"/>
-<wire x1="72.39" y1="31.75" x2="68.3" y2="39.37" width="0" layer="19" extent="16-16"/>
+<wire x1="68.3" y1="39.37" x2="80.01" y2="47.498" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$134">
 <contactref element="R51" pad="1"/>
 <contactref element="VR2" pad="2"/>
-<wire x1="84.1" y1="40.64" x2="82.55" y2="48.64" width="0" layer="19" extent="1-16"/>
+<wire x1="75.946" y1="49.148" x2="84.1" y2="40.64" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$136">
 <contactref element="R51" pad="2"/>
@@ -4442,7 +4440,7 @@ design rules under a new name.</description>
 <contactref element="U$6" pad="41"/>
 <contactref element="U$6" pad="21"/>
 <contactref element="S7" pad="1"/>
-<wire x1="76.962" y1="43.561" x2="83.7" y2="45.34" width="0" layer="19" extent="1-1"/>
+<wire x1="76.962" y1="43.561" x2="77.096" y2="45.848" width="0" layer="19" extent="1-1"/>
 <wire x1="72.009" y1="40.132" x2="76.962" y2="43.561" width="0" layer="19" extent="1-1"/>
 <wire x1="73.66" y1="37.338" x2="72.009" y2="40.132" width="0" layer="19" extent="1-16"/>
 <wire x1="76.2" y1="37.338" x2="73.66" y2="37.338" width="0" layer="19" extent="16-16"/>
@@ -4451,10 +4449,10 @@ design rules under a new name.</description>
 <wire x1="68.86" y1="39.37" x2="72.009" y2="40.132" width="0" layer="19" extent="1-16"/>
 <wire x1="68.86" y1="36.83" x2="68.86" y2="39.37" width="0" layer="19" extent="16-16"/>
 <wire x1="68.58" y1="33.45" x2="68.86" y2="36.83" width="0" layer="19" extent="16-16"/>
-<wire x1="69.85" y1="27.94" x2="68.58" y2="33.45" width="0" layer="19" extent="1-16"/>
+<wire x1="75.438" y1="32.296" x2="77.4446" y2="35.179" width="0" layer="19" extent="1-16"/>
+<wire x1="72.898" y1="32.296" x2="75.438" y2="32.296" width="0" layer="19" extent="16-16"/>
+<wire x1="69.85" y1="27.94" x2="72.898" y2="32.296" width="0" layer="19" extent="1-16"/>
 <wire x1="83.82" y1="30.35" x2="77.4446" y2="35.179" width="0" layer="19" extent="1-1"/>
-<wire x1="71.12" y1="49.06" x2="76.962" y2="43.561" width="0" layer="19" extent="1-16"/>
-<wire x1="68.58" y1="49.06" x2="71.12" y2="49.06" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$138">
 <contactref element="J3" pad="1"/>
@@ -4470,18 +4468,18 @@ design rules under a new name.</description>
 <contactref element="D3" pad="A"/>
 <contactref element="VR2" pad="3"/>
 <contactref element="R44" pad="2"/>
-<wire x1="75.438" y1="43.561" x2="81.4" y2="45.34" width="0" layer="19" extent="1-1"/>
-<wire x1="74.93" y1="46.99" x2="75.438" y2="43.561" width="0" layer="19" extent="1-1"/>
-<wire x1="71.12" y1="47.46" x2="74.93" y2="46.99" width="0" layer="19" extent="16-16"/>
-<wire x1="68.58" y1="47.46" x2="71.12" y2="47.46" width="0" layer="19" extent="16-16"/>
+<wire x1="74.796" y1="45.848" x2="85.09" y2="47.498" width="0" layer="19" extent="1-1"/>
+<wire x1="75.438" y1="43.561" x2="74.796" y2="45.848" width="0" layer="19" extent="1-1"/>
 <wire x1="72.009" y1="38.608" x2="75.438" y2="43.561" width="0" layer="19" extent="1-1"/>
 <wire x1="68.58" y1="39.5" x2="72.009" y2="38.608" width="0" layer="19" extent="1-1"/>
 <wire x1="75.438" y1="35.179" x2="72.009" y2="38.608" width="0" layer="19" extent="1-1"/>
 <wire x1="76.962" y1="35.179" x2="75.438" y2="35.179" width="0" layer="19" extent="1-1"/>
 <wire x1="78.74" y1="37.338" x2="76.962" y2="35.179" width="0" layer="19" extent="1-16"/>
-<wire x1="77.47" y1="31.75" x2="76.962" y2="35.179" width="0" layer="19" extent="1-1"/>
-<wire x1="69.93" y1="31.75" x2="75.438" y2="35.179" width="0" layer="19" extent="1-1"/>
+<wire x1="75.438" y1="30.696" x2="75.438" y2="35.179" width="0" layer="19" extent="1-16"/>
+<wire x1="72.898" y1="30.696" x2="75.438" y2="30.696" width="0" layer="19" extent="16-16"/>
+<wire x1="69.93" y1="31.75" x2="72.898" y2="30.696" width="0" layer="19" extent="1-16"/>
 <wire x1="69.85" y1="27.94" x2="69.93" y2="31.75" width="0" layer="19" extent="1-16"/>
+<wire x1="68.834" y1="47.498" x2="74.796" y2="45.848" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$110">
 <contactref element="LED6" pad="C"/>
@@ -4689,7 +4687,7 @@ design rules under a new name.</description>
 <signal name="N$162">
 <contactref element="U$3" pad="8"/>
 <contactref element="IC1" pad="1"/>
-<wire x1="93.582" y1="36.565" x2="99.06" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="93.582" y1="34.025" x2="99.06" y2="27.94" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

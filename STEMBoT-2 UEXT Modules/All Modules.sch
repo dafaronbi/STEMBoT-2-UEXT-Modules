@@ -7072,7 +7072,6 @@ PC-16/16 mm carbon types&lt;p&gt;
 <package name="PC16S(NOSILK)">
 <description>&lt;b&gt;POTENTIOMETER&lt;/b&gt;&lt;p&gt;
 single carbon potentiometer, 16 mm</description>
-<wire x1="-2.9" y1="-44.9" x2="2.9" y2="-44.9" width="0.2032" layer="21"/>
 <pad name="1A" x="-5" y="6.5" drill="1.2" shape="long" rot="R90"/>
 <pad name="1S" x="0" y="6.5" drill="1.2" shape="long" rot="R90"/>
 <pad name="1E" x="5" y="6.5" drill="1.2" shape="long" rot="R90"/>
@@ -8788,6 +8787,9 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <pinref part="R8" gate="G$1" pin="2"/>
 <junction x="-434.34" y="-132.08"/>
 <wire x1="-365.76" y1="-139.7" x2="-365.76" y2="-132.08" width="0.1524" layer="91"/>
+<pinref part="U9" gate="A" pin="VCC"/>
+<wire x1="-383.54" y1="-180.34" x2="-383.54" y2="-139.7" width="0.1524" layer="91"/>
+<junction x="-383.54" y="-139.7"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -9289,6 +9291,9 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <junction x="-421.64" y="45.72"/>
 <wire x1="-353.06" y1="38.1" x2="-353.06" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1E"/>
+<pinref part="U12" gate="A" pin="VCC"/>
+<wire x1="-370.84" y1="-2.54" x2="-370.84" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-370.84" y="38.1"/>
 </segment>
 </net>
 <net name="N$109" class="0">
