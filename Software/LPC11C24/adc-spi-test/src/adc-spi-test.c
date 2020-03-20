@@ -45,14 +45,14 @@ int main(void) {
 
     uint8_t received[8];
 
-//    while(Chip_SSP_GetStatus(LPC_SSP0, SSP_STAT_TNF) == SET){
-//    	Chip_SSP_SendFrame(LPC_SSP0, 0xaa);
-//    }
+    while(1){
+    	Chip_SSP_SendFrame(LPC_SSP0, 0xff);
+    }
 
 //    while (Chip_SSP_GetStatus(LPC_SSP0, SSP_STAT_RNE) == SET) {
-    while(1){
-    				received[0] = Chip_SSP_ReceiveFrame(LPC_SSP0);	/* read dummy data */
-    }
+//    while(1){
+//    				received[0] = Chip_SSP_ReceiveFrame(LPC_SSP0);	/* read dummy data */
+//    }
 //    			}
 
     while(1) {
