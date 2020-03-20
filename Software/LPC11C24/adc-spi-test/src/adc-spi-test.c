@@ -25,6 +25,11 @@ int main(void) {
     // Read clock settings and update SystemCoreClock variable
     SystemCoreClockUpdate();
 
+    Chip_GPIO_Init(LPC_GPIO);
+    /* Set the PIO_7 as output */
+    Chip_GPIO_SetPinDIROutput(LPC_GPIO, 0, 7);
+    Chip_GPIO_SetPinState(LPC_GPIO, 0, 7, 1);
+
     //set up spi
     Chip_IOCON_PinMuxSet(LPC_IOCON, IOCON_PIO0_8, (IOCON_FUNC1 | IOCON_MODE_INACT));	/* MISO0 */
 	Chip_IOCON_PinMuxSet(LPC_IOCON, IOCON_PIO0_9, (IOCON_FUNC1 | IOCON_MODE_INACT));	/* MOSI0 */
@@ -47,13 +52,21 @@ int main(void) {
 
     while(1){
     	Chip_SSP_SendFrame(LPC_SSP0, 0xff);
+
+    	received[0] = Chip_SSP_ReceiveFrame(LPC_SSP0);
+
+    	if((received[0]&0x7) == 0x7){
+
+    	}
     }
 
 //    while (Chip_SSP_GetStatus(LPC_SSP0, SSP_STAT_RNE) == SET) {
 //    while(1){
-//    				received[0] = Chip_SSP_ReceiveFrame(LPC_SSP0);	/* read dummy data */
+    				received[0] = Chip_SSP_ReceiveFrame(LPC_SSP0);	/* read dummy data */
 //    }
 //    			}
+
+
 
     while(1) {
 
