@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -230,49 +244,6 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 </technologies>
 </device>
 </devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="ngspice-simulation" urn="urn:adsk.eagle:library:527439">
-<description>SPICE compatible library parts</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="R" urn="urn:adsk.eagle:symbol:527454/4" library_version="18">
-<description>RESISTOR</description>
-<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-6.35" size="1.778" layer="97">&gt;SPICEMODEL</text>
-<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="-8.89" size="1.778" layer="97">&gt;SPICEEXTRA</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="R" urn="urn:adsk.eagle:component:527474/6" prefix="R" uservalue="yes" library_version="18">
-<description>RESISTOR</description>
-<gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
 </deviceset>
 </devicesets>
 </library>
@@ -925,6 +896,72 @@ Source: www.osram-os.com la_ly_w57b.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="resistor-shunt" urn="urn:adsk.eagle:library:346">
+<description>&lt;b&gt;Isabellenhuette SMD Shunt Resistors&lt;/b&gt;&lt;p&gt;
+www.isabellenhuette.de&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SMK" urn="urn:adsk.eagle:footprint:25202/1" library_version="2">
+<description>&lt;b&gt;SMD SHUNT RESISTOR&lt;/b&gt;</description>
+<wire x1="-1.4" y1="-0.65" x2="-1.4" y2="0.65" width="0.2032" layer="51"/>
+<wire x1="-1.4" y1="0.65" x2="1.4" y2="0.65" width="0.2032" layer="51"/>
+<wire x1="1.4" y1="0.65" x2="1.4" y2="-0.65" width="0.2032" layer="51"/>
+<wire x1="1.4" y1="-0.65" x2="-1.4" y2="-0.65" width="0.2032" layer="51"/>
+<smd name="2" x="-1.524" y="0" dx="2.5" dy="2" layer="1"/>
+<smd name="1" x="1.524" y="0" dx="2.5" dy="2" layer="1"/>
+<text x="-2.6924" y="1.0668" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.6924" y="-2.3368" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="SMK" urn="urn:adsk.eagle:package:25215/1" type="box" library_version="2">
+<description>SMD SHUNT RESISTOR</description>
+<packageinstances>
+<packageinstance name="SMK"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="R" urn="urn:adsk.eagle:symbol:25196/1" library_version="2">
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0.889" x2="-2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<text x="-3.81" y="1.3716" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-2.921" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SMK" urn="urn:adsk.eagle:component:25228/2" prefix="R" uservalue="yes" library_version="2">
+<description>&lt;b&gt;SMD SHUNT RESISTOR&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0" swaplevel="2"/>
+</gates>
+<devices>
+<device name="" package="SMK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25215/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -937,18 +974,18 @@ Source: www.osram-os.com la_ly_w57b.pdf</description>
 <parts>
 <part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="4AMP_P4+11" device="D" package3d_urn="urn:adsk.eagle:package:16406/2"/>
 <part name="IC2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="4AMP_P4+11" device="D" package3d_urn="urn:adsk.eagle:package:16406/2"/>
-<part name="R1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="R" device="" value="10k"/>
-<part name="R2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="R" device="" value="10k"/>
-<part name="R3" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="R" device="" value="10k"/>
-<part name="R4" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="R" device="" value="10k"/>
-<part name="R5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="R" device="" value="10k"/>
-<part name="R6" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="R" device="" value="10k"/>
-<part name="R7" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="R" device="" value="10k"/>
 <part name="IC3" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*348" device="FK" package3d_urn="urn:adsk.eagle:package:2012/1" technology="LS" value="8to3 Encoder"/>
 <part name="X1" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="FSIDE-10" device="" package3d_urn="urn:adsk.eagle:package:8081495/1"/>
 <part name="3.5MMJACK" library="con-lumberg" library_urn="urn:adsk.eagle:library:163" deviceset="1503_04" device="" package3d_urn="urn:adsk.eagle:package:8553/1"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="*W57B" device="" package3d_urn="urn:adsk.eagle:package:15859/1" technology="LY"/>
-<part name="R8" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="R" device="" value="1k ohm"/>
+<part name="R1" library="resistor-shunt" library_urn="urn:adsk.eagle:library:346" deviceset="SMK" device="" package3d_urn="urn:adsk.eagle:package:25215/1"/>
+<part name="R2" library="resistor-shunt" library_urn="urn:adsk.eagle:library:346" deviceset="SMK" device="" package3d_urn="urn:adsk.eagle:package:25215/1"/>
+<part name="R3" library="resistor-shunt" library_urn="urn:adsk.eagle:library:346" deviceset="SMK" device="" package3d_urn="urn:adsk.eagle:package:25215/1"/>
+<part name="R4" library="resistor-shunt" library_urn="urn:adsk.eagle:library:346" deviceset="SMK" device="" package3d_urn="urn:adsk.eagle:package:25215/1"/>
+<part name="R5" library="resistor-shunt" library_urn="urn:adsk.eagle:library:346" deviceset="SMK" device="" package3d_urn="urn:adsk.eagle:package:25215/1"/>
+<part name="R6" library="resistor-shunt" library_urn="urn:adsk.eagle:library:346" deviceset="SMK" device="" package3d_urn="urn:adsk.eagle:package:25215/1"/>
+<part name="R7" library="resistor-shunt" library_urn="urn:adsk.eagle:library:346" deviceset="SMK" device="" package3d_urn="urn:adsk.eagle:package:25215/1"/>
+<part name="R8" library="resistor-shunt" library_urn="urn:adsk.eagle:library:346" deviceset="SMK" device="" package3d_urn="urn:adsk.eagle:package:25215/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -983,34 +1020,6 @@ Source: www.osram-os.com la_ly_w57b.pdf</description>
 <instance part="IC2" gate="C" x="68.58" y="17.78" smashed="yes">
 <attribute name="NAME" x="71.12" y="20.955" size="1.778" layer="95"/>
 <attribute name="VALUE" x="71.12" y="12.7" size="1.778" layer="96"/>
-</instance>
-<instance part="R1" gate="G$1" x="45.72" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="43.18" y="83.82" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="49.53" y="83.82" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R2" gate="G$1" x="45.72" y="73.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="43.18" y="71.12" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="49.53" y="71.12" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R3" gate="G$1" x="45.72" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="43.18" y="58.42" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="49.53" y="58.42" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R4" gate="G$1" x="45.72" y="48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="43.18" y="45.72" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="49.53" y="45.72" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R5" gate="G$1" x="45.72" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="43.18" y="33.02" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="49.53" y="33.02" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R6" gate="G$1" x="45.72" y="20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="43.18" y="17.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="49.53" y="17.78" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R7" gate="G$1" x="45.72" y="7.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="43.18" y="5.08" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="49.53" y="5.08" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="IC3" gate="A" x="104.14" y="53.34" smashed="yes">
 <attribute name="NAME" x="96.52" y="66.675" size="1.778" layer="95"/>
@@ -1055,9 +1064,37 @@ Source: www.osram-os.com la_ly_w57b.pdf</description>
 <attribute name="NAME" x="107.188" y="105.664" size="1.778" layer="95"/>
 <attribute name="VALUE" x="107.188" y="103.505" size="1.778" layer="96"/>
 </instance>
-<instance part="R8" gate="G$1" x="129.54" y="109.22" smashed="yes">
-<attribute name="NAME" x="127" y="111.76" size="1.778" layer="95"/>
-<attribute name="VALUE" x="127" y="105.41" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="45.72" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="44.3484" y="31.75" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="48.641" y="31.75" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R2" gate="G$1" x="45.72" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="44.3484" y="16.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="48.641" y="16.51" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R3" gate="G$1" x="45.72" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="44.3484" y="3.81" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="48.641" y="3.81" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R4" gate="G$1" x="45.72" y="48.26" smashed="yes" rot="R90">
+<attribute name="NAME" x="44.3484" y="44.45" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="48.641" y="44.45" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R5" gate="G$1" x="45.72" y="60.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="44.3484" y="57.15" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="48.641" y="57.15" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R6" gate="G$1" x="45.72" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="44.3484" y="69.85" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="48.641" y="69.85" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R7" gate="G$1" x="45.72" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="44.3484" y="82.55" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="48.641" y="82.55" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R8" gate="G$1" x="129.54" y="109.22" smashed="yes" rot="R180">
+<attribute name="NAME" x="133.35" y="107.8484" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="133.35" y="112.141" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -1065,63 +1102,63 @@ Source: www.osram-os.com la_ly_w57b.pdf</description>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="81.28" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="B" pin="-IN"/>
 <wire x1="60.96" y1="78.74" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <junction x="45.72" y="78.74"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="68.58" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="C" pin="-IN"/>
 <wire x1="60.96" y1="66.04" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <junction x="45.72" y="66.04"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="55.88" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="D" pin="-IN"/>
 <wire x1="60.96" y1="53.34" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <junction x="45.72" y="53.34"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="43.18" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="-IN"/>
 <wire x1="60.96" y1="40.64" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <junction x="45.72" y="40.64"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="30.48" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="B" pin="-IN"/>
 <wire x1="45.72" y1="27.94" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="27.94" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
 <junction x="45.72" y="27.94"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="15.24" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="C" pin="-IN"/>
 <wire x1="60.96" y1="15.24" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <junction x="45.72" y="15.24"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -1187,10 +1224,8 @@ Source: www.osram-os.com la_ly_w57b.pdf</description>
 <net name="N$15" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="-IN"/>
-<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="91.44" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="91.44" x2="45.72" y2="99.06" width="0.1524" layer="91"/>
-<junction x="45.72" y="91.44"/>
 <pinref part="3.5MMJACK" gate="G$1" pin="3"/>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
@@ -1200,6 +1235,8 @@ Source: www.osram-os.com la_ly_w57b.pdf</description>
 <pinref part="3.5MMJACK" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="71.12" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <junction x="27.94" y="63.5"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<junction x="45.72" y="91.44"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -1207,7 +1244,6 @@ Source: www.osram-os.com la_ly_w57b.pdf</description>
 <pinref part="X1" gate="-2" pin="1"/>
 <wire x1="144.78" y1="63.5" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="63.5" x2="139.7" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="17.78" x2="139.7" y2="0" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="0" x2="45.72" y2="0" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="0" x2="45.72" y2="2.54" width="0.1524" layer="91"/>
@@ -1218,6 +1254,7 @@ Source: www.osram-os.com la_ly_w57b.pdf</description>
 <pinref part="IC3" gate="A" pin="7"/>
 <wire x1="91.44" y1="45.72" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
 <junction x="91.44" y="43.18"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -1314,15 +1351,15 @@ Source: www.osram-os.com la_ly_w57b.pdf</description>
 <pinref part="X1" gate="-1" pin="1"/>
 <wire x1="144.78" y1="66.04" x2="139.7" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="66.04" x2="139.7" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="109.22" x2="139.7" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="124.46" y1="109.22" x2="114.3" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
@@ -1345,12 +1382,6 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
-</note>
-<note version="8.4" severity="warning">
-Since Version 8.4, EAGLE supports properties for SPICE simulation. 
-Probes in schematics and SPICE mapping objects found in parts and library devices
-will not be understood with this version. Update EAGLE to the latest version
-for full support of SPICE simulation. 
 </note>
 </compatibility>
 </eagle>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7068,7 +7068,6 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <part name="Q1" library="NPN BJT" deviceset="MMBT3904LP-7" device=""/>
 <part name="R13" library="Resistor" deviceset="ERJ-1RHD3601C" device=""/>
 <part name="IC3" library="74HC165PW_118" deviceset="74HC165PW,118" device=""/>
-<part name="R14" library="Resistor" deviceset="ERJ-1RHD3601C" device=""/>
 <part name="R31" library="Resistor" deviceset="ERJ-1RHD3601C" device=""/>
 <part name="R32" library="Resistor" deviceset="ERJ-1RHD3601C" device=""/>
 <part name="R33" library="Resistor" deviceset="ERJ-1RHD3601C" device=""/>
@@ -7289,10 +7288,6 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <attribute name="NAME" x="-534.67" y="5.08" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-534.67" y="2.54" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R14" gate="G$1" x="-708.66" y="25.4" smashed="yes">
-<attribute name="NAME" x="-712.47" y="29.4386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-712.47" y="22.098" size="1.778" layer="96"/>
-</instance>
 <instance part="R31" gate="G$1" x="-673.1" y="-22.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="-671.6014" y="-19.05" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-676.402" y="-19.05" size="1.778" layer="96" rot="R270"/>
@@ -7337,9 +7332,9 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <attribute name="NAME" x="-651.51" y="-64.9986" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-651.51" y="-60.198" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R39" gate="G$1" x="-668.02" y="38.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="-666.5214" y="41.91" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="-671.322" y="41.91" size="1.778" layer="96" rot="R270"/>
+<instance part="R39" gate="G$1" x="-685.8" y="25.4" smashed="yes">
+<attribute name="NAME" x="-689.61" y="26.8986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-689.61" y="22.098" size="1.778" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="-477.52" y="7.62" smashed="yes">
 <attribute name="NAME" x="-492.76" y="25.4" size="1.778" layer="95"/>
@@ -7950,18 +7945,47 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <wire x1="-563.88" y1="35.56" x2="-548.64" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$70" class="0">
-<segment>
-<pinref part="D2" gate="1" pin="A"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="-744.22" y1="30.48" x2="-744.22" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$71" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="VR1" gate="G$1" pin="WIPER"/>
-<wire x1="-721.36" y1="25.4" x2="-716.28" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="U5" gate="A" pin="INA+"/>
+<wire x1="-660.4" y1="22.86" x2="-662.94" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U5" gate="A" pin="INC+"/>
+<wire x1="-662.94" y1="22.86" x2="-662.94" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-662.94" y1="17.78" x2="-662.94" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-662.94" y1="12.7" x2="-660.4" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U5" gate="A" pin="IND+"/>
+<wire x1="-662.94" y1="12.7" x2="-662.94" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-662.94" y1="7.62" x2="-660.4" y2="7.62" width="0.1524" layer="91"/>
+<junction x="-662.94" y="12.7"/>
+<pinref part="U6" gate="A" pin="INA+"/>
+<wire x1="-662.94" y1="7.62" x2="-662.94" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-662.94" y1="-17.78" x2="-660.4" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="-662.94" y="7.62"/>
+<pinref part="U6" gate="A" pin="INB+"/>
+<wire x1="-662.94" y1="-17.78" x2="-662.94" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-662.94" y1="-22.86" x2="-660.4" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="-662.94" y="-17.78"/>
+<pinref part="U6" gate="A" pin="INC+"/>
+<wire x1="-660.4" y1="-27.94" x2="-662.94" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-662.94" y1="-27.94" x2="-662.94" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="-662.94" y="-22.86"/>
+<wire x1="-662.94" y1="-27.94" x2="-662.94" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="-662.94" y="-27.94"/>
+<pinref part="U6" gate="A" pin="IND+"/>
+<wire x1="-662.94" y1="-33.02" x2="-660.4" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="U5" gate="A" pin="INB+"/>
+<wire x1="-660.4" y1="17.78" x2="-662.94" y2="17.78" width="0.1524" layer="91"/>
+<junction x="-662.94" y="17.78"/>
+<wire x1="-662.94" y1="22.86" x2="-662.94" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-662.94" y="22.86"/>
+<wire x1="-662.94" y1="38.1" x2="-708.66" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-708.66" y1="38.1" x2="-708.66" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="D2" gate="1" pin="A"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="-744.22" y1="30.48" x2="-744.22" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-744.22" y1="10.16" x2="-744.22" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-708.66" y1="10.16" x2="-744.22" y2="10.16" width="0.1524" layer="91"/>
+<junction x="-744.22" y="10.16"/>
 </segment>
 </net>
 <net name="N$72" class="0">
@@ -8019,45 +8043,6 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <wire x1="-510.54" y1="5.08" x2="-487.68" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$79" class="0">
-<segment>
-<pinref part="U5" gate="A" pin="INA+"/>
-<wire x1="-660.4" y1="22.86" x2="-662.94" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U5" gate="A" pin="INC+"/>
-<wire x1="-662.94" y1="22.86" x2="-662.94" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-662.94" y1="17.78" x2="-662.94" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-662.94" y1="12.7" x2="-660.4" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="U5" gate="A" pin="IND+"/>
-<wire x1="-662.94" y1="12.7" x2="-662.94" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="-662.94" y1="7.62" x2="-660.4" y2="7.62" width="0.1524" layer="91"/>
-<junction x="-662.94" y="12.7"/>
-<pinref part="U6" gate="A" pin="INA+"/>
-<wire x1="-662.94" y1="7.62" x2="-662.94" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-662.94" y1="-17.78" x2="-660.4" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="-662.94" y="7.62"/>
-<pinref part="U6" gate="A" pin="INB+"/>
-<wire x1="-662.94" y1="-17.78" x2="-662.94" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-662.94" y1="-22.86" x2="-660.4" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="-662.94" y="-17.78"/>
-<pinref part="U6" gate="A" pin="INC+"/>
-<wire x1="-660.4" y1="-27.94" x2="-662.94" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-662.94" y1="-27.94" x2="-662.94" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="-662.94" y="-22.86"/>
-<wire x1="-662.94" y1="-27.94" x2="-662.94" y2="-33.02" width="0.1524" layer="91"/>
-<junction x="-662.94" y="-27.94"/>
-<pinref part="U6" gate="A" pin="IND+"/>
-<wire x1="-662.94" y1="-33.02" x2="-660.4" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="U5" gate="A" pin="INB+"/>
-<wire x1="-660.4" y1="17.78" x2="-662.94" y2="17.78" width="0.1524" layer="91"/>
-<junction x="-662.94" y="17.78"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="-701.04" y1="25.4" x2="-673.1" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-673.1" y1="25.4" x2="-673.1" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-673.1" y1="27.94" x2="-662.94" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-662.94" y1="27.94" x2="-662.94" y2="22.86" width="0.1524" layer="91"/>
-<junction x="-662.94" y="22.86"/>
-</segment>
-</net>
 <net name="N$80" class="0">
 <segment>
 <wire x1="-668.02" y1="25.4" x2="-665.48" y2="25.4" width="0.1524" layer="91"/>
@@ -8067,7 +8052,7 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="-668.02" y1="22.86" x2="-668.02" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R39" gate="G$1" pin="2"/>
-<wire x1="-668.02" y1="30.48" x2="-668.02" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-678.18" y1="25.4" x2="-668.02" y2="25.4" width="0.1524" layer="91"/>
 <junction x="-668.02" y="25.4"/>
 </segment>
 </net>
@@ -8569,47 +8554,7 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 </net>
 <net name="N$55" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="-596.9" y1="35.56" x2="-622.3" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="U5" gate="A" pin="VCC"/>
-<wire x1="-624.84" y1="27.94" x2="-622.3" y2="27.94" width="0.1524" layer="91"/>
-<junction x="-622.3" y="27.94"/>
-<pinref part="U6" gate="A" pin="VCC"/>
-<wire x1="-624.84" y1="-12.7" x2="-622.3" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-622.3" y1="-12.7" x2="-622.3" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-622.3" y1="27.94" x2="-609.6" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="-609.6" y1="27.94" x2="-528.32" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-528.32" y1="27.94" x2="-520.7" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-520.7" y1="20.32" x2="-520.7" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-520.7" y1="27.94" x2="-520.7" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="-520.7" y1="45.72" x2="-541.02" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="3.3V"/>
-<wire x1="-520.7" y1="20.32" x2="-487.68" y2="20.32" width="0.1524" layer="91"/>
-<junction x="-520.7" y="27.94"/>
-<pinref part="IC3" gate="G$1" pin="VCC"/>
-<wire x1="-530.86" y1="-2.54" x2="-528.32" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-528.32" y1="-2.54" x2="-528.32" y2="27.94" width="0.1524" layer="91"/>
-<junction x="-528.32" y="27.94"/>
-<wire x1="-622.3" y1="35.56" x2="-622.3" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-622.3" y1="45.72" x2="-622.3" y2="35.56" width="0.1524" layer="91"/>
-<junction x="-622.3" y="35.56"/>
-<pinref part="D1" gate="1" pin="A"/>
-<wire x1="-767.08" y1="35.56" x2="-767.08" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="-767.08" y1="45.72" x2="-744.22" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="D2" gate="1" pin="C"/>
-<wire x1="-744.22" y1="45.72" x2="-744.22" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="VR1" gate="G$1" pin="CW"/>
-<wire x1="-728.98" y1="35.56" x2="-728.98" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="-728.98" y1="45.72" x2="-744.22" y2="45.72" width="0.1524" layer="91"/>
-<junction x="-744.22" y="45.72"/>
-<junction x="-728.98" y="45.72"/>
-<wire x1="-622.3" y1="45.72" x2="-668.02" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="-728.98" y1="45.72" x2="-690.88" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="R39" gate="G$1" pin="1"/>
-<junction x="-668.02" y="45.72"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="-690.88" y1="45.72" x2="-668.02" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-744.22" y1="-12.7" x2="-744.22" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="U5" gate="A" pin="GND"/>
 <wire x1="-624.84" y1="-7.62" x2="-642.62" y2="-7.62" width="0.1524" layer="91"/>
@@ -8618,9 +8563,8 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <wire x1="-683.26" y1="-12.7" x2="-683.26" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="VR1" gate="G$1" pin="CCW"/>
 <wire x1="-728.98" y1="15.24" x2="-728.98" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-728.98" y1="-12.7" x2="-690.88" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-728.98" y1="-12.7" x2="-683.26" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="-728.98" y="-12.7"/>
-<wire x1="-690.88" y1="-12.7" x2="-683.26" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-728.98" y1="-12.7" x2="-744.22" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="-744.22" y="-12.7"/>
 <wire x1="-767.08" y1="-12.7" x2="-744.22" y2="-12.7" width="0.1524" layer="91"/>
@@ -8675,17 +8619,12 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <wire x1="-642.62" y1="-55.88" x2="-624.84" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="-642.62" y="-55.88"/>
 <junction x="-624.84" y="-55.88"/>
-<wire x1="-690.88" y1="45.72" x2="-690.88" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="-690.88" y="45.72"/>
 <pinref part="LED8" gate="A" pin="C"/>
 <wire x1="-571.5" y1="45.72" x2="-576.58" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-576.58" y1="45.72" x2="-576.58" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-576.58" y1="2.54" x2="-563.88" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-563.88" y1="2.54" x2="-563.88" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="-563.88" y="-48.26"/>
-<pinref part="U4" gate="A" pin="VCC"/>
-<wire x1="-609.6" y1="-5.08" x2="-609.6" y2="27.94" width="0.1524" layer="91"/>
-<junction x="-609.6" y="27.94"/>
 <pinref part="U4" gate="A" pin="EI"/>
 <wire x1="-609.6" y1="-33.02" x2="-614.68" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="-614.68" y1="-33.02" x2="-614.68" y2="-38.1" width="0.1524" layer="91"/>
@@ -10348,6 +10287,57 @@ single carbon potentiometer, 16 mm, S3ROH</description>
 <wire x1="-632.46" y1="-2.54" x2="-632.46" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="U6" gate="A" pin="QA"/>
 <wire x1="-632.46" y1="-17.78" x2="-624.84" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="-520.7" y1="45.72" x2="-541.02" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="3.3V"/>
+<wire x1="-520.7" y1="20.32" x2="-487.68" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-520.7" y1="20.32" x2="-520.7" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-520.7" y1="27.94" x2="-520.7" y2="45.72" width="0.1524" layer="91"/>
+<junction x="-520.7" y="27.94"/>
+<pinref part="U5" gate="A" pin="VCC"/>
+<wire x1="-624.84" y1="27.94" x2="-622.3" y2="27.94" width="0.1524" layer="91"/>
+<junction x="-622.3" y="27.94"/>
+<pinref part="U6" gate="A" pin="VCC"/>
+<wire x1="-624.84" y1="-12.7" x2="-622.3" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-622.3" y1="-12.7" x2="-622.3" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="-596.9" y1="35.56" x2="-622.3" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-622.3" y1="53.34" x2="-622.3" y2="35.56" width="0.1524" layer="91"/>
+<junction x="-622.3" y="35.56"/>
+<wire x1="-622.3" y1="35.56" x2="-622.3" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-622.3" y1="27.94" x2="-609.6" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="U4" gate="A" pin="VCC"/>
+<wire x1="-609.6" y1="-5.08" x2="-609.6" y2="27.94" width="0.1524" layer="91"/>
+<junction x="-609.6" y="27.94"/>
+<wire x1="-609.6" y1="27.94" x2="-528.32" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-528.32" y1="27.94" x2="-520.7" y2="27.94" width="0.1524" layer="91"/>
+<junction x="-528.32" y="27.94"/>
+<pinref part="IC3" gate="G$1" pin="VCC"/>
+<wire x1="-530.86" y1="-2.54" x2="-528.32" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-528.32" y1="-2.54" x2="-528.32" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-622.3" y1="53.34" x2="-728.98" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="D2" gate="1" pin="C"/>
+<pinref part="D1" gate="1" pin="A"/>
+<wire x1="-767.08" y1="35.56" x2="-767.08" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-767.08" y1="45.72" x2="-744.22" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-744.22" y1="45.72" x2="-744.22" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-744.22" y="45.72"/>
+<pinref part="VR1" gate="G$1" pin="CW"/>
+<wire x1="-728.98" y1="35.56" x2="-728.98" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-728.98" y1="45.72" x2="-744.22" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-728.98" y1="53.34" x2="-728.98" y2="45.72" width="0.1524" layer="91"/>
+<junction x="-728.98" y="45.72"/>
+</segment>
+</net>
+<net name="N$145" class="0">
+<segment>
+<pinref part="VR1" gate="G$1" pin="WIPER"/>
+<wire x1="-721.36" y1="25.4" x2="-693.42" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="R39" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
