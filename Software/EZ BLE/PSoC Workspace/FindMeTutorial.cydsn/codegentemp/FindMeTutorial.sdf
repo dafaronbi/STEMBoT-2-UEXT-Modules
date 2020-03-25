@@ -1,21 +1,21 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2020-03-25T22:25:51Z")
- (DESIGN "FindMeTutorial")
+ (DATE "2020-03-25T23:29:20Z")
+ (DESIGN "findMeTutorial")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
  (VERSION " 4.3")
  (DIVIDER .)
  (TIMESCALE 1 ns)
  (CELL
-  (CELLTYPE "FindMeTutorial")
+  (CELLTYPE "findMeTutorial")
   (INSTANCE *)
   (DELAY
    (ABSOLUTE
-    (INTERCONNECT ClockBlock.hfclk \\BLE_1\:bless_isr\\.clock (0.000:0.000:0.000))
-    (INTERCONNECT ClockBlock.ff_div_7 \\PWM_2\:cy_m0s8_tcpwm_1\\.clock (0.000:0.000:0.000))
-    (INTERCONNECT \\PWM_2\:cy_m0s8_tcpwm_1\\.line_compl redLed\(0\).pin_input (2.660:2.660:2.660))
-    (INTERCONNECT \\BLE_1\:cy_m0s8_ble\\.interrupt \\BLE_1\:bless_isr\\.interrupt (1.000:1.000:1.000))
+    (INTERCONNECT ClockBlock.hfclk \\BLE\:bless_isr\\.clock (0.000:0.000:0.000))
+    (INTERCONNECT \\PWM\:cy_m0s8_tcpwm_1\\.line_compl redLed\(0\).pin_input (2.660:2.660:2.660))
+    (INTERCONNECT ClockBlock.ff_div_7 \\PWM\:cy_m0s8_tcpwm_1\\.clock (0.000:0.000:0.000))
+    (INTERCONNECT \\BLE\:cy_m0s8_ble\\.interrupt \\BLE\:bless_isr\\.interrupt (1.000:1.000:1.000))
     (INTERCONNECT redLed\(0\).pad_out redLed\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT redLed\(0\).pad_out redLed\(0\)_PAD (0.000:0.000:0.000))
     (INTERCONNECT redLed\(0\)_PAD redLed\(0\).pad_in (0.000:0.000:0.000))

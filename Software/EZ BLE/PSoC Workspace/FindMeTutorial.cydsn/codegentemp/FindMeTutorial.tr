@@ -17,16 +17,16 @@
                     1::Clock Frequency Summary
 ===================================================================== 
 Number of clocks: 10
-Clock: Clock_4       | N/A  | Target: 0.00 MHz   | 
-Clock: Clock_4(FFB)  | N/A  | Target: 0.00 MHz   | 
-Clock: CyECO         | N/A  | Target: 24.00 MHz  | 
-Clock: CyHFClk       | N/A  | Target: 48.00 MHz  | 
-Clock: CyILO         | N/A  | Target: 0.03 MHz   | 
-Clock: CyIMO         | N/A  | Target: 48.00 MHz  | 
-Clock: CyLFClk       | N/A  | Target: 0.03 MHz   | 
-Clock: CyRouted1     | N/A  | Target: 48.00 MHz  | 
-Clock: CySysClk      | N/A  | Target: 48.00 MHz  | 
-Clock: CyWCO         | N/A  | Target: 0.03 MHz   | 
+Clock: Clock       | N/A  | Target: 0.00 MHz   | 
+Clock: Clock(FFB)  | N/A  | Target: 0.00 MHz   | 
+Clock: CyECO       | N/A  | Target: 24.00 MHz  | 
+Clock: CyHFClk     | N/A  | Target: 48.00 MHz  | 
+Clock: CyILO       | N/A  | Target: 0.03 MHz   | 
+Clock: CyIMO       | N/A  | Target: 48.00 MHz  | 
+Clock: CyLFClk     | N/A  | Target: 0.03 MHz   | 
+Clock: CyRouted1   | N/A  | Target: 48.00 MHz  | 
+Clock: CySysClk    | N/A  | Target: 48.00 MHz  | 
+Clock: CyWCO       | N/A  | Target: 0.03 MHz   | 
 
  =====================================================================
                     End of Clock Frequency Summary
@@ -62,7 +62,7 @@ Port Name  Setup to Clk  Clock Name:Phase
 
 Port Name      Clock to Out  Clock Name:Phase  
 -------------  ------------  ----------------  
-redLed(0)_PAD  19469         Clock_4(FFB):R    
+redLed(0)_PAD  19469         Clock(FFB):R      
 
 
                          3.3::Pad to Pad

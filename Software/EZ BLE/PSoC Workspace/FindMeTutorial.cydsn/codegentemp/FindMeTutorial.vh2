@@ -1,8 +1,8 @@
 --
---	Conversion of FindMeTutorial.v to vh2:
+--	Conversion of findMeTutorial.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Wed Mar 25 17:25:48 2020
+--	Wed Mar 25 18:29:18 2020
 --
 
 USE cypress.cypress.all;
@@ -12,78 +12,54 @@ ATTRIBUTE part_name of top_RTL:TYPE IS "cpsoc3";
 END top_RTL;
 --------------------------------------------------------
 ARCHITECTURE R_T_L OF top_RTL IS
-SIGNAL \BLE_1:Net_15\ : bit;
-SIGNAL Net_294 : bit;
-SIGNAL \BLE_1:Net_53\ : bit;
-SIGNAL Net_293 : bit;
-SIGNAL \BLE_1:Net_55\ : bit;
-SIGNAL \PWM_2:Net_81\ : bit;
-SIGNAL \PWM_2:Net_75\ : bit;
-SIGNAL \PWM_2:Net_69\ : bit;
-SIGNAL \PWM_2:Net_66\ : bit;
-SIGNAL \PWM_2:Net_82\ : bit;
-SIGNAL \PWM_2:Net_72\ : bit;
-SIGNAL Net_312 : bit;
-SIGNAL Net_311 : bit;
-SIGNAL Net_313 : bit;
-SIGNAL Net_314 : bit;
-SIGNAL Net_323 : bit;
-SIGNAL Net_310 : bit;
-SIGNAL Net_316 : bit;
+SIGNAL \BLE:Net_15\ : bit;
+SIGNAL Net_306 : bit;
+SIGNAL \BLE:Net_53\ : bit;
+SIGNAL Net_305 : bit;
+SIGNAL \BLE:Net_55\ : bit;
 SIGNAL tmpOE__redLed_net_0 : bit;
+SIGNAL Net_317 : bit;
 SIGNAL tmpFB_0__redLed_net_0 : bit;
 SIGNAL tmpIO_0__redLed_net_0 : bit;
 TERMINAL tmpSIOVREF__redLed_net_0 : bit;
 SIGNAL zero : bit;
 SIGNAL one : bit;
 SIGNAL tmpINTERRUPT_0__redLed_net_0 : bit;
+SIGNAL Net_318 : bit;
+SIGNAL \PWM:Net_81\ : bit;
+SIGNAL \PWM:Net_75\ : bit;
+SIGNAL \PWM:Net_69\ : bit;
+SIGNAL \PWM:Net_66\ : bit;
+SIGNAL \PWM:Net_82\ : bit;
+SIGNAL \PWM:Net_72\ : bit;
+SIGNAL Net_314 : bit;
+SIGNAL Net_313 : bit;
+SIGNAL Net_315 : bit;
+SIGNAL Net_316 : bit;
+SIGNAL Net_312 : bit;
 BEGIN
 
 zero <=  ('0') ;
 
 tmpOE__redLed_net_0 <=  ('1') ;
 
-\BLE_1:cy_m0s8_ble\:cy_m0s8_ble_v1_0
+\BLE:cy_m0s8_ble\:cy_m0s8_ble_v1_0
 	GENERIC MAP(cy_registers=>"")
-	PORT MAP(interrupt=>\BLE_1:Net_15\,
-		rf_ext_pa_en=>Net_294);
-\BLE_1:bless_isr\:cy_isr_v1_0
+	PORT MAP(interrupt=>\BLE:Net_15\,
+		rf_ext_pa_en=>Net_306);
+\BLE:bless_isr\:cy_isr_v1_0
 	GENERIC MAP(int_type=>"10",
 		is_nmi=>'0')
-	PORT MAP(int_signal=>\BLE_1:Net_15\);
-\BLE_1:LFCLK\:cy_clock_v1_0
+	PORT MAP(int_signal=>\BLE:Net_15\);
+\BLE:LFCLK\:cy_clock_v1_0
 	GENERIC MAP(cy_registers=>"",
-		id=>"f7e4c631-7f18-4a80-b8dc-a27c020488da/5ae6fa4d-f41a-4a35-8821-7ce70389cb0c",
+		id=>"3bcbc4e6-3389-44fb-996d-2d6ac5cebd06/5ae6fa4d-f41a-4a35-8821-7ce70389cb0c",
 		source_clock_id=>"9A908CA6-5BB3-4db0-B098-959E5D90882B",
 		divisor=>0,
 		period=>"0",
 		is_direct=>'1',
 		is_digital=>'0')
-	PORT MAP(clock_out=>\BLE_1:Net_53\,
-		dig_domain_out=>open);
-\PWM_2:cy_m0s8_tcpwm_1\:cy_m0s8_tcpwm_v1_0
-	GENERIC MAP(cy_registers=>"")
-	PORT MAP(clock=>Net_316,
-		capture=>zero,
-		count=>tmpOE__redLed_net_0,
-		reload=>zero,
-		stop=>zero,
-		start=>zero,
-		underflow=>Net_312,
-		overflow=>Net_311,
-		compare_match=>Net_313,
-		line_out=>Net_314,
-		line_out_compl=>Net_323,
-		interrupt=>Net_310);
-Clock_4:cy_clock_v1_0
-	GENERIC MAP(cy_registers=>"",
-		id=>"a331bbd3-2d72-453e-9409-40d20a2ec788",
-		source_clock_id=>"",
-		divisor=>0,
-		period=>"1000000000000",
-		is_direct=>'0',
-		is_digital=>'0')
-	PORT MAP(clock_out=>Net_316,
+	PORT MAP(clock_out=>\BLE:Net_53\,
 		dig_domain_out=>open);
 redLed:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"e851a3b9-efb8-48be-bbb8-b303b216c393",
@@ -142,7 +118,7 @@ redLed:cy_psoc3_pins_v1_10
 		ovt_hyst_trim=>"0",
 		input_buffer_sel=>"00")
 	PORT MAP(oe=>(tmpOE__redLed_net_0),
-		y=>Net_323,
+		y=>Net_317,
 		fb=>(tmpFB_0__redLed_net_0),
 		analog=>(open),
 		io=>(tmpIO_0__redLed_net_0),
@@ -155,5 +131,29 @@ redLed:cy_psoc3_pins_v1_10
 		out_clock_en=>tmpOE__redLed_net_0,
 		out_reset=>zero,
 		interrupt=>tmpINTERRUPT_0__redLed_net_0);
+Clock:cy_clock_v1_0
+	GENERIC MAP(cy_registers=>"",
+		id=>"d6f76b2f-c02a-431c-8dd1-e881c59a686d",
+		source_clock_id=>"",
+		divisor=>0,
+		period=>"1000000000000",
+		is_direct=>'0',
+		is_digital=>'0')
+	PORT MAP(clock_out=>Net_318,
+		dig_domain_out=>open);
+\PWM:cy_m0s8_tcpwm_1\:cy_m0s8_tcpwm_v1_0
+	GENERIC MAP(cy_registers=>"")
+	PORT MAP(clock=>Net_318,
+		capture=>zero,
+		count=>tmpOE__redLed_net_0,
+		reload=>zero,
+		stop=>zero,
+		start=>zero,
+		underflow=>Net_314,
+		overflow=>Net_313,
+		compare_match=>Net_315,
+		line_out=>Net_316,
+		line_out_compl=>Net_317,
+		interrupt=>Net_312);
 
 END R_T_L;
