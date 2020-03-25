@@ -1,0 +1,9 @@
+C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\BLE_FindMe01_TestProgram.cydsn\BLE_FindMe01_TestProgram.cyprj|8814cebc-4d80-404e-8dfa-e699dfb923df
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|4462c179-10ff-41e0-af30-132d5d92ff46
+C:\Users\dprdc\OneDrive\Documents\PSoC Creator\4.3\Downloads ( 4.3).cylib\Downloads ( 4.3).cyprj|cae89b83-f74e-4bb4-8ead-da9ad6adbaef
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|1324d148-b20d-4a77-8e2f-ba364398a702
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|4513f9cb-f15e-4665-afda-baf6f58806f0
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|f1eeb1c3-c2cc-454b-a242-bfa3090b5574
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\dev\psoc4\PSoC4AnalogDevice\psoc4arch.cydsn\psoc4arch.cyprj|0502f502-f521-45ee-be24-0ecff253894a
+C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\FindMeTutorial.cydsn\FindMeTutorial.cyprj|fe8259c0-320a-47cf-86e1-e85d4b3ccddb
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|0e5817d2-091c-4bc6-83f9-acae3f860a34
