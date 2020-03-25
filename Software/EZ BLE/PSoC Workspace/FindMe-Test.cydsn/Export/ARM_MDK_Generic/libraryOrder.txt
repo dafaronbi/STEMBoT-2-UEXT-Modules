@@ -1,1 +1,0 @@
-.\Export\ARM_MDK_Generic\BLE_v3_30\mdkCyBLEStack_BLE_SOC_PERIPHERAL.a
