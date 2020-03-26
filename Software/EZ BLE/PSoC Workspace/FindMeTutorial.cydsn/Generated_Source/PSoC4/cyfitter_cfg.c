@@ -240,7 +240,9 @@ static void ClockSetup(void)
 	CyDelayUs(1500u); /* Wait to stabilize */
 
 	/* Setup phase aligned clocks */
-	CY_SET_REG32((void *)CYREG_PERI_DIV_16_CTL0, 0x00BB7F00u);
+	CY_SET_REG32((void *)CYREG_PERI_DIV_16_CTL1, 0x00BB7F00u);
+	CY_SET_REG32((void *)CYREG_PERI_DIV_CMD, 0x8000FF41u);
+	CY_SET_REG32((void *)CYREG_PERI_DIV_16_CTL0, 0x000F9F00u);
 	CY_SET_REG32((void *)CYREG_PERI_DIV_CMD, 0x8000FF40u);
 
 	/* CYDEV_CLK_IMO_CONFIG Starting address: CYDEV_CLK_IMO_CONFIG */
@@ -248,6 +250,9 @@ static void ClockSetup(void)
 
 	/* CYDEV_CLK_SELECT Starting address: CYDEV_CLK_SELECT */
 	CY_SET_REG32((void *)(CYREG_CLK_SELECT), 0x00040000u);
+
+	/* CYDEV_PERI_PCLK_CTL8 Starting address: CYDEV_PERI_PCLK_CTL8 */
+	CY_SET_REG32((void *)(CYREG_PERI_PCLK_CTL8), 0x00000041u);
 
 	/* CYDEV_PERI_PCLK_CTL7 Starting address: CYDEV_PERI_PCLK_CTL7 */
 	CY_SET_REG32((void *)(CYREG_PERI_PCLK_CTL7), 0x00000040u);
@@ -317,10 +322,10 @@ void cyfitter_cfg(void)
 		};
 
 		static const cy_cfg_addrvalue_t CYCODE cy_cfg_data_table[] = {
-			{0x19u, 0x02u},
-			{0x5Du, 0x02u},
-			{0xC6u, 0x08u},
-			{0xD6u, 0x01u},
+			{0x1Cu, 0x10u},
+			{0x60u, 0x10u},
+			{0xC6u, 0x04u},
+			{0xD8u, 0x02u},
 		};
 
 
@@ -356,7 +361,7 @@ void cyfitter_cfg(void)
 
 		/* UDB_PA_2 Starting address: CYDEV_UDB_PA2_BASE */
 		CY_SET_REG32((void *)(CYDEV_UDB_PA2_BASE), 0x00990000u);
-		CY_SET_REG32((void *)(CYREG_UDB_PA2_CFG8), 0x10000000u);
+		CY_SET_REG32((void *)(CYREG_UDB_PA2_CFG8), 0x20000000u);
 
 		/* Enable digital routing */
 		CY_SET_XTND_REG8((void *)CYREG_UDB_UDBIF_BANK_CTL, (uint8)(CY_GET_XTND_REG8((void *)CYREG_UDB_UDBIF_BANK_CTL) | 0x06u));

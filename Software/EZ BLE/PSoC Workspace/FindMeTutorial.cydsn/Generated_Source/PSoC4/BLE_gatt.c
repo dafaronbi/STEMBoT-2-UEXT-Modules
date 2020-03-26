@@ -79,20 +79,25 @@ CYBLE_STATE_T cyBle_state;
         0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u }, 
         {{
             0x00u, 0x00u,
-        },
-        {
             0x00u, 0x00u,
         },
         {
             0x00u, 0x00u,
-        },
-        {
             0x00u, 0x00u,
         },
         {
+            0x00u, 0x00u,
+            0x00u, 0x00u,
+        },
+        {
+            0x00u, 0x00u,
+            0x00u, 0x00u,
+        },
+        {
+            0x00u, 0x00u,
             0x00u, 0x00u,
         }}, 
-        0x02u, /* CYBLE_GATT_DB_CCCD_COUNT */ 
+        0x04u, /* CYBLE_GATT_DB_CCCD_COUNT */ 
         0x05u, /* CYBLE_GAP_MAX_BONDED_DEVICE */ 
     };
 #endif /* (CYBLE_MODE_PROFILE) */
@@ -108,7 +113,7 @@ CYBLE_STATE_T cyBle_state;
     0x000Fu,    /* Handle of the Client Characteristic Configuration descriptor */
 };
     
-    static uint8 cyBle_attValues[0x20u] = {
+    static uint8 cyBle_attValues[0x28u] = {
     /* Device Name */
     (uint8)'U', (uint8)'E', (uint8)'X', (uint8)'T', (uint8)' ', (uint8)'B', (uint8)'L', (uint8)'E', (uint8)' ',
     (uint8)'M', (uint8)'O', (uint8)'D', (uint8)'U', (uint8)'L', (uint8)'E',
@@ -131,6 +136,12 @@ CYBLE_STATE_T cyBle_state;
     /* Alert Level */
     0x00u,
 
+    /* Battery Level */
+    0x64u,
+
+    /* Characteristic Presentation Format */
+    0x00u, 0x00u, 0x33u, 0x27u, 0x01u, 0x00u, 0x00u,
+
 };
 #if(CYBLE_GATT_DB_CCCD_COUNT != 0u)
 uint8 cyBle_attValuesCCCD[CYBLE_GATT_DB_CCCD_COUNT];
@@ -145,9 +156,12 @@ CYBLE_GATTS_ATT_GEN_VAL_LEN_T cyBle_attValuesLen[CYBLE_GATT_DB_ATT_VAL_COUNT] = 
     { 0x0004u, (void *)&cyBle_attValues[27] }, /* Service Changed */
     { 0x0002u, (void *)&cyBle_attValuesCCCD[0] }, /* Client Characteristic Configuration */
     { 0x0001u, (void *)&cyBle_attValues[31] }, /* Alert Level */
+    { 0x0001u, (void *)&cyBle_attValues[32] }, /* Battery Level */
+    { 0x0007u, (void *)&cyBle_attValues[33] }, /* Characteristic Presentation Format */
+    { 0x0002u, (void *)&cyBle_attValuesCCCD[2] }, /* Client Characteristic Configuration */
 };
 
-const CYBLE_GATTS_DB_T cyBle_gattDB[0x12u] = {
+const CYBLE_GATTS_DB_T cyBle_gattDB[0x17u] = {
     { 0x0001u, 0x2800u /* Primary service                     */, 0x00000001u /*       */, 0x000Bu, {{0x1800u, NULL}}                           },
     { 0x0002u, 0x2803u /* Characteristic                      */, 0x00020001u /* rd    */, 0x0003u, {{0x2A00u, NULL}}                           },
     { 0x0003u, 0x2A00u /* Device Name                         */, 0x01020001u /* rd    */, 0x0003u, {{0x000Fu, (void *)&cyBle_attValuesLen[0]}} },
@@ -166,6 +180,11 @@ const CYBLE_GATTS_DB_T cyBle_gattDB[0x12u] = {
     { 0x0010u, 0x2800u /* Primary service                     */, 0x00000001u /*       */, 0x0012u, {{0x1802u, NULL}}                           },
     { 0x0011u, 0x2803u /* Characteristic                      */, 0x00040001u /* wwr   */, 0x0012u, {{0x2A06u, NULL}}                           },
     { 0x0012u, 0x2A06u /* Alert Level                         */, 0x01040100u /* wwr   */, 0x0012u, {{0x0001u, (void *)&cyBle_attValuesLen[7]}} },
+    { 0x0013u, 0x2800u /* Primary service                     */, 0x00000001u /*       */, 0x0017u, {{0x180Fu, NULL}}                           },
+    { 0x0014u, 0x2803u /* Characteristic                      */, 0x00020001u /* rd    */, 0x0017u, {{0x2A19u, NULL}}                           },
+    { 0x0015u, 0x2A19u /* Battery Level                       */, 0x01020001u /* rd    */, 0x0017u, {{0x0001u, (void *)&cyBle_attValuesLen[8]}} },
+    { 0x0016u, 0x2904u /* Characteristic Presentation Format  */, 0x01020001u /* rd    */, 0x0016u, {{0x0007u, (void *)&cyBle_attValuesLen[9]}} },
+    { 0x0017u, 0x2902u /* Client Characteristic Configuration */, 0x010A0101u /* rd,wr */, 0x0017u, {{0x0002u, (void *)&cyBle_attValuesLen[10]}} },
 };
 
 
