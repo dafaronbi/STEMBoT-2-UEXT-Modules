@@ -29,7 +29,7 @@ all: WIFI-Synth.axf
 WIFI-Synth.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"/Users/danielfaronbi/Google Drive/UNO/Fall 2019 Semmester/Embedded Microcontrollers/LPC Workspace/lpc_chip_40xx/Debug" -Xlinker -Map="WIFI-Synth.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "WIFI-Synth_Debug.ld" -o "WIFI-Synth.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"/Users/danielfaronbi/Documents/Capstone/STEMBoT-2-UEXT-Modules/Software/LPC4088/LPC Workspace/lpc_chip_40xx/Debug" -Xlinker -Map="WIFI-Synth.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "WIFI-Synth_Debug.ld" -o "WIFI-Synth.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

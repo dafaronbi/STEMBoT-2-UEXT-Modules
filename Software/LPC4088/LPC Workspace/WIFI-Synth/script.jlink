@@ -1,7 +1,7 @@
 ExitOnError 1
 r
 h
-loadfile "/Users/danielfaronbi/Google Drive/UNO/Fall 2019 Semmester/Embedded Microcontrollers/LPC Workspace/WIFI-Synth/Debug/WIFI-Synth.hex" 0x0 
+loadfile "/Users/danielfaronbi/Documents/Capstone/STEMBoT-2-UEXT-Modules/Software/LPC4088/LPC Workspace/WIFI-Synth/Debug/WIFI-Synth.hex" 0x0 
 qc
 
 qc
