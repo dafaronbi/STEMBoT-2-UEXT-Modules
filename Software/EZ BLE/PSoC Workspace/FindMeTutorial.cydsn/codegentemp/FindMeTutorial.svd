@@ -64,7 +64,7 @@
       </registers>
     </peripheral>
     <peripheral>
-      <name>Timer_1</name>
+      <name>Timer</name>
       <description>No description available</description>
       <baseAddress>0x0</baseAddress>
       <addressBlock>

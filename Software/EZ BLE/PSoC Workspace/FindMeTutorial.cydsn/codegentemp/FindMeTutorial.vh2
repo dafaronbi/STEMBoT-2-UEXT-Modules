@@ -2,7 +2,7 @@
 --	Conversion of findMeTutorial.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Wed Mar 25 21:40:15 2020
+--	Thu Mar 26 21:48:46 2020
 --
 
 USE cypress.cypress.all;
@@ -18,12 +18,12 @@ SIGNAL \BLE:Net_53\ : bit;
 SIGNAL Net_305 : bit;
 SIGNAL \BLE:Net_55\ : bit;
 SIGNAL Net_387 : bit;
-SIGNAL \Timer_1:Net_81\ : bit;
-SIGNAL \Timer_1:Net_75\ : bit;
-SIGNAL \Timer_1:Net_69\ : bit;
-SIGNAL \Timer_1:Net_66\ : bit;
-SIGNAL \Timer_1:Net_82\ : bit;
-SIGNAL \Timer_1:Net_72\ : bit;
+SIGNAL \Timer:Net_81\ : bit;
+SIGNAL \Timer:Net_75\ : bit;
+SIGNAL \Timer:Net_69\ : bit;
+SIGNAL \Timer:Net_66\ : bit;
+SIGNAL \Timer:Net_82\ : bit;
+SIGNAL \Timer:Net_72\ : bit;
 SIGNAL Net_389 : bit;
 SIGNAL Net_388 : bit;
 SIGNAL Net_390 : bit;
@@ -74,11 +74,11 @@ tmpOE__redLed_net_0 <=  ('1') ;
 		is_digital=>'0')
 	PORT MAP(clock_out=>\BLE:Net_53\,
 		dig_domain_out=>open);
-bat:cy_isr_v1_0
+Timer_ISR:cy_isr_v1_0
 	GENERIC MAP(int_type=>"10",
 		is_nmi=>'0')
 	PORT MAP(int_signal=>Net_387);
-\Timer_1:cy_m0s8_tcpwm_1\:cy_m0s8_tcpwm_v1_0
+\Timer:cy_m0s8_tcpwm_1\:cy_m0s8_tcpwm_v1_0
 	GENERIC MAP(cy_registers=>"")
 	PORT MAP(clock=>Net_393,
 		capture=>zero,

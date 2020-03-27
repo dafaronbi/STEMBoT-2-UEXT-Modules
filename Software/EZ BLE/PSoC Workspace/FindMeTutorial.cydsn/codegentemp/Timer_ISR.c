@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: bat.c  
+* File Name: Timer_ISR.c  
 * Version 1.70
 *
 *  Description:
@@ -18,15 +18,15 @@
 
 #include <cydevice_trm.h>
 #include <CyLib.h>
-#include <bat.h>
+#include <Timer_ISR.h>
 #include "cyapicallbacks.h"
 
-#if !defined(bat__REMOVED) /* Check for removal by optimization */
+#if !defined(Timer_ISR__REMOVED) /* Check for removal by optimization */
 
 /*******************************************************************************
 *  Place your includes, defines and code here 
 ********************************************************************************/
-/* `#START bat_intc` */
+/* `#START Timer_ISR_intc` */
 
 /* `#END` */
 
@@ -37,7 +37,7 @@ CY_ISR_PROTO(IntDefaultHandler);
 
 
 /*******************************************************************************
-* Function Name: bat_Start
+* Function Name: Timer_ISR_Start
 ********************************************************************************
 *
 * Summary:
@@ -53,24 +53,24 @@ CY_ISR_PROTO(IntDefaultHandler);
 *   None
 *
 *******************************************************************************/
-void bat_Start(void)
+void Timer_ISR_Start(void)
 {
     /* For all we know the interrupt is active. */
-    bat_Disable();
+    Timer_ISR_Disable();
 
-    /* Set the ISR to point to the bat Interrupt. */
-    bat_SetVector(&bat_Interrupt);
+    /* Set the ISR to point to the Timer_ISR Interrupt. */
+    Timer_ISR_SetVector(&Timer_ISR_Interrupt);
 
     /* Set the priority. */
-    bat_SetPriority((uint8)bat_INTC_PRIOR_NUMBER);
+    Timer_ISR_SetPriority((uint8)Timer_ISR_INTC_PRIOR_NUMBER);
 
     /* Enable it. */
-    bat_Enable();
+    Timer_ISR_Enable();
 }
 
 
 /*******************************************************************************
-* Function Name: bat_StartEx
+* Function Name: Timer_ISR_StartEx
 ********************************************************************************
 *
 * Summary:
@@ -96,24 +96,24 @@ void bat_Start(void)
 *   None
 *
 *******************************************************************************/
-void bat_StartEx(cyisraddress address)
+void Timer_ISR_StartEx(cyisraddress address)
 {
     /* For all we know the interrupt is active. */
-    bat_Disable();
+    Timer_ISR_Disable();
 
-    /* Set the ISR to point to the bat Interrupt. */
-    bat_SetVector(address);
+    /* Set the ISR to point to the Timer_ISR Interrupt. */
+    Timer_ISR_SetVector(address);
 
     /* Set the priority. */
-    bat_SetPriority((uint8)bat_INTC_PRIOR_NUMBER);
+    Timer_ISR_SetPriority((uint8)Timer_ISR_INTC_PRIOR_NUMBER);
 
     /* Enable it. */
-    bat_Enable();
+    Timer_ISR_Enable();
 }
 
 
 /*******************************************************************************
-* Function Name: bat_Stop
+* Function Name: Timer_ISR_Stop
 ********************************************************************************
 *
 * Summary:
@@ -126,22 +126,22 @@ void bat_StartEx(cyisraddress address)
 *   None
 *
 *******************************************************************************/
-void bat_Stop(void)
+void Timer_ISR_Stop(void)
 {
     /* Disable this interrupt. */
-    bat_Disable();
+    Timer_ISR_Disable();
 
     /* Set the ISR to point to the passive one. */
-    bat_SetVector(&IntDefaultHandler);
+    Timer_ISR_SetVector(&IntDefaultHandler);
 }
 
 
 /*******************************************************************************
-* Function Name: bat_Interrupt
+* Function Name: Timer_ISR_Interrupt
 ********************************************************************************
 *
 * Summary:
-*   The default Interrupt Service Routine for bat.
+*   The default Interrupt Service Routine for Timer_ISR.
 *
 *   Add custom code between the START and END comments to keep the next version
 *   of this file from over-writing your code.
@@ -156,27 +156,27 @@ void bat_Stop(void)
 *   None
 *
 *******************************************************************************/
-CY_ISR(bat_Interrupt)
+CY_ISR(Timer_ISR_Interrupt)
 {
-    #ifdef bat_INTERRUPT_INTERRUPT_CALLBACK
-        bat_Interrupt_InterruptCallback();
-    #endif /* bat_INTERRUPT_INTERRUPT_CALLBACK */ 
+    #ifdef Timer_ISR_INTERRUPT_INTERRUPT_CALLBACK
+        Timer_ISR_Interrupt_InterruptCallback();
+    #endif /* Timer_ISR_INTERRUPT_INTERRUPT_CALLBACK */ 
 
     /*  Place your Interrupt code here. */
-    /* `#START bat_Interrupt` */
+    /* `#START Timer_ISR_Interrupt` */
 
     /* `#END` */
 }
 
 
 /*******************************************************************************
-* Function Name: bat_SetVector
+* Function Name: Timer_ISR_SetVector
 ********************************************************************************
 *
 * Summary:
-*   Change the ISR vector for the Interrupt. Note calling bat_Start
+*   Change the ISR vector for the Interrupt. Note calling Timer_ISR_Start
 *   will override any effect this method would have had. To set the vector 
-*   before the component has been started use bat_StartEx instead.
+*   before the component has been started use Timer_ISR_StartEx instead.
 * 
 *   When defining ISR functions, the CY_ISR and CY_ISR_PROTO macros should be 
 *   used to provide consistent definition across compilers:
@@ -196,14 +196,14 @@ CY_ISR(bat_Interrupt)
 *   None
 *
 *******************************************************************************/
-void bat_SetVector(cyisraddress address)
+void Timer_ISR_SetVector(cyisraddress address)
 {
-    CyRamVectors[CYINT_IRQ_BASE + bat__INTC_NUMBER] = address;
+    CyRamVectors[CYINT_IRQ_BASE + Timer_ISR__INTC_NUMBER] = address;
 }
 
 
 /*******************************************************************************
-* Function Name: bat_GetVector
+* Function Name: Timer_ISR_GetVector
 ********************************************************************************
 *
 * Summary:
@@ -216,22 +216,22 @@ void bat_SetVector(cyisraddress address)
 *   Address of the ISR in the interrupt vector table.
 *
 *******************************************************************************/
-cyisraddress bat_GetVector(void)
+cyisraddress Timer_ISR_GetVector(void)
 {
-    return CyRamVectors[CYINT_IRQ_BASE + bat__INTC_NUMBER];
+    return CyRamVectors[CYINT_IRQ_BASE + Timer_ISR__INTC_NUMBER];
 }
 
 
 /*******************************************************************************
-* Function Name: bat_SetPriority
+* Function Name: Timer_ISR_SetPriority
 ********************************************************************************
 *
 * Summary:
 *   Sets the Priority of the Interrupt. 
 *
-*   Note calling bat_Start or bat_StartEx will 
+*   Note calling Timer_ISR_Start or Timer_ISR_StartEx will 
 *   override any effect this API would have had. This API should only be called
-*   after bat_Start or bat_StartEx has been called. 
+*   after Timer_ISR_Start or Timer_ISR_StartEx has been called. 
 *   To set the initial priority for the component, use the Design-Wide Resources
 *   Interrupt Editor.
 *
@@ -246,20 +246,20 @@ cyisraddress bat_GetVector(void)
 *   None
 *
 *******************************************************************************/
-void bat_SetPriority(uint8 priority)
+void Timer_ISR_SetPriority(uint8 priority)
 {
 	uint8 interruptState;
-    uint32 priorityOffset = ((bat__INTC_NUMBER % 4u) * 8u) + 6u;
+    uint32 priorityOffset = ((Timer_ISR__INTC_NUMBER % 4u) * 8u) + 6u;
     
 	interruptState = CyEnterCriticalSection();
-    *bat_INTC_PRIOR = (*bat_INTC_PRIOR & (uint32)(~bat__INTC_PRIOR_MASK)) |
+    *Timer_ISR_INTC_PRIOR = (*Timer_ISR_INTC_PRIOR & (uint32)(~Timer_ISR__INTC_PRIOR_MASK)) |
                                     ((uint32)priority << priorityOffset);
 	CyExitCriticalSection(interruptState);
 }
 
 
 /*******************************************************************************
-* Function Name: bat_GetPriority
+* Function Name: Timer_ISR_GetPriority
 ********************************************************************************
 *
 * Summary:
@@ -274,19 +274,19 @@ void bat_SetPriority(uint8 priority)
 *    PSoC 4: Priority is from 0 to 3.
 *
 *******************************************************************************/
-uint8 bat_GetPriority(void)
+uint8 Timer_ISR_GetPriority(void)
 {
     uint32 priority;
-	uint32 priorityOffset = ((bat__INTC_NUMBER % 4u) * 8u) + 6u;
+	uint32 priorityOffset = ((Timer_ISR__INTC_NUMBER % 4u) * 8u) + 6u;
 
-    priority = (*bat_INTC_PRIOR & bat__INTC_PRIOR_MASK) >> priorityOffset;
+    priority = (*Timer_ISR_INTC_PRIOR & Timer_ISR__INTC_PRIOR_MASK) >> priorityOffset;
 
     return (uint8)priority;
 }
 
 
 /*******************************************************************************
-* Function Name: bat_Enable
+* Function Name: Timer_ISR_Enable
 ********************************************************************************
 *
 * Summary:
@@ -301,15 +301,15 @@ uint8 bat_GetPriority(void)
 *   None
 *
 *******************************************************************************/
-void bat_Enable(void)
+void Timer_ISR_Enable(void)
 {
     /* Enable the general interrupt. */
-    *bat_INTC_SET_EN = bat__INTC_MASK;
+    *Timer_ISR_INTC_SET_EN = Timer_ISR__INTC_MASK;
 }
 
 
 /*******************************************************************************
-* Function Name: bat_GetState
+* Function Name: Timer_ISR_GetState
 ********************************************************************************
 *
 * Summary:
@@ -322,15 +322,15 @@ void bat_Enable(void)
 *   1 if enabled, 0 if disabled.
 *
 *******************************************************************************/
-uint8 bat_GetState(void)
+uint8 Timer_ISR_GetState(void)
 {
     /* Get the state of the general interrupt. */
-    return ((*bat_INTC_SET_EN & (uint32)bat__INTC_MASK) != 0u) ? 1u:0u;
+    return ((*Timer_ISR_INTC_SET_EN & (uint32)Timer_ISR__INTC_MASK) != 0u) ? 1u:0u;
 }
 
 
 /*******************************************************************************
-* Function Name: bat_Disable
+* Function Name: Timer_ISR_Disable
 ********************************************************************************
 *
 * Summary:
@@ -343,15 +343,15 @@ uint8 bat_GetState(void)
 *   None
 *
 *******************************************************************************/
-void bat_Disable(void)
+void Timer_ISR_Disable(void)
 {
     /* Disable the general interrupt. */
-    *bat_INTC_CLR_EN = bat__INTC_MASK;
+    *Timer_ISR_INTC_CLR_EN = Timer_ISR__INTC_MASK;
 }
 
 
 /*******************************************************************************
-* Function Name: bat_SetPending
+* Function Name: Timer_ISR_SetPending
 ********************************************************************************
 *
 * Summary:
@@ -370,14 +370,14 @@ void bat_Disable(void)
 *   interrupts).
 *
 *******************************************************************************/
-void bat_SetPending(void)
+void Timer_ISR_SetPending(void)
 {
-    *bat_INTC_SET_PD = bat__INTC_MASK;
+    *Timer_ISR_INTC_SET_PD = Timer_ISR__INTC_MASK;
 }
 
 
 /*******************************************************************************
-* Function Name: bat_ClearPending
+* Function Name: Timer_ISR_ClearPending
 ********************************************************************************
 *
 * Summary:
@@ -395,9 +395,9 @@ void bat_SetPending(void)
 *   None
 *
 *******************************************************************************/
-void bat_ClearPending(void)
+void Timer_ISR_ClearPending(void)
 {
-    *bat_INTC_CLR_PD = bat__INTC_MASK;
+    *Timer_ISR_INTC_CLR_PD = Timer_ISR__INTC_MASK;
 }
 
 #endif /* End check for removal by optimization */

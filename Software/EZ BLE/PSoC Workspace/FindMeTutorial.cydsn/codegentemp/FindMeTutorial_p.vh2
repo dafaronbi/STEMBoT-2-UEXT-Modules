@@ -1,5 +1,5 @@
 -- Project:   findMeTutorial
--- Generated: 03/25/2020 21:40:15
+-- Generated: 03/26/2020 21:48:47
 -- PSoC Creator  4.3
 
 ENTITY findMeTutorial IS
@@ -368,7 +368,7 @@ BEGIN
             interrupt => \BLE:Net_15\,
             clock => ClockBlock_HFClk);
 
-    bat:interrupt
+    Timer_ISR:interrupt
         GENERIC MAP(
             int_type => "10",
             is_nmi => 0)
@@ -376,7 +376,7 @@ BEGIN
             interrupt => Net_387,
             clock => ClockBlock_HFClk);
 
-    \Timer_1:cy_m0s8_tcpwm_1\:m0s8tcpwmcell
+    \Timer:cy_m0s8_tcpwm_1\:m0s8tcpwmcell
         GENERIC MAP(
             cy_registers => "")
         PORT MAP(

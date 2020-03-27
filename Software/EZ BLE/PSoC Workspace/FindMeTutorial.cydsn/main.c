@@ -32,7 +32,7 @@ void Ias_Handler(uint32 eventCode, void *eventParam){
         PWM_WriteCompare(1000);
 }
 
-CY_ISR(Timer_1_ISR_Handler){
+CY_ISR(Timer_ISR_Handler){
     CYBLE_GATT_HANDLE_VALUE_PAIR_T point;
     uint8 bval;
     
@@ -47,7 +47,7 @@ CY_ISR(Timer_1_ISR_Handler){
         
         CyBle_GattsWriteAttributeValue(&point,0,NULL,CYBLE_GATT_DB_LOCALLY_INITIATED);
     }
-    Timer_1_ClearInterrupt(Timer_1_INTR_MASK_TC);
+    Timer_ClearInterrupt(Timer_INTR_MASK_TC);
     
 }
 
@@ -62,9 +62,8 @@ int main (void)
     PWM_Start();
     
     //start timer
-    Timer_1_Init();
-    Timer_1_Start();
-   // Timer_1_IS(Timer_1_ISR_Handler);
+    Timer_Start();
+    Timer_ISR_StartEx(Timer_ISR_Handler);
 
     /* CyGlobalIntEnable; */ /* Uncomment this line to enable global interrupts. */
     for(;;)
