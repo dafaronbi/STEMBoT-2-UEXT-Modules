@@ -119,7 +119,7 @@ CYBLE_STATE_T cyBle_state;
     (uint8)'M', (uint8)'O', (uint8)'D', (uint8)'U', (uint8)'L', (uint8)'E',
 
     /* Appearance */
-    0x00u, 0x00u,
+    0x80u, 0x00u,
 
     /* Peripheral Preferred Connection Parameters */
     0x06u, 0x00u, 0x28u, 0x00u, 0x00u, 0x00u, 0xE8u, 0x03u,

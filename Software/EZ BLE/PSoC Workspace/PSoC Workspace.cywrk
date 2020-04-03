@@ -3,12 +3,13 @@
 <!--This file is machine generated and read. It is not intended to be edited by hand.-->
 <!--Due to this, there is no schema for this file.-->
 <CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="PSoC Workspace" persistent="PSoC Workspace.cywrk" platform="NOT_USED">
-<current_project name=".\findMeTutorial.cydsn\findMeTutorial.cyprj" />
+<current_project name=".\UEXTFirmware.cydsn\UEXTFirmware.cyprj" />
 <wrkspc_folders />
 <files />
 <projects>
 <v>.\BLE_FindMe01_TestProgram.cydsn\BLE_FindMe01_TestProgram.cyprj</v>
 <v>.\findMeTutorial.cydsn\findMeTutorial.cyprj</v>
+<v>.\UEXTFirmware.cydsn\UEXTFirmware.cyprj</v>
 </projects>
 <workspace_id v="4e7a443d-7f16-4254-af40-1c73b6e8ce0f" />
 <WriteAppVersionLastSavedWith v="4.3.0.1445" />

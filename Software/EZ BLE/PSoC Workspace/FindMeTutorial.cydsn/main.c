@@ -13,10 +13,26 @@
 
 void Stack_Handler(uint32 eventCode, void *event)
 {
+    //authetification info
+    CYBLE_GAP_AUTH_INFO_T authInfo;
+    authInfo.security = (CYBLE_GAP_SEC_MODE_1 | CYBLE_GAP_SEC_LEVEL_1);
+    authInfo.bonding = CYBLE_GAP_BONDING;
+    authInfo.ekeySize = 16;
+    authInfo.authErr = CYBLE_GAP_AUTH_ERROR_NONE;
+    authInfo.pairingProperties = 0x0;
+    
     switch(eventCode){
         case CYBLE_EVT_STACK_ON:
+        case CYBLE_EVT_TIMEOUT:
+        case CYBLE_EVT_GAP_AUTH_FAILED:
         case CYBLE_EVT_GAP_DEVICE_DISCONNECTED:
             CyBle_GappStartAdvertisement(CYBLE_ADVERTISING_FAST);
+            break;
+        case CYBLE_EVT_GAP_AUTH_REQ:
+            CyBle_GappAuthReqReply(cyBle_pendingFlashWrite,&authInfo);
+            break;
+       //case CYBLE_EVT_GAP_AUTH_COMPLETE:
+            //CyBle_StoreBondingData();
     }
 }
 

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
   55 001d 00       		.byte	0
   56 001e 00       		.byte	0
   57 001f 00       		.byte	0
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 2
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 2
 
 
   58 0020 00       		.byte	0
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  112 0056 00       		.byte	0
  113 0057 00       		.byte	0
  114 0058 00       		.byte	0
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 3
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 3
 
 
  115 0059 00       		.byte	0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  169 008f 00       		.byte	0
  170 0090 00       		.byte	0
  171 0091 00       		.byte	0
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 4
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 4
 
 
  172 0092 00       		.byte	0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  226 00c8 00       		.byte	0
  227 00c9 00       		.byte	0
  228 00ca 00       		.byte	0
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 5
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 5
 
 
  229 00cb 00       		.byte	0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  283 0101 00       		.byte	0
  284 0102 00       		.byte	0
  285 0103 00       		.byte	0
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 6
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 6
 
 
  286 0104 00       		.byte	0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  340 013a 00       		.byte	0
  341 013b 00       		.byte	0
  342 013c 00       		.byte	0
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 7
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 7
 
 
  343 013d 00       		.byte	0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  397 0173 00       		.byte	0
  398 0174 00       		.byte	0
  399 0175 00       		.byte	0
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 8
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 8
 
 
  400 0176 00       		.byte	0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  454 01ac 00       		.byte	0
  455 01ad 00       		.byte	0
  456 01ae 00       		.byte	0
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 9
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 9
 
 
  457 01af 00       		.byte	0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  511 01e5 00       		.byte	0
  512 01e6 00       		.byte	0
  513 01e7 00       		.byte	0
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 10
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 10
 
 
  514 01e8 00       		.byte	0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  568 021e 00       		.byte	0
  569 021f 00       		.byte	0
  570 0220 00       		.byte	0
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 11
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 11
 
 
  571 0221 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  625 0257 00       		.byte	0
  626 0258 00       		.byte	0
  627 0259 00       		.byte	0
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 12
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 12
 
 
  628 025a 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  682              		.section	.rodata
  683              		.align	2
  684              		.type	cyBle_gatts, %object
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 13
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 13
 
 
  685              		.size	cyBle_gatts, 6
@@ -746,7 +746,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  707 000c 55       		.byte	85
  708 000d 4C       		.byte	76
  709 000e 45       		.byte	69
- 710 000f 00       		.byte	0
+ 710 000f 80       		.byte	-128
  711 0010 00       		.byte	0
  712 0011 06       		.byte	6
  713 0012 00       		.byte	0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  739              		.size	cyBle_attValuesLen, 88
  740              	cyBle_attValuesLen:
  741 0028 0F00     		.short	15
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 14
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 14
 
 
  742 002a 0000     		.space	2
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  796 0030 0300     		.short	3
  797 0032 002A     		.short	10752
  798 0034 01000201 		.word	16908289
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 15
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 15
 
 
  799 0038 0300     		.short	3
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  853 00be 0328     		.short	10243
  854 00c0 01000200 		.word	131073
  855 00c4 0B00     		.short	11
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 16
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 16
 
 
  856 00c6 0000     		.space	2
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  910 014c 01000400 		.word	262145
  911 0150 1200     		.short	18
  912 0152 0000     		.space	2
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 17
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 17
 
 
  913 0154 062A     		.short	10758
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  967              		.code	16
  968              		.thumb_func
  969              		.type	CyBle_GattsReInitGattDb, %function
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 18
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 18
 
 
  970              	CyBle_GattsReInitGattDb:
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
   52:Generated_Source\PSoC4/BLE_gatt.c ****         0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 
   53:Generated_Source\PSoC4/BLE_gatt.c ****         0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 
   54:Generated_Source\PSoC4/BLE_gatt.c ****         0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 19
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 19
 
 
   55:Generated_Source\PSoC4/BLE_gatt.c ****         0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  109:Generated_Source\PSoC4/BLE_gatt.c ****     const CYBLE_GATTS_T cyBle_gatts =
  110:Generated_Source\PSoC4/BLE_gatt.c **** {
  111:Generated_Source\PSoC4/BLE_gatt.c ****     0x000Cu,    /* Handle of the GATT service */
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 20
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 20
 
 
  112:Generated_Source\PSoC4/BLE_gatt.c ****     0x000Eu,    /* Handle of the Service Changed characteristic */
@@ -1151,7 +1151,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  119:Generated_Source\PSoC4/BLE_gatt.c ****     (uint8)'M', (uint8)'O', (uint8)'D', (uint8)'U', (uint8)'L', (uint8)'E',
  120:Generated_Source\PSoC4/BLE_gatt.c **** 
  121:Generated_Source\PSoC4/BLE_gatt.c ****     /* Appearance */
- 122:Generated_Source\PSoC4/BLE_gatt.c ****     0x00u, 0x00u,
+ 122:Generated_Source\PSoC4/BLE_gatt.c ****     0x80u, 0x00u,
  123:Generated_Source\PSoC4/BLE_gatt.c **** 
  124:Generated_Source\PSoC4/BLE_gatt.c ****     /* Peripheral Preferred Connection Parameters */
  125:Generated_Source\PSoC4/BLE_gatt.c ****     0x06u, 0x00u, 0x28u, 0x00u, 0x00u, 0x00u, 0xE8u, 0x03u,
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  166:Generated_Source\PSoC4/BLE_gatt.c ****     { 0x0002u, 0x2803u /* Characteristic                      */, 0x00020001u /* rd    */, 0x0003u,
  167:Generated_Source\PSoC4/BLE_gatt.c ****     { 0x0003u, 0x2A00u /* Device Name                         */, 0x01020001u /* rd    */, 0x0003u,
  168:Generated_Source\PSoC4/BLE_gatt.c ****     { 0x0004u, 0x2803u /* Characteristic                      */, 0x00020001u /* rd    */, 0x0005u,
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 21
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 21
 
 
  169:Generated_Source\PSoC4/BLE_gatt.c ****     { 0x0005u, 0x2A01u /* Appearance                          */, 0x01020001u /* rd    */, 0x0005u,
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  973              		.loc 1 222 0
  974              		.cfi_startproc
  975              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 22
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 22
 
 
  976              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1017              	.L6:
  1018 0036 C046     		.align	2
  1019              	.L5:
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 23
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 23
 
 
  1020 0038 00000000 		.word	cyBle_state
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  258:Generated_Source\PSoC4/BLE_gatt.c ****     
  259:Generated_Source\PSoC4/BLE_gatt.c ****     /* Client Characteristic Configuration descriptor write request */
  260:Generated_Source\PSoC4/BLE_gatt.c ****     if(eventParam->handleValPair.attrHandle == cyBle_gatts.cccdHandle)
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 24
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 24
 
 
  1052              		.loc 1 260 0
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1096              	.L10:
  271:Generated_Source\PSoC4/BLE_gatt.c ****             }
  272:Generated_Source\PSoC4/BLE_gatt.c ****             else
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 25
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 25
 
 
  273:Generated_Source\PSoC4/BLE_gatt.c ****             {
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1143              		.file 9 "Generated_Source\\PSoC4\\BLE_eventHandler.h"
  1144              		.section	.debug_info,"",%progbits
  1145              	.Ldebug_info0:
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 26
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 26
 
 
  1146 0000 CE100000 		.4byte	0x10ce
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1200 0070 02       		.byte	0x2
  1201 0071 F701     		.2byte	0x1f7
  1202 0073 2C000000 		.4byte	0x2c
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 27
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 27
 
 
  1203 0077 04       		.uleb128 0x4
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1257 00e3 2E0B0000 		.4byte	.LASF18
  1258 00e7 01       		.byte	0x1
  1259 00e8 0B       		.uleb128 0xb
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 28
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 28
 
 
  1260 00e9 FD2D0000 		.4byte	.LASF19
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1314 0155 91010000 		.4byte	.LASF37
  1315 0159 2D       		.byte	0x2d
  1316 015a 0B       		.uleb128 0xb
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 29
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 29
 
 
  1317 015b 78340000 		.4byte	.LASF38
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1371 01c7 E4100000 		.4byte	.LASF56
  1372 01cb 48       		.byte	0x48
  1373 01cc 0B       		.uleb128 0xb
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 30
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 30
 
 
  1374 01cd 5C290000 		.4byte	.LASF57
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1428 0239 050D0000 		.4byte	.LASF75
  1429 023d 72       		.byte	0x72
  1430 023e 0B       		.uleb128 0xb
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 31
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 31
 
 
  1431 023f 89360000 		.4byte	.LASF76
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1485 02ac 0B       		.uleb128 0xb
  1486 02ad 34170000 		.4byte	.LASF92
  1487 02b1 03       		.byte	0x3
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 32
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 32
 
 
  1488 02b2 0B       		.uleb128 0xb
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1542 031e 0B       		.uleb128 0xb
  1543 031f B6050000 		.4byte	.LASF111
  1544 0323 29       		.byte	0x29
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 33
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 33
 
 
  1545 0324 0B       		.uleb128 0xb
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1599 0396 0B       		.uleb128 0xb
  1600 0397 1B050000 		.4byte	.LASF126
  1601 039b 02       		.byte	0x2
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 34
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 34
 
 
  1602 039c 0B       		.uleb128 0xb
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1656 0408 0B       		.uleb128 0xb
  1657 0409 54350000 		.4byte	.LASF145
  1658 040d 80       		.byte	0x80
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 35
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 35
 
 
  1659 040e 0B       		.uleb128 0xb
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1713 047a 04       		.byte	0x4
  1714 047b 5F01     		.2byte	0x15f
  1715 047d 7E030000 		.4byte	0x37e
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 36
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 36
 
 
  1716 0481 04       		.uleb128 0x4
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1770 04f3 04       		.byte	0x4
  1771 04f4 CD01     		.2byte	0x1cd
  1772 04f6 BD040000 		.4byte	0x4bd
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 37
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 37
 
 
  1773 04fa 0E       		.uleb128 0xe
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1827 0564 D1       		.byte	0xd1
  1828 0565 77000000 		.4byte	0x77
  1829 0569 00       		.byte	0
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 38
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 38
 
 
  1830 056a 12       		.uleb128 0x12
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1884 05d3 13       		.uleb128 0x13
  1885 05d4 25330000 		.4byte	.LASF184
  1886 05d8 06       		.byte	0x6
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 39
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 39
 
 
  1887 05d9 F4       		.byte	0xf4
@@ -2327,7 +2327,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1930 0633 04       		.uleb128 0x4
  1931 0634 2F070000 		.4byte	.LASF191
  1932 0638 07       		.byte	0x7
- 1933 0639 0202     		.2byte	0x202
+ 1933 0639 0602     		.2byte	0x206
  1934 063b B9000000 		.4byte	0xb9
  1935 063f 11       		.uleb128 0x11
  1936 0640 06       		.byte	0x6
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1941 0648 F20B0000 		.4byte	.LASF192
  1942 064c 08       		.byte	0x8
  1943 064d 8A       		.byte	0x8a
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 40
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 40
 
 
  1944 064e 81040000 		.4byte	0x481
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  1998 06be B0000000 		.4byte	0xb0
  1999 06c2 7802     		.2byte	0x278
  2000 06c4 00       		.byte	0
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 41
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 41
 
 
  2001 06c5 18       		.uleb128 0x18
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2055 073f 0C       		.uleb128 0xc
  2056 0740 9A150000 		.4byte	.LASF212
  2057 0744 0B01     		.2byte	0x10b
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 42
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 42
 
 
  2058 0746 0C       		.uleb128 0xc
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2112 07c4 0C       		.uleb128 0xc
  2113 07c5 E9190000 		.4byte	.LASF231
  2114 07c9 1E01     		.2byte	0x11e
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 43
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 43
 
 
  2115 07cb 0C       		.uleb128 0xc
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2169 0849 0C       		.uleb128 0xc
  2170 084a D21D0000 		.4byte	.LASF250
  2171 084e 3101     		.2byte	0x131
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 44
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 44
 
 
  2172 0850 0C       		.uleb128 0xc
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2226 08ce 0C       		.uleb128 0xc
  2227 08cf 13070000 		.4byte	.LASF269
  2228 08d3 4401     		.2byte	0x144
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 45
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 45
 
 
  2229 08d5 0C       		.uleb128 0xc
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2283 0953 0C       		.uleb128 0xc
  2284 0954 3E020000 		.4byte	.LASF288
  2285 0958 5701     		.2byte	0x157
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 46
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 46
 
 
  2286 095a 0C       		.uleb128 0xc
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2340 09d8 0C       		.uleb128 0xc
  2341 09d9 C40A0000 		.4byte	.LASF307
  2342 09dd 6A01     		.2byte	0x16a
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 47
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 47
 
 
  2343 09df 0C       		.uleb128 0xc
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2397 0a5d 0C       		.uleb128 0xc
  2398 0a5e C4140000 		.4byte	.LASF326
  2399 0a62 7D01     		.2byte	0x17d
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 48
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 48
 
 
  2400 0a64 0C       		.uleb128 0xc
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2454 0ae2 0C       		.uleb128 0xc
  2455 0ae3 7A380000 		.4byte	.LASF345
  2456 0ae7 9001     		.2byte	0x190
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 49
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 49
 
 
  2457 0ae9 0C       		.uleb128 0xc
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2511 0b67 0C       		.uleb128 0xc
  2512 0b68 D4170000 		.4byte	.LASF364
  2513 0b6c A301     		.2byte	0x1a3
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 50
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 50
 
 
  2514 0b6e 0C       		.uleb128 0xc
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2568 0bec 0C       		.uleb128 0xc
  2569 0bed 871D0000 		.4byte	.LASF383
  2570 0bf1 B601     		.2byte	0x1b6
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 51
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 51
 
 
  2571 0bf3 0C       		.uleb128 0xc
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2625 0c71 0C       		.uleb128 0xc
  2626 0c72 1B300000 		.4byte	.LASF402
  2627 0c76 C901     		.2byte	0x1c9
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 52
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 52
 
 
  2628 0c78 0C       		.uleb128 0xc
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2682 0cf6 0C       		.uleb128 0xc
  2683 0cf7 3C030000 		.4byte	.LASF421
  2684 0cfb DC01     		.2byte	0x1dc
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 53
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 53
 
 
  2685 0cfd 0C       		.uleb128 0xc
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2739 0d7b 0C       		.uleb128 0xc
  2740 0d7c 22000000 		.4byte	.LASF440
  2741 0d80 EF01     		.2byte	0x1ef
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 54
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 54
 
 
  2742 0d82 0C       		.uleb128 0xc
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2796 0e00 0C       		.uleb128 0xc
  2797 0e01 2F010000 		.4byte	.LASF459
  2798 0e05 0202     		.2byte	0x202
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 55
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 55
 
 
  2799 0e07 0C       		.uleb128 0xc
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2853 0e85 0C       		.uleb128 0xc
  2854 0e86 620C0000 		.4byte	.LASF478
  2855 0e8a 1502     		.2byte	0x215
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 56
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 56
 
 
  2856 0e8c 0C       		.uleb128 0xc
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2910 0f0a 0C       		.uleb128 0xc
  2911 0f0b C5330000 		.4byte	.LASF497
  2912 0f0f 2802     		.2byte	0x228
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 57
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 57
 
 
  2913 0f11 0C       		.uleb128 0xc
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  2967 0f85 510F0000 		.4byte	0xf51
  2968 0f89 1B       		.uleb128 0x1b
  2969 0f8a 302C0000 		.4byte	.LASF513
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 58
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 58
 
 
  2970 0f8e 01       		.byte	0x1
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3024 0ffe 1C       		.uleb128 0x1c
  3025 0fff 381F0000 		.4byte	.LASF517
  3026 1003 01       		.byte	0x1
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 59
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 59
 
 
  3027 1004 74       		.byte	0x74
@@ -3489,12 +3489,12 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3032 100f 1F       		.uleb128 0x1f
  3033 1010 442F0000 		.4byte	.LASF518
  3034 1014 07       		.byte	0x7
- 3035 1015 9B02     		.2byte	0x29b
+ 3035 1015 9F02     		.2byte	0x29f
  3036 1017 33060000 		.4byte	0x633
  3037 101b 1F       		.uleb128 0x1f
  3038 101c E7380000 		.4byte	.LASF519
  3039 1020 07       		.byte	0x7
- 3040 1021 A202     		.2byte	0x2a2
+ 3040 1021 A602     		.2byte	0x2a6
  3041 1023 A4000000 		.4byte	0xa4
  3042 1027 20       		.uleb128 0x20
  3043 1028 0C250000 		.4byte	.LASF520
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3081 107e 93       		.byte	0x93
  3082 107f 68100000 		.4byte	0x1068
  3083 1083 05       		.uleb128 0x5
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 60
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 60
 
 
  3084 1084 03       		.byte	0x3
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3138 0010 17       		.uleb128 0x17
  3139 0011 00       		.byte	0
  3140 0012 00       		.byte	0
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 61
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 61
 
 
  3141 0013 02       		.uleb128 0x2
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3195 0049 49       		.uleb128 0x49
  3196 004a 13       		.uleb128 0x13
  3197 004b 00       		.byte	0
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 62
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 62
 
 
  3198 004c 00       		.byte	0
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3252 0082 0B       		.uleb128 0xb
  3253 0083 49       		.uleb128 0x49
  3254 0084 13       		.uleb128 0x13
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 63
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 63
 
 
  3255 0085 3A       		.uleb128 0x3a
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3309 00bb 0B       		.uleb128 0xb
  3310 00bc 0B       		.uleb128 0xb
  3311 00bd 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 64
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 64
 
 
  3312 00be 0B       		.uleb128 0xb
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3366 00f4 0B       		.uleb128 0xb
  3367 00f5 3B       		.uleb128 0x3b
  3368 00f6 0B       		.uleb128 0xb
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 65
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 65
 
 
  3369 00f7 49       		.uleb128 0x49
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3423 012d 13       		.uleb128 0x13
  3424 012e 2F       		.uleb128 0x2f
  3425 012f 0B       		.uleb128 0xb
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 66
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 66
 
 
  3426 0130 00       		.byte	0
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3480 0167 13       		.uleb128 0x13
  3481 0168 02       		.uleb128 0x2
  3482 0169 18       		.uleb128 0x18
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 67
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 67
 
 
  3483 016a 00       		.byte	0
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3537 01a0 49       		.uleb128 0x49
  3538 01a1 13       		.uleb128 0x13
  3539 01a2 00       		.byte	0
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 68
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 68
 
 
  3540 01a3 00       		.byte	0
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3574      4E56414C 
  3575              	.LASF437:
  3576 007f 4359424C 		.ascii	"CYBLE_EVT_PLXSS_INDICATION_ENABLED\000"
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 69
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 69
 
 
  3576      455F4556 
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3594      505F4E55 
  3594      4D455249 
  3595              	.LASF227:
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 70
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 70
 
 
  3596 01ba 4359424C 		.ascii	"CYBLE_EVT_AIOSC_NOTIFICATION\000"
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3614      545F4C4C 
  3614      53435F57 
  3614      52495445 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 71
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 71
 
 
  3615              	.LASF49:
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3634      545F4354 
  3634      53435F52 
  3634      4541445F 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 72
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 72
 
 
  3635              	.LASF215:
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3653              	.LASF140:
  3654 0562 4359424C 		.ascii	"CYBLE_GATT_ERR_UNSUPPORTED_GROUP_TYPE\000"
  3654      455F4741 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 73
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 73
 
 
  3654      54545F45 
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3672      4E444943 
  3673              	.LASF142:
  3674 069a 4359424C 		.ascii	"CYBLE_GATT_ERR_TRIGGER_CODITION_VALUE_NOT_SUPPORTED"
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 74
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 74
 
 
  3674      455F4741 
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3693 07bb 4359424C 		.ascii	"CYBLE_CONN_HANDLE_T\000"
  3693      455F434F 
  3693      4E4E5F48 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 75
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 75
 
 
  3693      414E444C 
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3711      505F4F4F 
  3711      425F4745 
  3712              	.LASF165:
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 76
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 76
 
 
  3713 08e7 62644861 		.ascii	"bdHandle\000"
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3731      545F4C4E 
  3731      53535F4E 
  3731      4F544946 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 77
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 77
 
 
  3732              	.LASF62:
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3751      455F4552 
  3751      524F525F 
  3751      4C324341 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 78
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 78
 
 
  3751      505F5053 
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3770              	.LASF223:
  3771 0c7b 4359424C 		.ascii	"CYBLE_EVT_AIOSS_INDICATION_DISABLED\000"
  3771      455F4556 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 79
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 79
 
 
  3771      545F4149 
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3790              	.LASF0:
  3791 0dab 7369676E 		.ascii	"signed char\000"
  3791      65642063 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 80
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 80
 
 
  3791      68617200 
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3809      455F5354 
  3809      4154455F 
  3809      53544F50 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 81
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 81
 
 
  3809      50454400 
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3828              	.LASF44:
  3829 101b 4359424C 		.ascii	"CYBLE_EVT_GAP_CONN_ESTB\000"
  3829      455F4556 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 82
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 82
 
 
  3829      545F4741 
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3847      54415F4C 
  3848              	.LASF466:
  3849 1151 4359424C 		.ascii	"CYBLE_EVT_SCPSC_WRITE_DESCR_RESPONSE\000"
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 83
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 83
 
 
  3849      455F4556 
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3868              	.LASF138:
  3869 1262 4359424C 		.ascii	"CYBLE_GATT_ERR_UNLIKELY_ERROR\000"
  3869      455F4741 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 84
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 84
 
 
  3869      54545F45 
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3888      455F4556 
  3888      545F5753 
  3888      53535F49 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 85
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 85
 
 
  3888      4E444943 
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3906      4F544946 
  3907              	.LASF190:
  3908 14e9 4359424C 		.ascii	"CYBLE_GATTS_DB_T\000"
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 86
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 86
 
 
  3908      455F4741 
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3926      455F4556 
  3926      545F414E 
  3926      4353435F 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 87
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 87
 
 
  3926      57524954 
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3945              	.LASF92:
  3946 1734 4359424C 		.ascii	"CYBLE_ERROR_MEMORY_ALLOCATION_FAILED\000"
  3946      455F4552 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 88
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 88
 
 
  3946      524F525F 
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3964      545F5750 
  3964      5453435F 
  3964      52454144 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 89
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 89
 
 
  3965              	.LASF117:
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  3982      53535F57 
  3982      52495445 
  3983              	.LASF442:
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 90
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 90
 
 
  3984 19c6 4359424C 		.ascii	"CYBLE_EVT_PLXSC_READ_CHAR_RESPONSE\000"
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4002 1afd 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_FAILED\000"
  4002      455F4556 
  4002      545F4741 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 91
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 91
 
 
  4002      505F4155 
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4020      53435F52 
  4020      4541445F 
  4021              	.LASF390:
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 92
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 92
 
 
  4022 1c3c 4359424C 		.ascii	"CYBLE_EVT_IASS_WRITE_CHAR_CMD\000"
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4040 1d87 4359424C 		.ascii	"CYBLE_EVT_HTSS_CHAR_WRITE\000"
  4040      455F4556 
  4040      545F4854 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 93
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 93
 
 
  4040      53535F43 
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4058      52454144 
  4059              	.LASF508:
  4060 1ec7 4359424C 		.ascii	"CYBLE_STATE_INITIALIZING\000"
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 94
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 94
 
 
  4060      455F5354 
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4078      4353435F 
  4078      52454144 
  4079              	.LASF26:
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 95
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 95
 
 
  4080 1fd3 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_ENTRY_REQUEST\000"
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4098      455F4556 
  4098      545F5450 
  4098      53435F52 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 96
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 96
 
 
  4098      4541445F 
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4118      455F4552 
  4118      524F525F 
  4118      44455649 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 97
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 97
 
 
  4118      43455F41 
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4136      494E4449 
  4137              	.LASF106:
  4138 2387 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_CHANNEL_NOT_FOUND\000"
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 98
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 98
 
 
  4138      455F4552 
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4157              	.LASF351:
  4158 2499 4359424C 		.ascii	"CYBLE_EVT_HIDSS_NOTIFICATION_DISABLED\000"
  4158      455F4556 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 99
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 99
 
 
  4158      545F4849 
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4178      455F4556 
  4178      545F4741 
  4178      5454535F 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 100
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 100
 
 
  4178      50524550 
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4197              	.LASF147:
  4198 270f 4359424C 		.ascii	"CYBLE_GATTS_ERR_PROCEDURE_ALREADY_IN_PROGRESS\000"
  4198      455F4741 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 101
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 101
 
 
  4198      5454535F 
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4216      545F4D41 
  4216      5800
  4217              	.LASF35:
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 102
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 102
 
 
  4218 2869 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_START_STOP\000"
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4236 2975 4359424C 		.ascii	"CYBLE_EVT_CPSC_INDICATION\000"
  4236      455F4556 
  4236      545F4350 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 103
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 103
 
 
  4236      53435F49 
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4254      4153485F 
  4254      434F5252 
  4255              	.LASF15:
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 104
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 104
 
 
  4256 2a96 6C6F6E67 		.ascii	"long double\000"
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4274      545F4353 
  4274      4353435F 
  4274      57524954 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 105
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 105
 
 
  4275              	.LASF33:
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4293              	.LASF47:
  4294 2cf8 4359424C 		.ascii	"CYBLE_EVT_GAP_SMP_LOC_P256_KEYS_GEN_AND_SET_COMPLET"
  4294      455F4556 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 106
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 106
 
 
  4294      545F4741 
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4313      545F4354 
  4313      53435F52 
  4313      4541445F 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 107
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 107
 
 
  4314              	.LASF149:
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4333      00
  4334              	.LASF409:
  4335 2f28 4359424C 		.ascii	"CYBLE_EVT_LNSC_NOTIFICATION\000"
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 108
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 108
 
 
  4335      455F4556 
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4353      455F4556 
  4353      545F4C4E 
  4353      53535F49 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 109
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 109
 
 
  4353      4E444943 
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4373      455F4556 
  4373      545F4741 
  4373      5454435F 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 110
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 110
 
 
  4373      52454144 
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4393      524F525F 
  4393      4C4C5F53 
  4393      414D455F 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 111
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 111
 
 
  4394              	.LASF407:
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4412              	.LASF265:
  4413 33a1 4359424C 		.ascii	"CYBLE_EVT_BLSS_INDICATION_CONFIRMED\000"
  4413      455F4556 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 112
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 112
 
 
  4413      545F424C 
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4433 34c1 73686F72 		.ascii	"short int\000"
  4433      7420696E 
  4433      7400
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 113
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 113
 
 
  4434              	.LASF174:
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4454 35cd 4359424C 		.ascii	"CYBLE_EVT_GATTC_ERROR_RSP\000"
  4454      455F4556 
  4454      545F4741 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 114
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 114
 
 
  4454      5454435F 
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4472      53435F52 
  4472      4541445F 
  4473              	.LASF318:
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 115
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 115
 
 
  4474 370d 4359424C 		.ascii	"CYBLE_EVT_CTSS_CHAR_WRITE\000"
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4492      545F5544 
  4492      53435F52 
  4492      4541445F 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 116
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 116
 
 
  4493              	.LASF226:
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4511              	.LASF276:
  4512 393c 4359424C 		.ascii	"CYBLE_EVT_BMSC_READ_DESCR_RESPONSE\000"
  4512      455F4556 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 117
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 117
 
 
  4512      545F424D 
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4530      545F4350 
  4530      53435F53 
  4530      43414E5F 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 118
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 118
 
 
  4531              	.LASF457:
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4549              	.LASF516:
  4550 3b9e 67617474 		.ascii	"gattErr\000"
  4550      45727200 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 119
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 119
 
 
  4551              	.LASF209:
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4570      48616E64 
  4570      6C6500
  4571              	.LASF236:
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 120
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 120
 
 
  4572 3cbc 4359424C 		.ascii	"CYBLE_EVT_ANCSS_WRITE_CHAR\000"
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4590      4348414E 
  4590      47455F49 
  4591              	.LASF83:
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 121
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 121
 
 
  4592 3ddb 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_WRITE_IND\000"
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4610 3f09 4359424C 		.ascii	"CYBLE_EVT_IPSC_READ_MULTIPLE_CHAR_RESPONSE\000"
  4610      455F4556 
  4610      545F4950 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 122
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 122
 
 
  4610      53435F52 
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 1
  4630 404a 4359424C 		.ascii	"CYBLE_EVT_AIOSS_NOTIFICATION_DISABLED\000"
  4630      455F4556 
  4630      545F4149 
-ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccQMZZ32.s 			page 123
+ARM GAS  C:\Users\dprdc\AppData\Local\Temp\ccDWFLmW.s 			page 123
 
 
  4630      4F53535F 

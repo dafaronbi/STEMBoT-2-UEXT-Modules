@@ -134,8 +134,8 @@
 #if(CYBLE_GAP_ROLE_PERIPHERAL || CYBLE_GAP_ROLE_BROADCASTER)
     #define CYBLE_FAST_ADV_INT_MIN                  (0x0020u)
     #define CYBLE_FAST_ADV_INT_MAX                  (0x0030u)
-    #define CYBLE_FAST_ADV_TIMEOUT                  (0x001Eu)
-    #define CYBLE_SLOW_ADV_ENABLED                  (0x01u)
+    #define CYBLE_FAST_ADV_TIMEOUT                  (0x0000u)
+    #define CYBLE_SLOW_ADV_ENABLED                  (0x00u)
     #define CYBLE_SLOW_ADV_INT_MIN                  (0x0640u)
     #define CYBLE_SLOW_ADV_INT_MAX                  (0x4000u)
     #define CYBLE_SLOW_ADV_TIMEOUT                  (0x0096u)
@@ -178,7 +178,11 @@
 
 #define CYBLE_ADV_PKT_INDEX_FLAGS   (0x00u)
 #define CYBLE_ADV_PKT_INDEX_LOCAL_NAME   (0x03u)
+#define CYBLE_ADV_PKT_INDEX_SERVICE_UUID_16   (0x14u)
+#define CYBLE_ADV_PKT_INDEX_APPEARANCE   (0x1Au)
 
+#define CYBLE_SCN_PKT_INDEX_LOCAL_NAME   (0x00u)
+#define CYBLE_SCN_PKT_INDEX_SERVICE_UUID_16   (0x11u)
 
 
 

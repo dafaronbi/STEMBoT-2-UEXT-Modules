@@ -12,6 +12,7 @@
   <Group key="DWRInstGuidMapping">
     <Group key="Pin">
       <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="potentiometer" />
+      <Data key="77715107-f8d5-47e5-a629-0fb83101ac6b" value="Pot" />
       <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="redLed" />
     </Group>
   </Group>
@@ -3556,11 +3557,17 @@
         <Data key="Port Format" value="0,5" />
       </Group>
     </Group>
+    <Group key="77715107-f8d5-47e5-a629-0fb83101ac6b">
+      <Group key="0">
+        <Data key="Port Format" value="0,5" />
+      </Group>
+    </Group>
     <Group key="e851a3b9-efb8-48be-bbb8-b303b216c393">
       <Group key="0">
         <Data key="Port Format" value="2,6" />
       </Group>
     </Group>
+    <Group key="UnAssigned Pins" />
   </Group>
   <Group key="PlaceDir">
     <Data key="count" value="0" />

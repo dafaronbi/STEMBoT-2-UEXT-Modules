@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|c598a9b1-d857-4971-abc5-5c7daf03e0de
+C:\Users\Daniel Faronbi\Documents\PSoC Creator\4.3\Downloads ( 4.3).cylib\Downloads ( 4.3).cyprj|7b0942c2-f1b6-4931-80b5-d384f5a9a436
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|91e0a500-56a5-485c-b6ce-f9923534f136
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|39734c9a-48b6-4bbd-8aac-4ff695a84b8c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|a9033072-a7f4-4b30-bc0f-74aac887c1cf
+C:\Users\Daniel Faronbi\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\FindMe-Test.cydsn\FindMe-Test.cyprj|9724ccf1-0c0f-46af-9cc6-edc4e4cb6cf0
