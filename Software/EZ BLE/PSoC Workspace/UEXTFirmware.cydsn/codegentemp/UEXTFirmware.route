@@ -25,9 +25,9 @@ net Net_356
 	switch ":m0s8scbcell_1__i2c_sda__hsiom_permute.m0s8scbcell_1__i2c_sda==>:m0s8scbcell_1.i2c_sda"
 	term   ":m0s8scbcell_1.i2c_sda"
 end Net_356
-net \BLE_1:Net_15\
+net \BLE:Net_15\
 	term   ":p4blecell.interrupt"
 	switch ":p4blecell.interrupt==>:interrupt_idmux_12.in_0"
 	switch ":interrupt_idmux_12.interrupt_idmux_12__out==>:interrupt_12.interrupt"
 	term   ":interrupt_12.interrupt"
-end \BLE_1:Net_15\
+end \BLE:Net_15\

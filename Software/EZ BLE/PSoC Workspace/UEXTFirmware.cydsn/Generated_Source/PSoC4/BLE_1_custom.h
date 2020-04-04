@@ -26,19 +26,24 @@
 /* Maximum supported Custom Services */
 #define CYBLE_CUSTOMS_SERVICE_COUNT                  (0x01u)
 #define CYBLE_CUSTOMC_SERVICE_COUNT                  (0x00u)
-#define CYBLE_CUSTOM_SERVICE_CHAR_COUNT              (0x01u)
+#define CYBLE_CUSTOM_SERVICE_CHAR_COUNT              (0x02u)
 #define CYBLE_CUSTOM_SERVICE_CHAR_DESCRIPTORS_COUNT  (0x01u)
 
 /* Below are the indexes and handles of the defined Custom Services and their characteristics */
 #define CYBLE_UEXT_SERVICE_INDEX   (0x00u) /* Index of UEXT service in the cyBle_customs array */
-#define CYBLE_UEXT_SLIDER_CHAR_INDEX   (0x00u) /* Index of Slider characteristic */
-#define CYBLE_UEXT_SLIDER_SLIDERCCCD_DESC_INDEX   (0x00u) /* Index of SliderCCCD descriptor */
+#define CYBLE_UEXT_UEXT_READ_CHAR_INDEX   (0x00u) /* Index of UEXT READ characteristic */
+#define CYBLE_UEXT_UEXT_READ_CUSTOM_DESCRIPTOR_DESC_INDEX   (0x00u) /* Index of Custom Descriptor descriptor */
+#define CYBLE_UEXT_UEXT_READ_2_CHAR_INDEX   (0x01u) /* Index of UEXT READ 2 characteristic */
+#define CYBLE_UEXT_UEXT_READ_2_CUSTOM_DESCRIPTOR_DESC_INDEX   (0x00u) /* Index of Custom Descriptor descriptor */
 
 
 #define CYBLE_UEXT_SERVICE_HANDLE   (0x0010u) /* Handle of UEXT service */
-#define CYBLE_UEXT_SLIDER_DECL_HANDLE   (0x0011u) /* Handle of Slider characteristic declaration */
-#define CYBLE_UEXT_SLIDER_CHAR_HANDLE   (0x0012u) /* Handle of Slider characteristic */
-#define CYBLE_UEXT_SLIDER_SLIDERCCCD_DESC_HANDLE   (0x0013u) /* Handle of SliderCCCD descriptor */
+#define CYBLE_UEXT_UEXT_READ_DECL_HANDLE   (0x0011u) /* Handle of UEXT READ characteristic declaration */
+#define CYBLE_UEXT_UEXT_READ_CHAR_HANDLE   (0x0012u) /* Handle of UEXT READ characteristic */
+#define CYBLE_UEXT_UEXT_READ_CUSTOM_DESCRIPTOR_DESC_HANDLE   (0x0013u) /* Handle of Custom Descriptor descriptor */
+#define CYBLE_UEXT_UEXT_READ_2_DECL_HANDLE   (0x0014u) /* Handle of UEXT READ 2 characteristic declaration */
+#define CYBLE_UEXT_UEXT_READ_2_CHAR_HANDLE   (0x0015u) /* Handle of UEXT READ 2 characteristic */
+#define CYBLE_UEXT_UEXT_READ_2_CUSTOM_DESCRIPTOR_DESC_HANDLE   (0x0016u) /* Handle of Custom Descriptor descriptor */
 
 
 

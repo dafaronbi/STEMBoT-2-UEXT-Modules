@@ -30,13 +30,23 @@ const CYBLE_CUSTOMS_T cyBle_customs[0x01u] = {
         0x0010u, /* Handle of the UEXT service */ 
         {
 
-            /* Slider characteristic */
+            /* UEXT READ characteristic */
             {
-                0x0012u, /* Handle of the Slider characteristic */ 
+                0x0012u, /* Handle of the UEXT READ characteristic */ 
                 
                 /* Array of Descriptors handles */
                 {
-                    0x0013u, /* Handle of the SliderCCCD descriptor */ 
+                    0x0013u, /* Handle of the Custom Descriptor descriptor */ 
+                }, 
+            },
+
+            /* UEXT READ 2 characteristic */
+            {
+                0x0015u, /* Handle of the UEXT READ 2 characteristic */ 
+                
+                /* Array of Descriptors handles */
+                {
+                    0x0016u, /* Handle of the Custom Descriptor descriptor */ 
                 }, 
             },
         }, 

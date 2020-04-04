@@ -2,7 +2,7 @@
 --	Conversion of UEXTFirmware.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Fri Apr 03 15:47:35 2020
+--	Fri Apr 03 23:48:27 2020
 --
 
 USE cypress.cypress.all;
@@ -12,11 +12,11 @@ ATTRIBUTE part_name of top_RTL:TYPE IS "cpsoc3";
 END top_RTL;
 --------------------------------------------------------
 ARCHITECTURE R_T_L OF top_RTL IS
-SIGNAL \BLE_1:Net_15\ : bit;
+SIGNAL \BLE:Net_15\ : bit;
 SIGNAL Net_306 : bit;
-SIGNAL \BLE_1:Net_53\ : bit;
+SIGNAL \BLE:Net_53\ : bit;
 SIGNAL Net_305 : bit;
-SIGNAL \BLE_1:Net_55\ : bit;
+SIGNAL \BLE:Net_55\ : bit;
 SIGNAL tmpOE__blueLED_net_0 : bit;
 SIGNAL zero : bit;
 SIGNAL tmpFB_0__blueLED_net_0 : bit;
@@ -85,15 +85,15 @@ zero <=  ('0') ;
 
 tmpOE__blueLED_net_0 <=  ('1') ;
 
-\BLE_1:cy_m0s8_ble\:cy_m0s8_ble_v1_0
+\BLE:cy_m0s8_ble\:cy_m0s8_ble_v1_0
 	GENERIC MAP(cy_registers=>"")
-	PORT MAP(interrupt=>\BLE_1:Net_15\,
+	PORT MAP(interrupt=>\BLE:Net_15\,
 		rf_ext_pa_en=>Net_306);
-\BLE_1:bless_isr\:cy_isr_v1_0
+\BLE:bless_isr\:cy_isr_v1_0
 	GENERIC MAP(int_type=>"10",
 		is_nmi=>'0')
-	PORT MAP(int_signal=>\BLE_1:Net_15\);
-\BLE_1:LFCLK\:cy_clock_v1_0
+	PORT MAP(int_signal=>\BLE:Net_15\);
+\BLE:LFCLK\:cy_clock_v1_0
 	GENERIC MAP(cy_registers=>"",
 		id=>"9f7d0c26-dae2-4080-b3f1-971693a1605f/5ae6fa4d-f41a-4a35-8821-7ce70389cb0c",
 		source_clock_id=>"9A908CA6-5BB3-4db0-B098-959E5D90882B",
@@ -101,7 +101,7 @@ tmpOE__blueLED_net_0 <=  ('1') ;
 		period=>"0",
 		is_direct=>'1',
 		is_digital=>'0')
-	PORT MAP(clock_out=>\BLE_1:Net_53\,
+	PORT MAP(clock_out=>\BLE:Net_53\,
 		dig_domain_out=>open);
 blueLED:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"e851a3b9-efb8-48be-bbb8-b303b216c393",

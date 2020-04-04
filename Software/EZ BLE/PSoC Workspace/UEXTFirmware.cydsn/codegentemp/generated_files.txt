@@ -13,26 +13,26 @@
   <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\cyfitteriar.inc" value="HEADER;;;;;" />
   <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\cyfitter.h" value="HEADER;;;;;" />
   <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\cydisabledsheets.h" value="HEADER;;;;;" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_gatt.h" value="HEADER;;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1.h" value="HEADER;;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1.c" value="SOURCE_C;CortexM0;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_gatt.c" value="SOURCE_C;CortexM0;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_eventHandler.c" value="SOURCE_C;CortexM0;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_HAL_INT.c" value="SOURCE_C;CortexM0;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_HAL_PVT.c" value="SOURCE_C;CortexM0;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_HAL_PVT.h" value="HEADER;;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_STACK_PVT.h" value="HEADER;;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_StackGap.h" value="HEADER;;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_StackGatt.h" value="HEADER;;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_StackGattDb.h" value="HEADER;;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_StackHostMain.h" value="HEADER;;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_StackL2cap.h" value="HEADER;;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_StackGattServer.h" value="HEADER;;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_StackGattClient.h" value="HEADER;;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_Stack.h" value="HEADER;;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_eventHandler.h" value="HEADER;;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_custom.h" value="HEADER;;;;;BLE_1" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_custom.c" value="SOURCE_C;CortexM0;;;;BLE_1" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_gatt.h" value="HEADER;;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE.h" value="HEADER;;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE.c" value="SOURCE_C;CortexM0;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_gatt.c" value="SOURCE_C;CortexM0;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_eventHandler.c" value="SOURCE_C;CortexM0;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_HAL_INT.c" value="SOURCE_C;CortexM0;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_HAL_PVT.c" value="SOURCE_C;CortexM0;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_HAL_PVT.h" value="HEADER;;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_STACK_PVT.h" value="HEADER;;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_StackGap.h" value="HEADER;;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_StackGatt.h" value="HEADER;;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_StackGattDb.h" value="HEADER;;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_StackHostMain.h" value="HEADER;;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_StackL2cap.h" value="HEADER;;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_StackGattServer.h" value="HEADER;;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_StackGattClient.h" value="HEADER;;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_Stack.h" value="HEADER;;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_eventHandler.h" value="HEADER;;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_custom.h" value="HEADER;;;;;BLE" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_custom.c" value="SOURCE_C;CortexM0;;;;BLE" />
   <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\blueLED.c" value="SOURCE_C;CortexM0;;;;blueLED" />
   <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\blueLED.h" value="HEADER;;;;;blueLED" />
   <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\blueLED_aliases.h" value="HEADER;;;;;blueLED" />
@@ -57,8 +57,8 @@
   <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\i2c_EZI2C_PVT.h" value="HEADER;;;;;i2c" />
   <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\i2c_EZI2C_BOOT.c" value="SOURCE_C;CortexM0;;;;i2c" />
   <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\i2c_BOOT.h" value="HEADER;;;;;i2c" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_bless_isr.c" value="SOURCE_C;CortexM0;;;;BLE_1_bless_isr" />
-  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_1_bless_isr.h" value="HEADER;;;;;BLE_1_bless_isr" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_bless_isr.c" value="SOURCE_C;CortexM0;;;;BLE_bless_isr" />
+  <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\BLE_bless_isr.h" value="HEADER;;;;;BLE_bless_isr" />
   <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\i2c_SCBCLK.c" value="SOURCE_C;CortexM0;;;;i2c_SCBCLK" />
   <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\i2c_SCBCLK.h" value="HEADER;;;;;i2c_SCBCLK" />
   <file name="C:\Users\dprdc\OneDrive\Documents\Capstone\STEMBoT-2-UEXT-Modules\Software\EZ BLE\PSoC Workspace\UEXTFirmware.cydsn\codegentemp\i2c_sda.c" value="SOURCE_C;CortexM0;;;;i2c_sda" />
