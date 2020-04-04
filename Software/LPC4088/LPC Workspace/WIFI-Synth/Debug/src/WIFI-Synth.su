@@ -3,4 +3,4 @@ WIFI-Synth.c:58:7:hex4toString	24	static
 WIFI-Synth.c:69:7:hex8toString	32	static
 WIFI-Synth.c:82:7:hex16toString	32	static
 WIFI-Synth.c:96:7:hex32toString	32	static
-WIFI-Synth.c:114:5:main	16	static
+WIFI-Synth.c:114:5:main	24	static

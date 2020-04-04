@@ -35,26 +35,26 @@
 								</option>
 								<option id="gnu.c.compiler.option.misc.other.1361093024" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant" valueType="string"/>
 								<option id="gnu.c.compiler.option.optimization.flags.1333519659" name="Other optimization flags" superClass="gnu.c.compiler.option.optimization.flags" value="-fno-common" valueType="string"/>
-								<option id="com.crt.advproject.gcc.hdrlib.1510112499" superClass="com.crt.advproject.gcc.hdrlib" value="Redlib" valueType="enumerated"/>
-								<option id="com.crt.advproject.gcc.specs.847204484" superClass="com.crt.advproject.gcc.specs" value="com.crt.advproject.gcc.specs.codered" valueType="enumerated"/>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.756128194" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+								<option id="com.crt.advproject.gcc.hdrlib.1510112499" name="Library headers" superClass="com.crt.advproject.gcc.hdrlib" value="Redlib" valueType="enumerated"/>
+								<option id="com.crt.advproject.gcc.specs.847204484" name="Specs" superClass="com.crt.advproject.gcc.specs" value="com.crt.advproject.gcc.specs.codered" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.756128194" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lpc_chip_40xx/inc}&quot;"/>
 								</option>
-								<option id="com.crt.advproject.gcc.fpu.207533757" superClass="com.crt.advproject.gcc.fpu" value="com.crt.advproject.gcc.fpu.fpv4" valueType="enumerated"/>
+								<option id="com.crt.advproject.gcc.fpu.207533757" name="Floating point" superClass="com.crt.advproject.gcc.fpu" value="com.crt.advproject.gcc.fpu.fpv4" valueType="enumerated"/>
 								<inputType id="com.crt.advproject.compiler.input.1122990126" superClass="com.crt.advproject.compiler.input"/>
 							</tool>
 							<tool id="com.crt.advproject.gas.exe.debug.779135376" name="MCU Assembler" superClass="com.crt.advproject.gas.exe.debug">
 								<option id="com.crt.advproject.gas.arch.998981078" name="Architecture" superClass="com.crt.advproject.gas.arch" value="com.crt.advproject.gas.target.cm4" valueType="enumerated"/>
 								<option id="com.crt.advproject.gas.thumb.1800750710" name="Thumb mode" superClass="com.crt.advproject.gas.thumb" value="true" valueType="boolean"/>
 								<option id="gnu.both.asm.option.flags.crt.994312533" name="Assembler flags" superClass="gnu.both.asm.option.flags.crt" value="-c -x assembler-with-cpp -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -DNO_BOARD_LIB -D__LPC407X_8X__ -D__REDLIB__" valueType="string"/>
-								<option id="com.crt.advproject.gas.hdrlib.1675208430" superClass="com.crt.advproject.gas.hdrlib" value="Redlib" valueType="enumerated"/>
-								<option id="com.crt.advproject.gas.specs.1636774627" superClass="com.crt.advproject.gas.specs" value="com.crt.advproject.gas.specs.codered" valueType="enumerated"/>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.both.asm.option.include.paths.336760737" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+								<option id="com.crt.advproject.gas.hdrlib.1675208430" name="Library headers" superClass="com.crt.advproject.gas.hdrlib" value="Redlib" valueType="enumerated"/>
+								<option id="com.crt.advproject.gas.specs.1636774627" name="Specs" superClass="com.crt.advproject.gas.specs" value="com.crt.advproject.gas.specs.codered" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.both.asm.option.include.paths.336760737" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lpc_chip_40xx/inc}&quot;"/>
 								</option>
-								<option id="com.crt.advproject.gas.fpu.644166136" superClass="com.crt.advproject.gas.fpu" value="com.crt.advproject.gas.fpu.fpv4" valueType="enumerated"/>
+								<option id="com.crt.advproject.gas.fpu.644166136" name="Floating point" superClass="com.crt.advproject.gas.fpu" value="com.crt.advproject.gas.fpu.fpv4" valueType="enumerated"/>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.545457275" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 								<inputType id="com.crt.advproject.assembler.input.773522693" name="Additional Assembly Source Files" superClass="com.crt.advproject.assembler.input"/>
 							</tool>
@@ -72,20 +72,20 @@
 									<listOptionValue builtIn="false" value="-print-memory-usage"/>
 								</option>
 								<option id="com.crt.advproject.link.gcc.hdrlib.856226605" name="Library" superClass="com.crt.advproject.link.gcc.hdrlib" value="com.crt.advproject.gcc.link.hdrlib.codered.none" valueType="enumerated"/>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.link.option.libs.1522619650" superClass="gnu.c.link.option.libs" valueType="libs">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.link.option.libs.1522619650" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" value="lpc_chip_40xx"/>
 								</option>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.link.option.paths.116929684" superClass="gnu.c.link.option.paths" valueType="libPaths">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.link.option.paths.116929684" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lpc_chip_40xx/Debug}&quot;"/>
 								</option>
-								<option id="com.crt.advproject.link.fpu.967423452" superClass="com.crt.advproject.link.fpu" value="com.crt.advproject.link.fpu.fpv4" valueType="enumerated"/>
-								<option id="com.crt.advproject.link.crpenable.74225410" superClass="com.crt.advproject.link.crpenable" value="true" valueType="boolean"/>
-								<option id="com.crt.advproject.link.gcc.multicore.slave.1421323110" superClass="com.crt.advproject.link.gcc.multicore.slave"/>
-								<option id="com.crt.advproject.link.memory.load.image.1818468699" superClass="com.crt.advproject.link.memory.load.image" value="" valueType="string"/>
-								<option defaultValue="com.crt.advproject.heapAndStack.lpcXpressoStyle" id="com.crt.advproject.link.memory.heapAndStack.style.1509877582" superClass="com.crt.advproject.link.memory.heapAndStack.style" valueType="enumerated"/>
-								<option id="com.crt.advproject.link.memory.heapAndStack.1699072542" superClass="com.crt.advproject.link.memory.heapAndStack" value="&amp;Heap:Default;Post Data;Default&amp;Stack:Default;End;Default" valueType="string"/>
-								<option id="com.crt.advproject.link.memory.data.458014554" superClass="com.crt.advproject.link.memory.data" value="" valueType="string"/>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.crt.advproject.link.memory.sections.845469416" superClass="com.crt.advproject.link.memory.sections" valueType="stringList"/>
+								<option id="com.crt.advproject.link.fpu.967423452" name="Floating point" superClass="com.crt.advproject.link.fpu" value="com.crt.advproject.link.fpu.fpv4" valueType="enumerated"/>
+								<option id="com.crt.advproject.link.crpenable.74225410" name="Enable automatic placement of Code Read Protection field in image" superClass="com.crt.advproject.link.crpenable" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.link.gcc.multicore.slave.1421323110" name="Multicore configuration" superClass="com.crt.advproject.link.gcc.multicore.slave"/>
+								<option id="com.crt.advproject.link.memory.load.image.1818468699" name="Plain load image" superClass="com.crt.advproject.link.memory.load.image" value="" valueType="string"/>
+								<option defaultValue="com.crt.advproject.heapAndStack.lpcXpressoStyle" id="com.crt.advproject.link.memory.heapAndStack.style.1509877582" name="Heap and Stack placement" superClass="com.crt.advproject.link.memory.heapAndStack.style" valueType="enumerated"/>
+								<option id="com.crt.advproject.link.memory.heapAndStack.1699072542" name="Heap and Stack options" superClass="com.crt.advproject.link.memory.heapAndStack" value="&amp;Heap:Default;Post Data;Default&amp;Stack:Default;End;Default" valueType="string"/>
+								<option id="com.crt.advproject.link.memory.data.458014554" name="Global data placement" superClass="com.crt.advproject.link.memory.data" value="" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.crt.advproject.link.memory.sections.845469416" name="Extra linker script input sections" superClass="com.crt.advproject.link.memory.sections" valueType="stringList"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1238969058" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -95,7 +95,6 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="inc"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
@@ -136,26 +135,26 @@
 								</option>
 								<option id="gnu.c.compiler.option.misc.other.39152174" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant" valueType="string"/>
 								<option id="gnu.c.compiler.option.optimization.flags.69697681" name="Other optimization flags" superClass="gnu.c.compiler.option.optimization.flags" value="-fno-common" valueType="string"/>
-								<option id="com.crt.advproject.gcc.hdrlib.1743113353" superClass="com.crt.advproject.gcc.hdrlib" value="Redlib" valueType="enumerated"/>
-								<option id="com.crt.advproject.gcc.specs.102798877" superClass="com.crt.advproject.gcc.specs" value="com.crt.advproject.gcc.specs.codered" valueType="enumerated"/>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.21824309" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+								<option id="com.crt.advproject.gcc.hdrlib.1743113353" name="Library headers" superClass="com.crt.advproject.gcc.hdrlib" value="Redlib" valueType="enumerated"/>
+								<option id="com.crt.advproject.gcc.specs.102798877" name="Specs" superClass="com.crt.advproject.gcc.specs" value="com.crt.advproject.gcc.specs.codered" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.21824309" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lpc_chip_40xx/inc}&quot;"/>
 								</option>
-								<option id="com.crt.advproject.gcc.fpu.797241458" superClass="com.crt.advproject.gcc.fpu" value="com.crt.advproject.gcc.fpu.fpv4" valueType="enumerated"/>
+								<option id="com.crt.advproject.gcc.fpu.797241458" name="Floating point" superClass="com.crt.advproject.gcc.fpu" value="com.crt.advproject.gcc.fpu.fpv4" valueType="enumerated"/>
 								<inputType id="com.crt.advproject.compiler.input.1022122810" superClass="com.crt.advproject.compiler.input"/>
 							</tool>
 							<tool id="com.crt.advproject.gas.exe.release.1508326387" name="MCU Assembler" superClass="com.crt.advproject.gas.exe.release">
 								<option id="com.crt.advproject.gas.arch.695606078" name="Architecture" superClass="com.crt.advproject.gas.arch" value="com.crt.advproject.gas.target.cm4" valueType="enumerated"/>
 								<option id="com.crt.advproject.gas.thumb.1927421807" name="Thumb mode" superClass="com.crt.advproject.gas.thumb" value="true" valueType="boolean"/>
 								<option id="gnu.both.asm.option.flags.crt.60501775" name="Assembler flags" superClass="gnu.both.asm.option.flags.crt" value="-c -x assembler-with-cpp -DNDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -DNO_BOARD_LIB -D__LPC407X_8X__ -D__REDLIB__" valueType="string"/>
-								<option id="com.crt.advproject.gas.hdrlib.500305471" superClass="com.crt.advproject.gas.hdrlib" value="Redlib" valueType="enumerated"/>
-								<option id="com.crt.advproject.gas.specs.1815278120" superClass="com.crt.advproject.gas.specs" value="com.crt.advproject.gas.specs.codered" valueType="enumerated"/>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.both.asm.option.include.paths.232732005" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+								<option id="com.crt.advproject.gas.hdrlib.500305471" name="Library headers" superClass="com.crt.advproject.gas.hdrlib" value="Redlib" valueType="enumerated"/>
+								<option id="com.crt.advproject.gas.specs.1815278120" name="Specs" superClass="com.crt.advproject.gas.specs" value="com.crt.advproject.gas.specs.codered" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.both.asm.option.include.paths.232732005" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lpc_chip_40xx/inc}&quot;"/>
 								</option>
-								<option id="com.crt.advproject.gas.fpu.1858683327" superClass="com.crt.advproject.gas.fpu" value="com.crt.advproject.gas.fpu.fpv4" valueType="enumerated"/>
+								<option id="com.crt.advproject.gas.fpu.1858683327" name="Floating point" superClass="com.crt.advproject.gas.fpu" value="com.crt.advproject.gas.fpu.fpv4" valueType="enumerated"/>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2135185967" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 								<inputType id="com.crt.advproject.assembler.input.536022138" name="Additional Assembly Source Files" superClass="com.crt.advproject.assembler.input"/>
 							</tool>
@@ -173,19 +172,19 @@
 									<listOptionValue builtIn="false" value="-print-memory-usage"/>
 								</option>
 								<option id="com.crt.advproject.link.gcc.hdrlib.485502685" name="Library" superClass="com.crt.advproject.link.gcc.hdrlib" value="com.crt.advproject.gcc.link.hdrlib.codered.none" valueType="enumerated"/>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.link.option.libs.216215482" superClass="gnu.c.link.option.libs" valueType="libs">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.link.option.libs.216215482" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" value="lpc_chip_40xx"/>
 								</option>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.link.option.paths.1823817279" superClass="gnu.c.link.option.paths" valueType="libPaths">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.link.option.paths.1823817279" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lpc_chip_40xx/Release}&quot;"/>
 								</option>
-								<option id="com.crt.advproject.link.fpu.1997175025" superClass="com.crt.advproject.link.fpu" value="com.crt.advproject.link.fpu.fpv4" valueType="enumerated"/>
-								<option id="com.crt.advproject.link.crpenable.1286137233" superClass="com.crt.advproject.link.crpenable" value="true" valueType="boolean"/>
-								<option id="com.crt.advproject.link.memory.load.image.1352176038" superClass="com.crt.advproject.link.memory.load.image" value="" valueType="string"/>
-								<option defaultValue="com.crt.advproject.heapAndStack.lpcXpressoStyle" id="com.crt.advproject.link.memory.heapAndStack.style.1450206097" superClass="com.crt.advproject.link.memory.heapAndStack.style" valueType="enumerated"/>
-								<option id="com.crt.advproject.link.memory.heapAndStack.187286762" superClass="com.crt.advproject.link.memory.heapAndStack" value="&amp;Heap:Default;Post Data;Default&amp;Stack:Default;End;Default" valueType="string"/>
-								<option id="com.crt.advproject.link.memory.data.700515610" superClass="com.crt.advproject.link.memory.data" value="" valueType="string"/>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.crt.advproject.link.memory.sections.38716753" superClass="com.crt.advproject.link.memory.sections" valueType="stringList"/>
+								<option id="com.crt.advproject.link.fpu.1997175025" name="Floating point" superClass="com.crt.advproject.link.fpu" value="com.crt.advproject.link.fpu.fpv4" valueType="enumerated"/>
+								<option id="com.crt.advproject.link.crpenable.1286137233" name="Enable automatic placement of Code Read Protection field in image" superClass="com.crt.advproject.link.crpenable" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.link.memory.load.image.1352176038" name="Plain load image" superClass="com.crt.advproject.link.memory.load.image" value="" valueType="string"/>
+								<option defaultValue="com.crt.advproject.heapAndStack.lpcXpressoStyle" id="com.crt.advproject.link.memory.heapAndStack.style.1450206097" name="Heap and Stack placement" superClass="com.crt.advproject.link.memory.heapAndStack.style" valueType="enumerated"/>
+								<option id="com.crt.advproject.link.memory.heapAndStack.187286762" name="Heap and Stack options" superClass="com.crt.advproject.link.memory.heapAndStack" value="&amp;Heap:Default;Post Data;Default&amp;Stack:Default;End;Default" valueType="string"/>
+								<option id="com.crt.advproject.link.memory.data.700515610" name="Global data placement" superClass="com.crt.advproject.link.memory.data" value="" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.crt.advproject.link.memory.sections.38716753" name="Extra linker script input sections" superClass="com.crt.advproject.link.memory.sections" valueType="stringList"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1786159378" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -195,7 +194,6 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="inc"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
