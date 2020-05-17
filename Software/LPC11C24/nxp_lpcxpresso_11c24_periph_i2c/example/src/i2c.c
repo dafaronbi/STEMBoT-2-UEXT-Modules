@@ -199,10 +199,9 @@ static int con_get_input(const char *str)
 static void i2c_rw_input(I2C_XFER_T *xfer, int ops)
 {
 	int tmp, i;
-
 	tmp = con_get_input("Enter 7-Bit Slave address : ");
 	tmp &= 0xFF;
-	xfer->slaveAddr = tmp;
+	xfer->slaveAddr = 0x5B; //tmp;
 	xfer->rxBuff = 0;
 	xfer->txBuff = 0;
 	xfer->txSz = 0;
@@ -211,8 +210,8 @@ static void i2c_rw_input(I2C_XFER_T *xfer, int ops)
 	if (ops & 1) {
 		tmp = con_get_input("Enter number of bytes to read : ");
 		tmp &= 0xFF;
-		xfer->rxSz = tmp;
-		xfer->rxBuff = buffer[1];
+		xfer->rxSz = 0x01; //tmp;
+		xfer->rxBuff = buffer[0];
 	}
 
 	if (ops & 2) {
@@ -448,7 +447,7 @@ int main(void)
 	i2c_iox_init(I2C_IOX_BUS);
 
 	while (!xflag) {
-		switch (5) {
+		switch (4) { //i2c_menu()
 		case 0:
 			xflag = 1;
 			DEBUGOUT("End of I2C Demo! Bye!\r\n");

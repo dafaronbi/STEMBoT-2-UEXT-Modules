@@ -206,7 +206,6 @@ int main(void) {
 //
 //    i2c_slave_init();
 //
-//    i2c_app_init(I2C0, I2C_DEFAULT_SPEED);
 
     Init_I2C_PinMux();
 
@@ -217,7 +216,7 @@ int main(void) {
 	Chip_I2C_SetClockRate(I2C0, 100000);
 
     	// Set default mode to interupt
-    //	mode_poll &= ~(1 << I2C0);
+//    	mode_poll &= ~(1 << I2C0);
 	Chip_I2C_SetMasterEventHandler(I2C0, Chip_I2C_EventHandler);
 	NVIC_SetPriority(I2C0_IRQn, 2);
 	NVIC_EnableIRQ(I2C0_IRQn);
@@ -225,6 +224,7 @@ int main(void) {
     int tmp;
     int xflag = 0;
     static I2C_XFER_T xfer;
+    static uint8_t iox_data[1];
 
     uint8_t val = 0xff;
 
@@ -238,8 +238,8 @@ int main(void) {
 //    		activate_green();
 //    	}
 //        i++ ;
-
-    	Chip_I2C_MasterSend(I2C0, 0xaa, &val, 1);
+    	Chip_I2C_MasterRead(I2C0, 0x5b, iox_data, 0x01);
+    	//Chip_I2C_MasterSend(I2C0, 0xaa, &val, 1);
     }
     return 0 ;
 }
