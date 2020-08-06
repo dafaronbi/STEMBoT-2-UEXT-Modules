@@ -1,10 +1,8 @@
 # STEMBoT-2-UEXT-Modules
 
 ## PREPARED BY
-
-# Dean Harris, Daniel Faronbi,
-
-# Dylan Schufeldt, Houd Al-Shariyani
+### Dean Harris, Daniel Faronbi,
+### Dylan Schufeldt, Houd Al-Shariyani
 
 The STEMBoT 2 (SB2)  is a mobile robotic platform and successor to SBI’s first product, the CEENBoT, which 
 saw success in schools throughout the United States. The development goal of the SB2 project is to create a 
